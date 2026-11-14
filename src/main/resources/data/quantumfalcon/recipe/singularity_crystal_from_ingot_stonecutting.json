@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quantumfalcon:singularity_ingot"
+  },
+  "result": {
+    "id": "quantumfalcon:singularity_crystal",
+    "count": 2
+  }
+}

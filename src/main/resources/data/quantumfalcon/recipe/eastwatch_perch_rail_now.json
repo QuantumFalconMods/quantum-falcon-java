@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SSS",
+    "F F"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "F": {
+      "tag": "minecraft:wooden_fences"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:eastwatch_perch_rail_now",
+    "count": 3
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "quantumfalcon:eastwatch_feeder_trough_now"
+    },
+    {
+      "item": "quantumfalcon:temporal_shard"
+    }
+  ],
+  "result": {
+    "id": "quantumfalcon:eastwatch_feeder_trough_then",
+    "count": 1
+  }
+}

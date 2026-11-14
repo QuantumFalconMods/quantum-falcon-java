@@ -70,6 +70,18 @@
     "quantumfalcon:trait_reroll_stone",
     "quantumfalcon:treasure_compass",
     "quantumfalcon:void_fragment",
-    "quantumfalcon:void_heart"
+    "quantumfalcon:void_heart",
+    "quantumfalcon:danger_sign",
+    "quantumfalcon:trap_plate",
+    "quantumfalcon:lore_lectern",
+    "quantumfalcon:golden_falcon_egg",
+    "quantumfalcon:dungeon_key_abyssite",
+    "quantumfalcon:dungeon_key_aurorite",
+    "quantumfalcon:dungeon_key_chronoslate",
+    "quantumfalcon:dungeon_key_cinderite",
+    "quantumfalcon:dungeon_key_prismite",
+    "quantumfalcon:dungeon_key_riftslate",
+    "quantumfalcon:dungeon_key_singularite",
+    "quantumfalcon:dungeon_key_voidshale"
   ]
 }

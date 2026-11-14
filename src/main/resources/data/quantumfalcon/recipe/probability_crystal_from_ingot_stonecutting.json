@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quantumfalcon:probability_ingot"
+  },
+  "result": {
+    "id": "quantumfalcon:probability_crystal",
+    "count": 2
+  }
+}

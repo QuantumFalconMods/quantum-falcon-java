@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "quantumfalcon:eastwatch_jess_hood_rack_then"
+    },
+    {
+      "item": "minecraft:clock"
+    }
+  ],
+  "result": {
+    "id": "quantumfalcon:eastwatch_jess_hood_rack_now",
+    "count": 1
+  }
+}

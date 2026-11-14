@@ -18,6 +18,13 @@ public final class Obtainable {
     private Obtainable() {}
 
     /** Items handed out by Java code rather than data: id -> where (the qftest that proves it). */
+    /** Blocks placed in the world by Java worldgen (no template file to read): QuantumUtilityStructure and WildNestFeature. Unwarded, so they can be mined. */
+    public static final java.util.Set<String> WORLDGEN_PLACED = java.util.Set.of(
+        "crystallized_stone", "crystal_cluster", "echo_lattice", "quantum_block", "quantum_bricks", "quantum_forge", "quantum_glass", "quantum_glass_cyan",
+        "quantum_glass_purple", "quantum_incubator", "quantum_nest", "quantum_ore", "quantum_stone", "quantum_tech_cyan", "quantum_tech_purple", "quantum_tiles",
+        "rift_frame", "rift_stone", "rift_stone_bricks", "temporal_pillar", "void_bricks", "void_obsidian", "void_stone_bricks",
+        "crystal_nest", "falcon_egg_block", "quantum_aerie", "twig_nest", "voidforged_nest");
+
     public static final Map<String, String> CODE_GRANTED = Map.of(
         "quantumfalcon:artifact_fragment", "BossDeathHandler, every credited Warden/Twins kill (audit_qu1_main_chain, audit_r22_fragments_toss)",
         "quantumfalcon:overseers_eye", "BossDeathHandler, every credited Overseer kill (audit_qu1_main_chain)",

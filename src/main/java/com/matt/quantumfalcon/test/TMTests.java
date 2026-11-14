@@ -211,8 +211,31 @@ final class TMTests {
                 || com.matt.quantumfalcon.registry.ModCreativeTabs.CREATIVE_HIDDEN.contains(p)) hidden.add(p); else shown.add(p);
         }
         Collections.sort(shown); Collections.sort(hidden);
+        // why: recipes that make each shown item and the ingredients a survival player can't reach
+        StringBuilder why = new StringBuilder();
+        var server = level.getServer();
+        for (String p : shown) {
+            Item it = BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath("quantumfalcon", p));
+            why.append(p).append('\t');
+            int n = 0;
+            for (var h : server.getRecipeManager().getRecipes()) {
+                if (h.value().getResultItem(server.registryAccess()).getItem() != it) continue;
+                n++;
+                why.append(h.id()).append(" needs[");
+                for (Ingredient ing : h.value().getIngredients()) {
+                    if (ing.isEmpty()) continue;
+                    boolean any = false;
+                    for (ItemStack o : ing.getItems()) if (have.contains(o.getItem())) { any = true; break; }
+                    if (!any && ing.getItems().length > 0) why.append(BuiltInRegistries.ITEM.getKey(ing.getItems()[0].getItem()).getPath()).append(' ');
+                }
+                why.append("] ");
+            }
+            if (n == 0) why.append("no recipe");
+            why.append('\n');
+        }
+        try { java.nio.file.Files.writeString(server.getServerDirectory().resolve("qf_unreachable_report.tsv"), why.toString()); } catch (Exception ignored) { }
         List<String> audited = shown.stream().filter(MS5_AUDITED::contains).toList();
-        result("ms5_unreachable_items", audited.isEmpty(), "of the audit's 90 sourceless items, still shown: " + audited + " | closure (lower bound: structure templates and Java placements aren't seeded) unreachable and shown " + shown.size() + ": " + shown + " | unreachable and hidden " + hidden.size() + ": " + hidden);
+        result("ms5_unreachable_items", audited.isEmpty() && shown.isEmpty(), "of the audit's 90 sourceless items, still shown: " + audited + " | closure (unwarded templates + Java worldgen seeded) unreachable and shown " + shown.size() + ": " + shown + " | unreachable and hidden " + hidden.size() + ": " + hidden);
     }
 
     /** the 90 non-block items the missing-content sweep found with no survival source. */
@@ -256,6 +279,24 @@ final class TMTests {
                 } catch (Exception ignored) { }
             }
         for (String id : Obtainable.CODE_GRANTED.keySet()) have.add(BuiltInRegistries.ITEM.get(ResourceLocation.parse(id)));
+        // unwarded structures: village / Stitchring / root templates (dungeon and Frozen Hours templates are warded, so they don't count) ...
+        java.util.Set<String> placed = new java.util.HashSet<>(Obtainable.WORLDGEN_PLACED);
+        for (var e : rm.listResources("structure", p -> p.getNamespace().equals("quantumfalcon") && p.getPath().endsWith(".nbt")).entrySet()) {
+            String path = e.getKey().getPath();
+            if (path.startsWith("structure/dungeon/") || path.startsWith("structure/frozen_hours/")) continue;
+            try (InputStream in = e.getValue().open()) {
+                var tag = net.minecraft.nbt.NbtIo.readCompressed(in, net.minecraft.nbt.NbtAccounter.unlimitedHeap());
+                List<net.minecraft.nbt.ListTag> pals = new ArrayList<>();
+                if (tag.contains("palette")) pals.add(tag.getList("palette", 10));
+                if (tag.contains("palettes")) for (var t : tag.getList("palettes", 9)) pals.add((net.minecraft.nbt.ListTag) t);
+                for (var pal : pals) for (int i = 0; i < pal.size(); i++) {
+                    String n = pal.getCompound(i).getString("Name");
+                    if (n.startsWith("quantumfalcon:")) placed.add(n.substring("quantumfalcon:".length()));
+                }
+            } catch (Exception ignored) { }
+        }
+        // ... and Java worldgen: their blocks' drops are reachable
+        for (String b : placed) for (Item it : blockDrops.getOrDefault(b, List.of())) have.add(it);
         for (var q : com.matt.quantumfalcon.codex.RiftCodex.QUESTS.values()) for (ResourceLocation r : q.reward().items()) have.add(BuiltInRegistries.ITEM.get(r));
         have.remove(Items.AIR);
         var recipes = server.getRecipeManager().getRecipes();
