@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "quantumfalcon:abyssite_neon_trim"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:abyssite_neon_trim_slab",
+    "count": 6
+  }
+}

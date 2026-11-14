@@ -1,0 +1,21 @@
+{
+  "parent": "quantumfalcon:story/defeat_sovereign",
+  "display": {
+    "icon": {
+      "id": "quantumfalcon:transcendence_shard"
+    },
+    "title": {
+      "translate": "advancements.quantumfalcon.choose_ending.title"
+    },
+    "description": {
+      "translate": "advancements.quantumfalcon.choose_ending.description"
+    },
+    "frame": "challenge",
+    "hidden": false
+  },
+  "criteria": {
+    "chosen": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

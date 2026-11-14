@@ -1,0 +1,27 @@
+{
+  "parent": "quantumfalcon:story/tame_first_falcon",
+  "display": {
+    "icon": {
+      "item": "quantumfalcon:quantum_core"
+    },
+    "title": {
+      "translate": "advancements.quantumfalcon.craft_quantum_core.title",
+      "fallback": "Quantum Foundation"
+    },
+    "description": {
+      "translate": "advancements.quantumfalcon.craft_quantum_core.description",
+      "fallback": "Craft your first Quantum Core"
+    }
+  },
+  "criteria": {
+    "crafted_core": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "quantumfalcon:quantum_core"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

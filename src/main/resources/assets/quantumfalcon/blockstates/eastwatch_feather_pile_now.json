@@ -1,0 +1,25 @@
+{
+ "variants": {
+  "": [
+   {
+    "model": "quantumfalcon:block/frozen_hours/eastwatch/feather_pile_now",
+    "weight": 1
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/eastwatch/feather_pile_now",
+    "y": 90,
+    "weight": 1
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/eastwatch/feather_pile_now",
+    "y": 180,
+    "weight": 1
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/eastwatch/feather_pile_now",
+    "y": 270,
+    "weight": 1
+   }
+  ]
+ }
+}

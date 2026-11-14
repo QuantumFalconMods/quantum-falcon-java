@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "quantumfalcon:temporal_nexus",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 63748192,
+    "spacing": 28,
+    "separation": 10
+  }
+}

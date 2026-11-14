@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "quantumfalcon:dungeon_end_voidshale",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 12,
+    "salt": 718204
+  }
+}

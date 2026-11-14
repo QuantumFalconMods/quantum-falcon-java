@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:plains",
+    "minecraft:forest",
+    "minecraft:taiga",
+    "minecraft:jungle",
+    "minecraft:savanna",
+    "minecraft:snowy_plains",
+    {
+      "id": "#c:is_overworld",
+      "required": false
+    },
+    "#quantumfalcon:instability_tier_1"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "quantumfalcon:block/void_log"
+    },
+    "axis=z": {
+      "model": "quantumfalcon:block/void_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "quantumfalcon:block/void_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

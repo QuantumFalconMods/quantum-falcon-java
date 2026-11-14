@@ -1,0 +1,42 @@
+{
+  "structures": [
+    {
+      "structure": "quantumfalcon:dungeon_riftslate",
+      "weight": 1
+    },
+    {
+      "structure": "quantumfalcon:dungeon_aurorite",
+      "weight": 1
+    },
+    {
+      "structure": "quantumfalcon:dungeon_prismite",
+      "weight": 1
+    },
+    {
+      "structure": "quantumfalcon:dungeon_cinderite",
+      "weight": 1
+    },
+    {
+      "structure": "quantumfalcon:dungeon_chronoslate",
+      "weight": 1
+    },
+    {
+      "structure": "quantumfalcon:dungeon_abyssite",
+      "weight": 1
+    },
+    {
+      "structure": "quantumfalcon:dungeon_voidshale",
+      "weight": 1
+    },
+    {
+      "structure": "quantumfalcon:dungeon_singularite",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 22,
+    "separation": 9,
+    "salt": 718201
+  }
+}

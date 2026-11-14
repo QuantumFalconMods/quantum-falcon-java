@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quantumfalcon:temporal_log"
+  },
+  "result": {
+    "id": "quantumfalcon:stripped_temporal_log"
+  },
+  "count": 1
+}

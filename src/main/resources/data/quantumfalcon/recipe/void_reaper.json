@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "VVV",
+    " C ",
+    " S "
+  ],
+  "key": {
+    "V": {
+      "item": "quantumfalcon:void_steel_ingot"
+    },
+    "C": {
+      "item": "quantumfalcon:void_core"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:void_reaper",
+    "count": 1
+  }
+}

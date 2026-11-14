@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "quantumfalcon:probability_ingot"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:probability_chestplate",
+    "count": 1
+  }
+}

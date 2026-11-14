@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [" R ", "ECE", " R "],
+  "key": {
+    "R": {"item": "quantumfalcon:rift_shard"},
+    "E": {"item": "quantumfalcon:echo_shard"},
+    "C": {"item": "minecraft:compass"}
+  },
+  "result": {"count": 1, "id": "quantumfalcon:echo_compass"}
+}

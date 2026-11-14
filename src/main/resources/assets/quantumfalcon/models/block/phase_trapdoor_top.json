@@ -1,0 +1,163 @@
+{
+ "parent": "minecraft:block/template_orientable_trapdoor_top",
+ "textures": {
+  "texture": "quantumfalcon:block/phase_trapdoor",
+  "particle_glow": "quantumfalcon:block/phase_trapdoor_glow",
+  "texture_glow": "quantumfalcon:block/phase_trapdoor_glow"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    13,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "faces": {
+    "down": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#texture"
+    },
+    "up": {
+     "uv": [
+      0,
+      16,
+      16,
+      0
+     ],
+     "texture": "#texture",
+     "cullface": "up"
+    },
+    "north": {
+     "uv": [
+      0,
+      0,
+      16,
+      3
+     ],
+     "texture": "#texture",
+     "cullface": "north"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      16,
+      3
+     ],
+     "texture": "#texture",
+     "cullface": "south"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      16,
+      3
+     ],
+     "texture": "#texture",
+     "cullface": "west"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      16,
+      3
+     ],
+     "texture": "#texture",
+     "cullface": "east"
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    13,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "down": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#texture_glow"
+    },
+    "up": {
+     "uv": [
+      0,
+      16,
+      16,
+      0
+     ],
+     "texture": "#texture_glow",
+     "cullface": "up"
+    },
+    "north": {
+     "uv": [
+      0,
+      0,
+      16,
+      3
+     ],
+     "texture": "#texture_glow",
+     "cullface": "north"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      16,
+      3
+     ],
+     "texture": "#texture_glow",
+     "cullface": "south"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      16,
+      3
+     ],
+     "texture": "#texture_glow",
+     "cullface": "west"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      16,
+      3
+     ],
+     "texture": "#texture_glow",
+     "cullface": "east"
+    }
+   }
+  }
+ ],
+ "render_type": "minecraft:cutout"
+}

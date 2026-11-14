@@ -1,0 +1,81 @@
+{
+ "parent": "minecraft:block/template_wall_side_tall",
+ "textures": {
+  "wall": "quantumfalcon:block/realm/singularite/bricks",
+  "particle_glow": "quantumfalcon:block/realm/singularite/bricks_glow",
+  "wall_glow": "quantumfalcon:block/realm/singularite/bricks_glow"
+ },
+ "elements": [
+  {
+   "from": [
+    5,
+    0,
+    0
+   ],
+   "to": [
+    11,
+    16,
+    8
+   ],
+   "faces": {
+    "down": {
+     "texture": "#wall",
+     "cullface": "down"
+    },
+    "up": {
+     "texture": "#wall",
+     "cullface": "up"
+    },
+    "north": {
+     "texture": "#wall",
+     "cullface": "north"
+    },
+    "west": {
+     "texture": "#wall"
+    },
+    "east": {
+     "texture": "#wall"
+    }
+   }
+  },
+  {
+   "from": [
+    5,
+    0,
+    0
+   ],
+   "to": [
+    11,
+    16,
+    8
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "down": {
+     "texture": "#wall_glow",
+     "cullface": "down"
+    },
+    "up": {
+     "texture": "#wall_glow",
+     "cullface": "up"
+    },
+    "north": {
+     "texture": "#wall_glow",
+     "cullface": "north"
+    },
+    "west": {
+     "texture": "#wall_glow"
+    },
+    "east": {
+     "texture": "#wall_glow"
+    }
+   }
+  }
+ ],
+ "render_type": "minecraft:cutout"
+}

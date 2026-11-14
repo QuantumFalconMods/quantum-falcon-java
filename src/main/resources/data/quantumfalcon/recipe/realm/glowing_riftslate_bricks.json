@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "###",
+  "#G#",
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:riftslate_bricks"
+  },
+  "G": {
+   "item": "minecraft:glowstone_dust"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:glowing_riftslate_bricks",
+  "count": 8
+ }
+}

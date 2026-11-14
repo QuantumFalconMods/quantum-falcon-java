@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:chaos_fence_gate",
+    "quantumfalcon:crystal_fence_gate",
+    "quantumfalcon:echo_fence_gate",
+    "quantumfalcon:phase_fence_gate",
+    "quantumfalcon:quantum_fence_gate",
+    "quantumfalcon:resonance_fence_gate",
+    "quantumfalcon:temporal_fence_gate",
+    "quantumfalcon:void_fence_gate"
+  ]
+}

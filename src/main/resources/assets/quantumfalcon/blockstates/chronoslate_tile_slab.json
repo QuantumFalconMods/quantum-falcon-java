@@ -1,0 +1,13 @@
+{
+ "variants": {
+  "type=bottom": {
+   "model": "quantumfalcon:block/chronoslate_tile_slab"
+  },
+  "type=top": {
+   "model": "quantumfalcon:block/chronoslate_tile_slab_top"
+  },
+  "type=double": {
+   "model": "quantumfalcon:block/chronoslate_tiles"
+  }
+ }
+}

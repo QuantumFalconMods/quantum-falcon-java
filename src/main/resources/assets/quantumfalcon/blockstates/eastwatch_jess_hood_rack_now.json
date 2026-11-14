@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "quantumfalcon:block/frozen_hours/eastwatch/jess_hood_rack_now"
+  },
+  "facing=south": {
+   "model": "quantumfalcon:block/frozen_hours/eastwatch/jess_hood_rack_now",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "quantumfalcon:block/frozen_hours/eastwatch/jess_hood_rack_now",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "quantumfalcon:block/frozen_hours/eastwatch/jess_hood_rack_now",
+   "y": 90
+  }
+ }
+}

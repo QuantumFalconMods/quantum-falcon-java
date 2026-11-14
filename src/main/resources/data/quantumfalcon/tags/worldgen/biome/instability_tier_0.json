@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:aurora_tundra",
+    "quantumfalcon:coral_quantum",
+    "quantumfalcon:crystal_beach",
+    "quantumfalcon:crystal_caves",
+    "quantumfalcon:crystalline_peaks",
+    "quantumfalcon:desert_quantum",
+    "quantumfalcon:falcon_roost",
+    "quantumfalcon:luminous_grove",
+    "quantumfalcon:mushroom_quantum",
+    "quantumfalcon:phase_forest",
+    "quantumfalcon:prismatic_meadow",
+    "quantumfalcon:quantum_forest",
+    "quantumfalcon:quantum_jungle",
+    "quantumfalcon:quantum_mountains",
+    "quantumfalcon:quantum_plains",
+    "quantumfalcon:quantum_river",
+    "quantumfalcon:quantum_tundra",
+    "quantumfalcon:savanna_quantum"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "fallback": "quantumfalcon:dungeon/voidshale/cap",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "quantumfalcon:dungeon/voidshale/path_c_turn_left",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "quantumfalcon:dungeon/voidshale/path_c_turn_right",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

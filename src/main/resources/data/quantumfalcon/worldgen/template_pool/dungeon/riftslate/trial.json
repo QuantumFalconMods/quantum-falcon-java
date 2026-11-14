@@ -1,0 +1,23 @@
+{
+  "fallback": "quantumfalcon:dungeon/riftslate/cap",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "quantumfalcon:dungeon/riftslate/trap_room",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "quantumfalcon:dungeon/riftslate/puzzle_room",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

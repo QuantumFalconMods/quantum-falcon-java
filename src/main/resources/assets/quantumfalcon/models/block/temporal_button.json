@@ -1,0 +1,155 @@
+{
+ "parent": "minecraft:block/button",
+ "textures": {
+  "texture": "quantumfalcon:block/temporal_planks",
+  "particle_glow": "quantumfalcon:block/temporal_planks_glow",
+  "texture_glow": "quantumfalcon:block/temporal_planks_glow"
+ },
+ "elements": [
+  {
+   "from": [
+    5,
+    0,
+    6
+   ],
+   "to": [
+    11,
+    2,
+    10
+   ],
+   "faces": {
+    "down": {
+     "uv": [
+      5,
+      6,
+      11,
+      10
+     ],
+     "texture": "#texture",
+     "cullface": "down"
+    },
+    "up": {
+     "uv": [
+      5,
+      6,
+      11,
+      10
+     ],
+     "texture": "#texture"
+    },
+    "north": {
+     "uv": [
+      5,
+      14,
+      11,
+      16
+     ],
+     "texture": "#texture"
+    },
+    "south": {
+     "uv": [
+      5,
+      14,
+      11,
+      16
+     ],
+     "texture": "#texture"
+    },
+    "west": {
+     "uv": [
+      6,
+      14,
+      10,
+      16
+     ],
+     "texture": "#texture"
+    },
+    "east": {
+     "uv": [
+      6,
+      14,
+      10,
+      16
+     ],
+     "texture": "#texture"
+    }
+   }
+  },
+  {
+   "from": [
+    5,
+    0,
+    6
+   ],
+   "to": [
+    11,
+    2,
+    10
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "down": {
+     "uv": [
+      5,
+      6,
+      11,
+      10
+     ],
+     "texture": "#texture_glow",
+     "cullface": "down"
+    },
+    "up": {
+     "uv": [
+      5,
+      6,
+      11,
+      10
+     ],
+     "texture": "#texture_glow"
+    },
+    "north": {
+     "uv": [
+      5,
+      14,
+      11,
+      16
+     ],
+     "texture": "#texture_glow"
+    },
+    "south": {
+     "uv": [
+      5,
+      14,
+      11,
+      16
+     ],
+     "texture": "#texture_glow"
+    },
+    "west": {
+     "uv": [
+      6,
+      14,
+      10,
+      16
+     ],
+     "texture": "#texture_glow"
+    },
+    "east": {
+     "uv": [
+      6,
+      14,
+      10,
+      16
+     ],
+     "texture": "#texture_glow"
+    }
+   }
+  }
+ ],
+ "render_type": "minecraft:cutout"
+}

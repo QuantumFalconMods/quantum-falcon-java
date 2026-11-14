@@ -1,0 +1,10 @@
+{
+ "type": "minecraft:stonecutting",
+ "ingredient": {
+  "item": "quantumfalcon:chronoslate"
+ },
+ "result": {
+  "id": "quantumfalcon:chronoslate_pillar",
+  "count": 1
+ }
+}

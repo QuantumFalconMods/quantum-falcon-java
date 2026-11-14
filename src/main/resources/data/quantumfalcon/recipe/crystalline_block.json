@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "item": "quantumfalcon:crystal_crystal"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:crystalline_block",
+    "count": 1
+  }
+}

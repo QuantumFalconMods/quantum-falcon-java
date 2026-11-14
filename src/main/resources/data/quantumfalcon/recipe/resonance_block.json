@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "quantumfalcon:resonance_shard"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:resonance_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+ "variants": {
+  "": [
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_tiles_then",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_tiles_then",
+    "y": 180,
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_tiles_then_v1",
+    "weight": 3
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_tiles_then_v1",
+    "y": 180,
+    "weight": 3
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_tiles_then_v2",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_tiles_then_v2",
+    "y": 180,
+    "weight": 2
+   }
+  ]
+ }
+}

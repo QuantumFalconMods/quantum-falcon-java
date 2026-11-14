@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "": [
+   {
+    "model": "quantumfalcon:block/singularite",
+    "weight": 3
+   },
+   {
+    "model": "quantumfalcon:block/singularite_v1",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/singularite_v2",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/singularite_v3",
+    "weight": 1
+   }
+  ]
+ }
+}

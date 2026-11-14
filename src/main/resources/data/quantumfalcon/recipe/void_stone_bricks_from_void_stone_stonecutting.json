@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quantumfalcon:void_stone"
+  },
+  "result": {
+    "id": "quantumfalcon:void_stone_bricks"
+  },
+  "count": 1
+}

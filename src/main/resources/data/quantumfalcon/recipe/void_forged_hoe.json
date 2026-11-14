@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    " S",
+    " S"
+  ],
+  "key": {
+    "I": {
+      "item": "quantumfalcon:purple_ingot"
+    },
+    "S": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:purple_hoe"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "": [
+      { "model": "quantumfalcon:block/void_obsidian_v1" },
+      { "model": "quantumfalcon:block/void_obsidian_v2" },
+      { "model": "quantumfalcon:block/void_obsidian_v3" },
+      { "model": "quantumfalcon:block/void_obsidian_v4" },
+      { "model": "quantumfalcon:block/void_obsidian_v5" },
+      { "model": "quantumfalcon:block/void_obsidian_v6" },
+      { "model": "quantumfalcon:block/void_obsidian_v7" },
+      { "model": "quantumfalcon:block/void_obsidian_v8" },
+      { "model": "quantumfalcon:block/void_obsidian_v9" },
+      { "model": "quantumfalcon:block/void_obsidian_v10" },
+      { "model": "quantumfalcon:block/void_obsidian_v11" },
+      { "model": "quantumfalcon:block/void_obsidian_v12" },
+      { "model": "quantumfalcon:block/void_obsidian_v13" },
+      { "model": "quantumfalcon:block/void_obsidian_v14" },
+      { "model": "quantumfalcon:block/void_obsidian_v15" },
+      { "model": "quantumfalcon:block/void_obsidian_v16" },
+      { "model": "quantumfalcon:block/void_obsidian_v17" },
+      { "model": "quantumfalcon:block/void_obsidian_v18" }
+    ]
+  }
+}

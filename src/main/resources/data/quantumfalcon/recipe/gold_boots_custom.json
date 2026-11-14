@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "N N",
+    "E E"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "C": {
+      "item": "minecraft:clock"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "E": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:gold_boots_custom",
+    "count": 1
+  }
+}

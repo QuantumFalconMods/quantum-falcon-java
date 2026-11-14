@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " E ",
+    "RCR",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "quantumfalcon:echo_shard"
+    },
+    "R": {
+      "item": "quantumfalcon:rift_shard"
+    },
+    "C": {
+      "item": "quantumfalcon:quantum_crystal"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "quantumfalcon:quantum_stabilizer"
+  }
+}

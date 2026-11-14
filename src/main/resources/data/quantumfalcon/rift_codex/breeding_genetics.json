@@ -1,0 +1,319 @@
+{
+ "title": "Breeding & Genetics",
+ "intro": "The old Falconer houses never died out. They are hiding in the bloodlines, waiting to be bred back.",
+ "order": 2,
+ "quests": [
+  {
+   "id": "bg_01",
+   "title": "Nest Materials",
+   "text": "Collect Quantum Crystals for a nest.",
+   "task": {
+    "type": "COLLECT_ITEM",
+    "target": "quantumfalcon:quantum_crystal",
+    "count": 2
+   },
+   "requires": [
+    "fb_02"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_berry",
+      "count": 4
+     }
+    ],
+    "xp": 30
+   }
+  },
+  {
+   "id": "bg_02",
+   "title": "The First Egg",
+   "text": "Breed two tamed falcons.",
+   "task": {
+    "type": "BREED_FALCON",
+    "target": "any",
+    "count": 1
+   },
+   "requires": [
+    "bg_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_berry",
+      "count": 2
+     }
+    ],
+    "xp": 60
+   }
+  },
+  {
+   "id": "bg_03",
+   "title": "Sanctuary",
+   "text": "Find a Breeding Sanctum.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:breeding_sanctum",
+    "count": 1
+   },
+   "requires": [
+    "bg_02"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_berry",
+      "count": 1
+     }
+    ],
+    "xp": 80
+   }
+  },
+  {
+   "id": "bg_04",
+   "title": "A Growing Flock",
+   "text": "Breed falcons 5 times.",
+   "task": {
+    "type": "BREED_FALCON",
+    "target": "any",
+    "count": 5
+   },
+   "requires": [
+    "bg_02"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_berry",
+      "count": 8
+     }
+    ],
+    "xp": 80
+   }
+  },
+  {
+   "id": "bg_05",
+   "title": "Patient Breeder",
+   "text": "Reach Breeding 5.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "breeding",
+    "count": 5,
+    "absolute": true
+   },
+   "requires": [
+    "bg_02"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_berry",
+      "count": 3
+     }
+    ],
+    "xp": 60
+   }
+  },
+  {
+   "id": "bg_06",
+   "title": "Cows Count Too",
+   "text": "Breed any animals: new pairs teach you more (Breeding 10).",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "breeding",
+    "count": 10,
+    "absolute": true
+   },
+   "requires": [
+    "bg_05"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:falcon_treat",
+      "count": 8
+     }
+    ],
+    "xp": 100
+   }
+  },
+  {
+   "id": "bg_07",
+   "title": "Rare Plumage",
+   "text": "Hatch a Cosmic or Singularity falcon.",
+   "task": {
+    "type": "BREED_FALCON",
+    "target": "rare_variant",
+    "count": 1
+   },
+   "requires": [
+    "bg_04"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_reroll_token",
+      "count": 1
+     }
+    ],
+    "xp": 150
+   }
+  },
+  {
+   "id": "bg_08",
+   "title": "A Flock of Ten",
+   "text": "Breed falcons 10 times.",
+   "task": {
+    "type": "BREED_FALCON",
+    "target": "any",
+    "count": 10
+   },
+   "requires": [
+    "bg_04"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_reroll_token",
+      "count": 1
+     }
+    ],
+    "xp": 120
+   }
+  },
+  {
+   "id": "bg_09",
+   "title": "Anomaly",
+   "text": "Breed an Anomaly falcon.",
+   "task": {
+    "type": "BREED_FALCON",
+    "target": "anomaly",
+    "count": 1
+   },
+   "requires": [
+    "bg_07"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:falcon_treat",
+      "count": 8
+     }
+    ],
+    "xp": 200
+   }
+  },
+  {
+   "id": "bg_10",
+   "title": "Lineage Keeper",
+   "text": "Reach Breeding 20.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "breeding",
+    "count": 20,
+    "absolute": true
+   },
+   "requires": [
+    "bg_06"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:echo_crystal",
+      "count": 1
+     }
+    ],
+    "xp": 200
+   }
+  },
+  {
+   "id": "bg_11",
+   "title": "Twenty Hatchings",
+   "text": "Breed falcons 20 times.",
+   "task": {
+    "type": "BREED_FALCON",
+    "target": "any",
+    "count": 20
+   },
+   "requires": [
+    "bg_08"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_reroll_token",
+      "count": 2
+     }
+    ],
+    "xp": 200
+   }
+  },
+  {
+   "id": "bg_12",
+   "title": "Legend in the Shell",
+   "text": "Breed a Legendary falcon.",
+   "task": {
+    "type": "BREED_FALCON",
+    "target": "legendary",
+    "count": 1
+   },
+   "requires": [
+    "bg_09"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:singularity_shard",
+      "count": 1
+     }
+    ],
+    "xp": 300
+   }
+  },
+  {
+   "id": "bg_13",
+   "title": "Geneticist",
+   "text": "Reach Breeding 30.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "breeding",
+    "count": 30,
+    "absolute": true
+   },
+   "requires": [
+    "bg_10"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_reroll_token",
+      "count": 2
+     }
+    ],
+    "xp": 300
+   }
+  },
+  {
+   "id": "bg_14",
+   "title": "Matriarch",
+   "text": "Breed falcons 50 times.",
+   "task": {
+    "type": "BREED_FALCON",
+    "target": "any",
+    "count": 50
+   },
+   "requires": [
+    "bg_11"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:golden_falcon_feather",
+      "count": 1
+     }
+    ],
+    "xp": 400
+   }
+  }
+ ]
+}

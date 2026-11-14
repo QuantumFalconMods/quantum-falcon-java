@@ -1,0 +1,861 @@
+{
+  "type": "quantumfalcon:echo_rift",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "quantumfalcon:echo_rift_noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "quantumfalcon:aurora_tundra",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              -0.236
+            ],
+            "humidity": [
+              -1.0,
+              -0.236
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:crystalline_peaks",
+          "parameters": {
+            "temperature": [
+              -0.236,
+              0.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.236
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:desert_quantum",
+          "parameters": {
+            "temperature": [
+              0.0,
+              0.236
+            ],
+            "humidity": [
+              -1.0,
+              -0.236
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:falcon_roost",
+          "parameters": {
+            "temperature": [
+              0.236,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.236
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:luminous_grove",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              -0.236
+            ],
+            "humidity": [
+              -0.236,
+              0.0
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:mushroom_quantum",
+          "parameters": {
+            "temperature": [
+              -0.236,
+              0.0
+            ],
+            "humidity": [
+              -0.236,
+              0.0
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:phase_forest",
+          "parameters": {
+            "temperature": [
+              0.0,
+              0.236
+            ],
+            "humidity": [
+              -0.236,
+              0.0
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:prismatic_meadow",
+          "parameters": {
+            "temperature": [
+              0.236,
+              1.0
+            ],
+            "humidity": [
+              -0.236,
+              0.0
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:quantum_forest",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              -0.236
+            ],
+            "humidity": [
+              0.0,
+              0.236
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:quantum_jungle",
+          "parameters": {
+            "temperature": [
+              -0.236,
+              0.0
+            ],
+            "humidity": [
+              0.0,
+              0.236
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:quantum_mountains",
+          "parameters": {
+            "temperature": [
+              0.0,
+              0.236
+            ],
+            "humidity": [
+              0.0,
+              1.0
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:quantum_plains",
+          "parameters": {
+            "temperature": [
+              0.236,
+              1.0
+            ],
+            "humidity": [
+              0.0,
+              1.0
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:quantum_tundra",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              -0.236
+            ],
+            "humidity": [
+              0.236,
+              1.0
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:savanna_quantum",
+          "parameters": {
+            "temperature": [
+              -0.236,
+              0.0
+            ],
+            "humidity": [
+              0.236,
+              1.0
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:coral_quantum",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              0.0
+            ],
+            "humidity": [
+              -1.0,
+              0.0
+            ],
+            "continentalness": [
+              -1.0,
+              -0.19
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:crystal_beach",
+          "parameters": {
+            "temperature": [
+              0.0,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": [
+              -1.0,
+              -0.19
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:quantum_river",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              0.0
+            ],
+            "humidity": [
+              0.0,
+              1.0
+            ],
+            "continentalness": [
+              -1.0,
+              -0.19
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:crystal_caves",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": [
+              -1.0,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              0.0
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:distortion_plains",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              -0.151
+            ],
+            "humidity": [
+              -1.0,
+              -0.151
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              0.0,
+              1.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:echo_mountains",
+          "parameters": {
+            "temperature": [
+              -0.151,
+              0.151
+            ],
+            "humidity": [
+              -1.0,
+              -0.151
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              0.0,
+              1.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:entangled_mangrove",
+          "parameters": {
+            "temperature": [
+              0.151,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.151
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              0.0,
+              1.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:frequency_peaks",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              -0.151
+            ],
+            "humidity": [
+              -0.151,
+              0.151
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              0.0,
+              1.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:harmonic_grove",
+          "parameters": {
+            "temperature": [
+              -0.151,
+              0.151
+            ],
+            "humidity": [
+              -0.151,
+              0.151
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              0.0,
+              1.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:phase_shifted_forest",
+          "parameters": {
+            "temperature": [
+              0.151,
+              1.0
+            ],
+            "humidity": [
+              -0.151,
+              0.151
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              0.0,
+              1.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:probability_desert",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              -0.151
+            ],
+            "humidity": [
+              0.151,
+              1.0
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              0.0,
+              1.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:temporal_anomaly",
+          "parameters": {
+            "temperature": [
+              -0.151,
+              0.151
+            ],
+            "humidity": [
+              0.151,
+              1.0
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              0.0,
+              1.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:wave_collapse_zone",
+          "parameters": {
+            "temperature": [
+              0.151,
+              1.0
+            ],
+            "humidity": [
+              0.151,
+              1.0
+            ],
+            "continentalness": [
+              -0.19,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              0.0,
+              1.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:temporal_shores",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": [
+              -1.0,
+              -0.19
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              0.0,
+              1.0
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:echo_caverns",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              0.0
+            ],
+            "humidity": [
+              -1.0,
+              0.0
+            ],
+            "continentalness": [
+              -1.0,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              0.0,
+              1.0
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:echo_depths",
+          "parameters": {
+            "temperature": [
+              0.0,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": [
+              -1.0,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              0.0,
+              1.0
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumfalcon:resonance_caves",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              0.0
+            ],
+            "humidity": [
+              0.0,
+              1.0
+            ],
+            "continentalness": [
+              -1.0,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              0.0,
+              1.0
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

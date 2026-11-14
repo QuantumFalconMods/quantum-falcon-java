@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "###",
+  "#C#",
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "minecraft:cobbled_deepslate"
+  },
+  "C": {
+   "item": "quantumfalcon:aurora_crystal"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:aurorite",
+  "count": 8
+ }
+}

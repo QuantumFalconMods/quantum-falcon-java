@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "stage=cracked": [
+      { "model": "quantumfalcon:block/arena_rift_tile_cracked" },
+      { "model": "quantumfalcon:block/arena_rift_tile_cracked", "y": 90 },
+      { "model": "quantumfalcon:block/arena_rift_tile_cracked", "y": 180 },
+      { "model": "quantumfalcon:block/arena_rift_tile_cracked", "y": 270 }
+    ],
+    "stage=open": { "model": "quantumfalcon:block/arena_rift_tile_cracked" }
+  }
+}

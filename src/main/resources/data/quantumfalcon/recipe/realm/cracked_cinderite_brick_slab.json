@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "quantumfalcon:cracked_cinderite_bricks"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:cracked_cinderite_brick_slab",
+    "count": 6
+  }
+}

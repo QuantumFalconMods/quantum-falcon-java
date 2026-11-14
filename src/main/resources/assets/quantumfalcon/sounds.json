@@ -1,0 +1,2986 @@
+{
+  "entity_falcon_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/falcon/ambient2",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/falcon/ambient3",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.ambient"
+  },
+  "entity_falcon_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/falcon/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.hurt"
+  },
+  "entity_falcon_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.death"
+  },
+  "entity_falcon_flap": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/flap1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/falcon/flap2",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/falcon/flap3",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.flap"
+  },
+  "entity_falcon_screech": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/screech",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.screech"
+  },
+  "falcon_call_1": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/call1",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.call"
+  },
+  "falcon_call_2": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/call2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.call"
+  },
+  "falcon_call_3": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/call3",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.call"
+  },
+  "falcon_call_4": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/call4",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.call"
+  },
+  "falcon_call_5": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/call5",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.call"
+  },
+  "falcon_call_6": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/call6",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.call"
+  },
+  "falcon_call_7": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/call7",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.call"
+  },
+  "falcon_call_8": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/call8",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.call"
+  },
+  "falcon_call_9": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/call9",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.call"
+  },
+  "falcon_call_10": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/call10",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.falcon.call"
+  },
+  "breeding_success": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:breeding/success",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.breeding.success"
+  },
+  "breeding_rare": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:breeding/rare",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.breeding.rare"
+  },
+  "breeding_legendary": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:breeding/legendary",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.breeding.legendary"
+  },
+  "quantum_spark": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:quantum/spark1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:quantum/spark2",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:quantum/spark3",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:quantum/crystal_break1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:quantum/crystal_break2",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:quantum/crystal_break3",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.quantum.spark"
+  },
+  "quantum_blink": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:quantum/blink",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.quantum.blink"
+  },
+  "ui_skill_unlock": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:ui/skill_unlock",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.ui.skill_unlock"
+  },
+  "ui_level_up": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:ui/level_up",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.ui.level_up"
+  },
+  "falcon_tame": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/tame",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.tame"
+  },
+  "falcon_feed": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/feed",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.feed"
+  },
+  "falcon_bond_up": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/bond_up",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.bond_up"
+  },
+  "falcon_whistle": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/whistle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.whistle"
+  },
+  "entity_quantum_falcon_breed": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/falcon/breed",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.breed"
+  },
+  "egg_wobble": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/egg_wobble",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.egg.wobble"
+  },
+  "rift_portal": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:rift/portal",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.rift.portal"
+  },
+  "rift_open": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:rift/open",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.rift.open"
+  },
+  "rift_close": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:rift/close",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.rift.close"
+  },
+  "rift_whoosh": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:rift/whoosh1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:rift/whoosh2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.rift.whoosh"
+  },
+  "dimension_shift": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:dimension/shift",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.dimension.shift"
+  },
+  "instability_warning": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:instability/warning",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.instability.warning"
+  },
+  "instability_critical": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:instability/critical",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.instability.critical"
+  },
+  "instability_chime": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:instability/chime",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.instability.warning"
+  },
+  "stabilizer_activate": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:stabilizer/activate",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.stabilizer.activate"
+  },
+  "boss_phase_horn": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/phase_horn1",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/phase_horn2",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.phase_horn"
+  },
+  "boss_roar_overseer": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/overseer/roar1",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/overseer/roar2",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/overseer/roar3",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/roar_overseer",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.roar.overseer"
+  },
+  "boss_roar_warden": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/warden/roar1",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/warden/roar2",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/warden/roar3",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/roar_warden",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.roar.warden"
+  },
+  "boss_roar_twins": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/twins/roar1",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/twins/roar2",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/twins/roar3",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/roar_twins",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.roar.twins"
+  },
+  "boss_roar_sovereign": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sovereign/roar1",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/sovereign/roar2",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/sovereign/roar3",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/roar_sovereign",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.roar.sovereign"
+  },
+  "boss_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.death"
+  },
+  "boss_summon": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/summon",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.summon"
+  },
+  "singularity_hum": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:singularity/hum",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.singularity.hum"
+  },
+  "singularity_pull": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:singularity/pull",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.singularity.pull"
+  },
+  "gravity_well": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:gravity/well",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.gravity.well"
+  },
+  "black_hole_form": {
+    "subtitle": "subtitles.quantumfalcon.gravity.black_hole",
+    "sounds": [
+      {
+        "name": "quantumfalcon:gravity/black_hole_form",
+        "volume": 1.5,
+        "pitch": 0.5
+      }
+    ]
+  },
+  "quantum_blink_start": {
+    "subtitle": "subtitles.quantumfalcon.ability.blink_start",
+    "sounds": [
+      {
+        "name": "quantumfalcon:ability/blink_start",
+        "volume": 1.0,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "quantum_blink_end": {
+    "subtitle": "subtitles.quantumfalcon.ability.blink_end",
+    "sounds": [
+      {
+        "name": "quantumfalcon:ability/blink_end",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "quantum_dash": {
+    "subtitle": "subtitles.quantumfalcon.ability.dash",
+    "sounds": [
+      {
+        "name": "quantumfalcon:ability/dash",
+        "volume": 0.9,
+        "pitch": 1.1
+      },
+      {
+        "name": "quantumfalcon:ability/swoosh1",
+        "volume": 0.7,
+        "pitch": 1.2
+      },
+      {
+        "name": "quantumfalcon:ability/swoosh2",
+        "volume": 0.7,
+        "pitch": 1.15
+      },
+      {
+        "name": "quantumfalcon:ability/swoosh3",
+        "volume": 0.7,
+        "pitch": 1.25
+      }
+    ]
+  },
+  "entanglement_activate": {
+    "subtitle": "subtitles.quantumfalcon.ability.entanglement",
+    "sounds": [
+      {
+        "name": "quantumfalcon:ability/entanglement",
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    ]
+  },
+  "quantum_biome_ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/cave/cave1",
+        "volume": 0.5,
+        "pitch": 1.2,
+        "stream": true
+      }
+    ]
+  },
+  "echo_depths_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:ambient/echo_depths",
+        "volume": 0.5,
+        "pitch": 0.8,
+        "stream": true
+      },
+      {
+        "name": "quantumfalcon:ambient/rift_echo1",
+        "volume": 0.3,
+        "pitch": 0.9
+      },
+      {
+        "name": "quantumfalcon:ambient/rift_echo2",
+        "volume": 0.3,
+        "pitch": 0.85
+      },
+      {
+        "name": "quantumfalcon:ambient/rift_echo3",
+        "volume": 0.3,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "quantum_storm": {
+    "subtitle": "subtitles.quantumfalcon.weather.quantum_storm",
+    "sounds": [
+      {
+        "name": "quantumfalcon:weather/quantum_sleet",
+        "volume": 0.8,
+        "pitch": 0.75,
+        "stream": true
+      },
+      {
+        "name": "minecraft:weather/rain",
+        "volume": 0.5,
+        "pitch": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "aurora_borealis": {
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst_block/chime3",
+        "volume": 0.4,
+        "pitch": 0.5,
+        "stream": true
+      }
+    ]
+  },
+  "quantum_forge_craft": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:block/forge_craft",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.block.forge_craft"
+  },
+  "artifact_equip": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:item/artifact_equip",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.item.artifact_equip"
+  },
+  "artifact_unequip": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:item/metal_unequip1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:item/metal_unequip2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.item.artifact_unequip"
+  },
+  "curios_equip": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:item/curios_equip",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.item.curios_equip"
+  },
+  "music_boss_overseer": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_quantum_overseer",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_warden": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_rift_warden",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_twins": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_entangled_twins",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_sovereign": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_singularity_sovereign",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "book_open": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:item/book_open",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.item.book_open"
+  },
+  "quest_complete": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:ui/quest_complete",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.ui.quest_complete"
+  },
+  "quest_accept": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:ui/quest_accept",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.ui.quest_accept"
+  },
+  "grapple_fire": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:item/grapple_fire",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.item.grapple_fire"
+  },
+  "grapple_hit": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:item/grapple_hit",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.item.grapple_hit"
+  },
+  "grapple_pull": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:item/grapple_pull",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.item.grapple_pull"
+  },
+  "egg_hatch": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/egg_hatch",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.egg_hatch"
+  },
+  "anomaly_spawn": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/anomaly_spawn",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.anomaly_spawn"
+  },
+  "entity_sha_sha_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sha_sha/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/sha_sha/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sha_sha.ambient"
+  },
+  "entity_sha_sha_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sha_sha/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/sha_sha/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sha_sha.hurt"
+  },
+  "entity_sha_sha_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sha_sha/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sha_sha.death"
+  },
+  "entity_sha_sha_slam": {
+    "subtitle": "subtitles.quantumfalcon.entity.sha_sha.slam",
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/sha_sha/slam",
+        "volume": 1.6
+      }
+    ]
+  },
+  "entity_sha_sha_blink": {
+    "subtitle": "subtitles.quantumfalcon.entity.sha_sha.blink",
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/sha_sha/blink",
+        "volume": 1.0
+      }
+    ]
+  },
+  "falcon_ability_strike": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:falcon/ability/strike",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.ability.strike"
+  },
+  "falcon_ability_frost": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:falcon/ability/frost",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.ability.frost"
+  },
+  "falcon_ability_storm": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:falcon/ability/storm",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.ability.storm"
+  },
+  "falcon_ability_flame": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:falcon/ability/flame",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.ability.flame"
+  },
+  "falcon_ability_heal": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:falcon/ability/heal",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.ability.heal"
+  },
+  "falcon_ability_void": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:falcon/ability/void",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.ability.void"
+  },
+  "falcon_ability_wind": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:falcon/ability/wind",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.ability.wind"
+  },
+  "falcon_ability_rift": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:falcon/ability/rift",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.ability.rift"
+  },
+  "falcon_ability_nature": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:falcon/ability/nature",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.ability.nature"
+  },
+  "falcon_ability_cosmic": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:falcon/ability/cosmic",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.ability.cosmic"
+  },
+  "falcon_ability_passive": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:falcon/ability/passive",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.falcon.ability.passive"
+  },
+  "weapon_swing": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:weapon/swing1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:weapon/swing2",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:weapon/swing3",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.weapon_swing"
+  },
+  "weapon_rift_slash": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:weapon/rift_slash",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.weapon_rift_slash"
+  },
+  "weapon_void_reap": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:weapon/void_reap",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.weapon_void_reap"
+  },
+  "weapon_staff_cast": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:weapon/staff_cast",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.weapon_staff_cast"
+  },
+  "weapon_hammer_slam": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:weapon/hammer_slam",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.weapon_hammer_slam"
+  },
+  "weapon_blink": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:weapon/blink",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.weapon_blink"
+  },
+  "weapon_temporal_tick": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:weapon/temporal_tick",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.weapon_temporal_tick"
+  },
+  "armor_set_complete": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:armor/set_complete",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.armor_set_complete"
+  },
+  "music_boss_eclipse": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_eclipse_phantom",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_void_lord": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_void_lord",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_sha_sha": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_sha_sha",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "boss_roar": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/roar",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss_roar"
+  },
+  "boss_windup": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/windup",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss_windup"
+  },
+  "boss_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss_phase"
+  },
+  "music_boss_overseer_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_quantum_overseer_intro",
+        "volume": 0.75,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_overseer_p2": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_quantum_overseer_p2",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_warden_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_rift_warden_intro",
+        "volume": 0.75,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_warden_p2": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_rift_warden_p2",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_twins_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_entangled_twins_intro",
+        "volume": 0.75,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_twins_p2": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_entangled_twins_p2",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_sovereign_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_singularity_sovereign_intro",
+        "volume": 0.75,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_sovereign_p2": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_singularity_sovereign_p2",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_eclipse_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_eclipse_phantom_intro",
+        "volume": 0.75,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_eclipse_p2": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_eclipse_phantom_p2",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_void_lord_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_void_lord_intro",
+        "volume": 0.75,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_void_lord_p2": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_void_lord_p2",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_sha_sha_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_sha_sha_intro",
+        "volume": 0.75,
+        "stream": true
+      }
+    ]
+  },
+  "music_boss_sha_sha_p2": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:music/boss_sha_sha_p2",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "ability_blink_end": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:ability/blink_end",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.ability.blink_end"
+  },
+  "ability_blink_start": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:ability/blink_start",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.ability.blink_start"
+  },
+  "ability_dash": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:ability/dash",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.ability.dash"
+  },
+  "ability_entanglement": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:ability/entanglement",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.ability.entanglement"
+  },
+  "ability_swoosh": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:ability/swoosh1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:ability/swoosh2",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:ability/swoosh3",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.ability.dash"
+  },
+  "ambient_echo_depths": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:ambient/echo_depths",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.rift.portal"
+  },
+  "ambient_rift_echo": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:ambient/rift_echo1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:ambient/rift_echo2",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:ambient/rift_echo3",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.rift.portal"
+  },
+  "arena_pylon_beam": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:arena/pylon_beam",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.arena.pylon_beam"
+  },
+  "arena_pylon_break": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:arena/pylon_break",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.arena.pylon_break"
+  },
+  "arena_pylon_charge": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:arena/pylon_charge",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.arena.pylon_charge"
+  },
+  "arena_seal_down": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:arena/seal_down",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.arena.seal_down"
+  },
+  "arena_seal_up": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:arena/seal_up",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.arena.seal_up"
+  },
+  "arena_telegraph": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:arena/telegraph",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.arena.telegraph"
+  },
+  "arena_telegraph_lock": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:arena/telegraph_lock",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.arena.telegraph_lock"
+  },
+  "book_place": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:item/book_place1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:item/book_place2",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:item/book_place3",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.item.book_open"
+  },
+  "boss_cutscene_eclipse_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/eclipse/cutscene_death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.death"
+  },
+  "boss_cutscene_eclipse_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/eclipse/cutscene_intro",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.intro"
+  },
+  "boss_cutscene_eclipse_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/eclipse/cutscene_phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.phase"
+  },
+  "boss_cutscene_overseer_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/overseer/cutscene_death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.death"
+  },
+  "boss_cutscene_overseer_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/overseer/cutscene_intro",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.intro"
+  },
+  "boss_cutscene_overseer_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/overseer/cutscene_phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.phase"
+  },
+  "boss_cutscene_sha_sha_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sha_sha/cutscene_death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.death"
+  },
+  "boss_cutscene_sha_sha_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sha_sha/cutscene_intro",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.intro"
+  },
+  "boss_cutscene_sha_sha_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sha_sha/cutscene_phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.phase"
+  },
+  "boss_cutscene_sovereign_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sovereign/cutscene_death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.death"
+  },
+  "boss_cutscene_sovereign_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sovereign/cutscene_intro",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.intro"
+  },
+  "boss_cutscene_sovereign_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sovereign/cutscene_phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.phase"
+  },
+  "boss_cutscene_twins_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/twins/cutscene_death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.death"
+  },
+  "boss_cutscene_twins_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/twins/cutscene_intro",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.intro"
+  },
+  "boss_cutscene_twins_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/twins/cutscene_phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.phase"
+  },
+  "boss_cutscene_void_lord_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/void_lord/cutscene_death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.death"
+  },
+  "boss_cutscene_void_lord_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/void_lord/cutscene_intro",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.intro"
+  },
+  "boss_cutscene_void_lord_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/void_lord/cutscene_phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.phase"
+  },
+  "boss_cutscene_warden_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/warden/cutscene_death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.death"
+  },
+  "boss_cutscene_warden_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/warden/cutscene_intro",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.intro"
+  },
+  "boss_cutscene_warden_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/warden/cutscene_phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.cutscene.phase"
+  },
+  "boss_roar_eclipse": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/eclipse/roar1",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/eclipse/roar2",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/eclipse/roar3",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.roar.eclipse"
+  },
+  "boss_roar_sha_sha": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sha_sha/roar1",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/sha_sha/roar2",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/sha_sha/roar3",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.roar.sha_sha"
+  },
+  "boss_roar_void_lord": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/void_lord/roar1",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/void_lord/roar2",
+        "stream": false,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumfalcon:boss/void_lord/roar3",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.roar.void_lord"
+  },
+  "boss_voice_eclipse_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/eclipse/voice_death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.eclipse"
+  },
+  "boss_voice_eclipse_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/eclipse/voice_intro",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.eclipse"
+  },
+  "boss_voice_eclipse_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/eclipse/voice_phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.eclipse"
+  },
+  "boss_voice_overseer_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/overseer/voice_death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.overseer"
+  },
+  "boss_voice_overseer_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/overseer/voice_intro",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.overseer"
+  },
+  "boss_voice_overseer_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/overseer/voice_phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.overseer"
+  },
+  "boss_voice_sha_sha_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sha_sha/voice_death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.sha_sha"
+  },
+  "boss_voice_sha_sha_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sha_sha/voice_intro",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.sha_sha"
+  },
+  "boss_voice_sha_sha_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sha_sha/voice_phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.sha_sha"
+  },
+  "boss_voice_sovereign_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sovereign/voice_death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.sovereign"
+  },
+  "boss_voice_sovereign_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sovereign/voice_intro",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.sovereign"
+  },
+  "boss_voice_sovereign_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sovereign/voice_phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.sovereign"
+  },
+  "boss_voice_twins_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/twins/voice_death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.twins"
+  },
+  "boss_voice_twins_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/twins/voice_intro",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.twins"
+  },
+  "boss_voice_twins_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/twins/voice_phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.twins"
+  },
+  "boss_voice_void_lord_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/void_lord/voice_death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.void_lord"
+  },
+  "boss_voice_void_lord_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/void_lord/voice_intro",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.void_lord"
+  },
+  "boss_voice_void_lord_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/void_lord/voice_phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.void_lord"
+  },
+  "boss_voice_warden_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/warden/voice_death",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.warden"
+  },
+  "boss_voice_warden_intro": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/warden/voice_intro",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.warden"
+  },
+  "boss_voice_warden_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/warden/voice_phase",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss.voice.warden"
+  },
+  "boss_windup_eclipse": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/eclipse/windup",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss_windup"
+  },
+  "boss_windup_overseer": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/overseer/windup",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss_windup"
+  },
+  "boss_windup_sha_sha": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sha_sha/windup",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss_windup"
+  },
+  "boss_windup_sovereign": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sovereign/windup",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss_windup"
+  },
+  "boss_windup_twins": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/twins/windup",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss_windup"
+  },
+  "boss_windup_void_lord": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/void_lord/windup",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss_windup"
+  },
+  "boss_windup_warden": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/warden/windup",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.boss_windup"
+  },
+  "entity_construct_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/data_construct/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/data_construct/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.construct.ambient"
+  },
+  "entity_construct_attack": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/data_construct/attack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.construct.attack"
+  },
+  "entity_construct_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/data_construct/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.construct.death"
+  },
+  "entity_construct_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/data_construct/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/data_construct/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.construct.hurt"
+  },
+  "entity_construct_split": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/data_construct/split",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.construct.split"
+  },
+  "entity_construct_step": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/data_construct/step1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/data_construct/step2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.construct.step"
+  },
+  "entity_eclipse_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/eclipse/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/eclipse/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.eclipse.ambient"
+  },
+  "entity_eclipse_attack": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/eclipse/attack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.eclipse.attack"
+  },
+  "entity_eclipse_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/eclipse/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.eclipse.death"
+  },
+  "entity_eclipse_flap": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/eclipse/wing1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/eclipse/wing2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.eclipse.flap"
+  },
+  "entity_eclipse_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/eclipse/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/eclipse/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.eclipse.hurt"
+  },
+  "entity_goblin_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/goblin_trader/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/goblin_trader/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.goblin.ambient"
+  },
+  "entity_goblin_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/goblin_trader/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.goblin.death"
+  },
+  "entity_goblin_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/goblin_trader/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/goblin_trader/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.goblin.hurt"
+  },
+  "entity_goblin_step": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/goblin_trader/step1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/goblin_trader/step2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.goblin.step"
+  },
+  "entity_guardian_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/crystal_guardian/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/crystal_guardian/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.guardian.ambient"
+  },
+  "entity_guardian_attack": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/crystal_guardian/attack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.guardian.attack"
+  },
+  "entity_guardian_crystallize": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/crystal_guardian/crystallize",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.guardian.crystallize"
+  },
+  "entity_guardian_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/crystal_guardian/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.guardian.death"
+  },
+  "entity_guardian_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/crystal_guardian/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/crystal_guardian/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.guardian.hurt"
+  },
+  "entity_guardian_step": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/crystal_guardian/step1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/crystal_guardian/step2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.guardian.step"
+  },
+  "entity_merchant_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_merchant/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/quantum_merchant/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.merchant.ambient"
+  },
+  "entity_merchant_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_merchant/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.merchant.death"
+  },
+  "entity_merchant_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_merchant/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/quantum_merchant/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.merchant.hurt"
+  },
+  "entity_merchant_step": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_merchant/step1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/quantum_merchant/step2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.merchant.step"
+  },
+  "entity_minion_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/rift_warden_minion/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/rift_warden_minion/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.minion.ambient"
+  },
+  "entity_minion_attack": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/rift_warden_minion/attack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.minion.attack"
+  },
+  "entity_minion_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/rift_warden_minion/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.minion.death"
+  },
+  "entity_minion_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/rift_warden_minion/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/rift_warden_minion/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.minion.hurt"
+  },
+  "entity_minion_step": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/rift_warden_minion/step1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/rift_warden_minion/step2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.minion.step"
+  },
+  "entity_overseer_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/overseer/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/overseer/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.overseer.ambient"
+  },
+  "entity_overseer_attack": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/overseer/attack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.overseer.attack"
+  },
+  "entity_overseer_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/overseer/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.overseer.death"
+  },
+  "entity_overseer_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/overseer/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/overseer/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.overseer.hurt"
+  },
+  "entity_overseer_step": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/overseer/step1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/overseer/step2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.overseer.step"
+  },
+  "entity_phantom_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_phantom/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/quantum_phantom/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.phantom.ambient"
+  },
+  "entity_phantom_attack": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_phantom/attack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.phantom.attack"
+  },
+  "entity_phantom_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_phantom/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.phantom.death"
+  },
+  "entity_phantom_flap": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_phantom/flap1",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.phantom.flap"
+  },
+  "entity_phantom_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_phantom/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/quantum_phantom/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.phantom.hurt"
+  },
+  "entity_sha_sha_attack": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sha_sha/attack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sha_sha.attack"
+  },
+  "entity_sha_sha_step": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sha_sha/step1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/sha_sha/step2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sha_sha.step"
+  },
+  "entity_sovereign_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sovereign/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/sovereign/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sovereign.ambient"
+  },
+  "entity_sovereign_attack": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sovereign/attack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sovereign.attack"
+  },
+  "entity_sovereign_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sovereign/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sovereign.death"
+  },
+  "entity_sovereign_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sovereign/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/sovereign/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sovereign.hurt"
+  },
+  "entity_sovereign_step": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/sovereign/step1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/sovereign/step2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sovereign.step"
+  },
+  "entity_stalker_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_stalker/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/quantum_stalker/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.stalker.ambient"
+  },
+  "entity_stalker_attack": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_stalker/attack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.stalker.attack"
+  },
+  "entity_stalker_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_stalker/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.stalker.death"
+  },
+  "entity_stalker_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_stalker/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/quantum_stalker/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.stalker.hurt"
+  },
+  "entity_stalker_phase": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_stalker/phase",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.stalker.phase"
+  },
+  "entity_stalker_step": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/quantum_stalker/step1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/quantum_stalker/step2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.stalker.step"
+  },
+  "entity_twins_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/twins/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/twins/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.twins.ambient"
+  },
+  "entity_twins_attack": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/twins/attack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.twins.attack"
+  },
+  "entity_twins_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/twins/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.twins.death"
+  },
+  "entity_twins_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/twins/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/twins/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.twins.hurt"
+  },
+  "entity_twins_step": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/twins/step1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/twins/step2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.twins.step"
+  },
+  "entity_void_echo_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/void_echo/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/void_echo/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.void_echo.ambient"
+  },
+  "entity_void_echo_attack": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/void_echo/attack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.void_echo.attack"
+  },
+  "entity_void_echo_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/void_echo/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.void_echo.death"
+  },
+  "entity_void_echo_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/void_echo/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/void_echo/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.void_echo.hurt"
+  },
+  "entity_void_echo_step": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/void_echo/step1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/void_echo/step2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.void_echo.step"
+  },
+  "entity_void_echo_teleport": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/void_echo/teleport",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.void_echo.teleport"
+  },
+  "entity_void_lord_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/void_lord/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/void_lord/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.void_lord.ambient"
+  },
+  "entity_void_lord_attack": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/void_lord/attack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.void_lord.attack"
+  },
+  "entity_void_lord_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/void_lord/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.void_lord.death"
+  },
+  "entity_void_lord_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/void_lord/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/void_lord/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.void_lord.hurt"
+  },
+  "entity_void_lord_step": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/void_lord/step1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/void_lord/step2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.void_lord.step"
+  },
+  "entity_warden_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/warden/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/warden/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.warden.ambient"
+  },
+  "entity_warden_attack": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/warden/attack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.warden.attack"
+  },
+  "entity_warden_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/warden/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.warden.death"
+  },
+  "entity_warden_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/warden/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/warden/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.warden.hurt"
+  },
+  "entity_warden_step": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:boss/warden/step1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:boss/warden/step2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.warden.step"
+  },
+  "entity_wisp_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/wisp/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/wisp/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.wisp.ambient"
+  },
+  "entity_wisp_attack": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/wisp/attack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.wisp.attack"
+  },
+  "entity_wisp_bottle": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/wisp/bottle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.wisp.bottle"
+  },
+  "entity_wisp_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/wisp/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.wisp.death"
+  },
+  "entity_wisp_flap": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/wisp/flap1",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.wisp.flap"
+  },
+  "entity_wisp_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/wisp/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/wisp/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.wisp.hurt"
+  },
+  "gravity_black_hole": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:gravity/black_hole_form",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.gravity.black_hole"
+  },
+  "incubator_complete": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:block/incubator_complete",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.block.incubator_complete"
+  },
+  "incubator_hum": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:block/incubator_hum",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.block.incubator"
+  },
+  "instability_rupture": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:instability/rupture1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:instability/rupture2",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:instability/rupture3",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.instability.critical"
+  },
+  "quantum_ore_break": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:quantum/ore_break1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:quantum/ore_break2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.quantum.spark"
+  },
+  "rift_shatter": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:rift/shatter1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:rift/shatter2",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:rift/shatter3",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.rift.shatter"
+  },
+  "sha_sha_ambient": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/sha_sha/ambient1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/sha_sha/ambient2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sha_sha.ambient"
+  },
+  "sha_sha_blink": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/sha_sha/blink",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sha_sha.blink"
+  },
+  "sha_sha_death": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/sha_sha/death",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sha_sha.death"
+  },
+  "sha_sha_hurt": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/sha_sha/hurt1",
+        "stream": false
+      },
+      {
+        "name": "quantumfalcon:entity/sha_sha/hurt2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sha_sha.hurt"
+  },
+  "sha_sha_slam": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:entity/sha_sha/slam",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.entity.sha_sha.slam"
+  },
+  "ui_click": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:ui/click",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.ui.click"
+  },
+  "ui_tab": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:ui/tab",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.ui.tab"
+  },
+  "weather_quantum_sleet": {
+    "sounds": [
+      {
+        "name": "quantumfalcon:weather/quantum_sleet",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.quantumfalcon.weather.quantum_storm"
+  }
+}

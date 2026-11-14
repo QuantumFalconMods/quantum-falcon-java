@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=x": { "model": "quantumfalcon:block/rift_portal", "x": 90 },
+    "axis=y": { "model": "quantumfalcon:block/rift_portal" },
+    "axis=z": { "model": "quantumfalcon:block/rift_portal", "x": 90, "y": 90 }
+  }
+}

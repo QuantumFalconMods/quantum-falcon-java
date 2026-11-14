@@ -1,0 +1,106 @@
+{
+ "variants": {
+  "axis=y": [
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then",
+    "weight": 4
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then",
+    "y": 180,
+    "weight": 4
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then_v1",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then_v1",
+    "y": 180,
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then_v2",
+    "weight": 1
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then_v2",
+    "y": 180,
+    "weight": 1
+   }
+  ],
+  "axis=x": [
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then",
+    "x": 90,
+    "y": 90,
+    "weight": 4
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then",
+    "x": 90,
+    "y": 270,
+    "weight": 4
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then_v1",
+    "x": 90,
+    "y": 90,
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then_v1",
+    "x": 90,
+    "y": 270,
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then_v2",
+    "x": 90,
+    "y": 90,
+    "weight": 1
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then_v2",
+    "x": 90,
+    "y": 270,
+    "weight": 1
+   }
+  ],
+  "axis=z": [
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then",
+    "x": 90,
+    "weight": 4
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then",
+    "x": 90,
+    "y": 180,
+    "weight": 4
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then_v1",
+    "x": 90,
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then_v1",
+    "x": 90,
+    "y": 180,
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then_v2",
+    "x": 90,
+    "weight": 1
+   },
+   {
+    "model": "quantumfalcon:block/frozen_hours/riftslate_pillar_then_v2",
+    "x": 90,
+    "y": 180,
+    "weight": 1
+   }
+  ]
+ }
+}

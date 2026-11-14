@@ -1,0 +1,10 @@
+{
+ "type": "minecraft:stonecutting",
+ "ingredient": {
+  "item": "quantumfalcon:aurorite"
+ },
+ "result": {
+  "id": "quantumfalcon:polished_aurorite_stairs",
+  "count": 1
+ }
+}

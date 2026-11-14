@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:quantum_stone",
+    {
+      "id": "quantumfalcon:echo_stone",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:void_stone",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:singularity_stone",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:quantum_grass_block",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:quantum_dirt",
+      "required": false
+    }
+  ]
+}

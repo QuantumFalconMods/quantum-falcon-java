@@ -1,0 +1,87 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:void_shard",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:rift_crystal",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:reality_fragment",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:temporal_dust",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:falcon_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "quantumfalcon:wild_egg",
+              "min_tier": 2,
+              "max_tier": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:void_essence",
+          "weight": 6
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.4
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:falcon_egg",
+          "functions": [
+            {
+              "function": "quantumfalcon:wild_egg",
+              "min_tier": 3,
+              "max_tier": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.6
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:rift_ember"
+        }
+      ]
+    }
+  ]
+}

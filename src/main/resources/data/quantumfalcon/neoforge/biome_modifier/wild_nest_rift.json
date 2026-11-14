@@ -1,0 +1,6 @@
+{
+ "type": "neoforge:add_features",
+ "biomes": "#quantumfalcon:echo_rift_biomes",
+ "features": "quantumfalcon:wild_nest_rift",
+ "step": "vegetal_decoration"
+}

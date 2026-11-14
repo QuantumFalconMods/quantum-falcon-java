@@ -1,0 +1,37 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "building",
+ "ingredients": [
+  {
+   "item": "quantumfalcon:carved_riftslate_lore_panel"
+  },
+  {
+   "item": "quantumfalcon:carved_riftslate_lore_panel"
+  },
+  {
+   "item": "quantumfalcon:carved_riftslate_lore_panel"
+  },
+  {
+   "item": "quantumfalcon:carved_riftslate_lore_panel"
+  },
+  {
+   "item": "quantumfalcon:carved_riftslate_lore_panel"
+  },
+  {
+   "item": "quantumfalcon:carved_riftslate_lore_panel"
+  },
+  {
+   "item": "quantumfalcon:carved_riftslate_lore_panel"
+  },
+  {
+   "item": "quantumfalcon:carved_riftslate_lore_panel"
+  },
+  {
+   "item": "quantumfalcon:temporal_dust"
+  }
+ ],
+ "result": {
+  "id": "quantumfalcon:carved_riftslate_lore_panel_then",
+  "count": 8
+ }
+}

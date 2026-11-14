@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "quantumfalcon:temporal_fragment"
+  },
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "addition": {
+    "item": "quantumfalcon:singularity_ingot"
+  },
+  "result": {
+    "id": "quantumfalcon:singularity_shovel",
+    "count": 1
+  }
+}

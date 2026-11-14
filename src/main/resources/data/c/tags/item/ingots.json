@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:chaos_ingot",
+    "quantumfalcon:crystal_ingot",
+    "quantumfalcon:echo_ingot",
+    "quantumfalcon:phase_ingot",
+    "quantumfalcon:quantum_ingot",
+    "quantumfalcon:resonance_ingot",
+    "quantumfalcon:temporal_ingot",
+    "quantumfalcon:void_ingot"
+  ]
+}

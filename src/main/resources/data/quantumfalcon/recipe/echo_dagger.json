@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  E",
+    " C ",
+    "S  "
+  ],
+  "key": {
+    "E": {
+      "item": "quantumfalcon:echo_ingot"
+    },
+    "C": {
+      "item": "quantumfalcon:echo_crystal"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:echo_dagger",
+    "count": 1
+  }
+}

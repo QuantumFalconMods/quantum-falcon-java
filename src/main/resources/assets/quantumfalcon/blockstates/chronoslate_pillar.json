@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "axis=y": {
+   "model": "quantumfalcon:block/chronoslate_pillar"
+  },
+  "axis=z": {
+   "model": "quantumfalcon:block/chronoslate_pillar",
+   "x": 90
+  },
+  "axis=x": {
+   "model": "quantumfalcon:block/chronoslate_pillar",
+   "x": 90,
+   "y": 90
+  }
+ }
+}

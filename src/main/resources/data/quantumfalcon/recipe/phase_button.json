@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "quantumfalcon:phase_planks"
+    }
+  ],
+  "result": {
+    "id": "quantumfalcon:phase_button",
+    "count": 1
+  }
+}

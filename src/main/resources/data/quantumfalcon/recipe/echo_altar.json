@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "EEE",
+    "PCP",
+    "PPP"
+  ],
+  "key": {
+    "E": {
+      "item": "quantumfalcon:echo_shard"
+    },
+    "P": {
+      "item": "quantumfalcon:polished_riftslate"
+    },
+    "C": {
+      "item": "quantumfalcon:quantum_core"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:echo_altar",
+    "count": 1
+  }
+}

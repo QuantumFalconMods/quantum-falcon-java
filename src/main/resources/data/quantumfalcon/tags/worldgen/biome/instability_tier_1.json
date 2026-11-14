@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:distortion_plains",
+    "quantumfalcon:echo_caverns",
+    "quantumfalcon:echo_depths",
+    "quantumfalcon:echo_mountains",
+    "quantumfalcon:entangled_mangrove",
+    "quantumfalcon:frequency_peaks",
+    "quantumfalcon:harmonic_grove",
+    "quantumfalcon:phase_shifted_forest",
+    "quantumfalcon:probability_desert",
+    "quantumfalcon:resonance_caves",
+    "quantumfalcon:temporal_anomaly",
+    "quantumfalcon:temporal_shores",
+    "quantumfalcon:wave_collapse_zone"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:crystal_caves",
+    "quantumfalcon:crystalline_peaks",
+    "quantumfalcon:prismatic_meadow",
+    "quantumfalcon:harmonic_grove",
+    "quantumfalcon:frequency_peaks",
+    "quantumfalcon:resonance_caves"
+  ]
+}

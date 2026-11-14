@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "quantumfalcon:echo_chamber",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 83240358,
+    "spacing": 28,
+    "separation": 10
+  }
+}

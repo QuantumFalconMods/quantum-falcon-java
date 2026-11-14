@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "S",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "quantumfalcon:quantum_stone_bricks"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:quantum_pillar",
+    "count": 2
+  }
+}

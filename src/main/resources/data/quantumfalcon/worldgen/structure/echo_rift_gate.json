@@ -1,0 +1,26 @@
+{
+  "type": "quantumfalcon:utility_structure",
+  "utility_type": "ECHO_RIFT_GATE",
+  "biomes": "#quantumfalcon:has_structure/echo_rift_gate",
+  "step": "surface_structures",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "quantumfalcon:void_echo",
+          "weight": 3,
+          "minCount": 2,
+          "maxCount": 4
+        },
+        {
+          "type": "quantumfalcon:data_construct",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ]
+    }
+  },
+  "terrain_adaptation": "beard_thin"
+}

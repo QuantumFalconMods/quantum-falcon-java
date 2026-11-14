@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "quantumfalcon:entity/equipment/void_forged_outer"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "quantumfalcon:entity/equipment/void_forged_inner"
+      }
+    ]
+  }
+}

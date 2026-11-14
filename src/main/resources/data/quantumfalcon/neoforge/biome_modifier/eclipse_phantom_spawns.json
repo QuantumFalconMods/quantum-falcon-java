@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "quantumfalcon:shadow_realm",
+    "quantumfalcon:negative_space"
+  ],
+  "spawners": {
+    "type": "quantumfalcon:eclipse_phantom",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quantumfalcon:cinderite_neon_trim"
+  },
+  "result": {
+    "id": "quantumfalcon:cinderite_neon_trim_slab",
+    "count": 2
+  }
+}

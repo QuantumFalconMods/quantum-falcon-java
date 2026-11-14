@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:quantum_crystal",
+    {
+      "id": "quantumfalcon:prismatic_fish",
+      "required": false
+    },
+    "quantumfalcon:quantum_berry",
+    "minecraft:golden_apple",
+    "minecraft:enchanted_golden_apple"
+  ]
+}

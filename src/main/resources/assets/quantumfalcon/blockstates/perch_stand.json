@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,hooded=false": {
+      "model": "quantumfalcon:block/perch_stand"
+    },
+    "facing=north,hooded=true": {
+      "model": "quantumfalcon:block/perch_stand_hooded"
+    },
+    "facing=east,hooded=false": {
+      "model": "quantumfalcon:block/perch_stand",
+      "y": 90
+    },
+    "facing=east,hooded=true": {
+      "model": "quantumfalcon:block/perch_stand_hooded",
+      "y": 90
+    },
+    "facing=south,hooded=false": {
+      "model": "quantumfalcon:block/perch_stand",
+      "y": 180
+    },
+    "facing=south,hooded=true": {
+      "model": "quantumfalcon:block/perch_stand_hooded",
+      "y": 180
+    },
+    "facing=west,hooded=false": {
+      "model": "quantumfalcon:block/perch_stand",
+      "y": 270
+    },
+    "facing=west,hooded=true": {
+      "model": "quantumfalcon:block/perch_stand_hooded",
+      "y": 270
+    }
+  }
+}

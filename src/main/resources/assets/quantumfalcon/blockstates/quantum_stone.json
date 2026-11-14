@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      { "model": "quantumfalcon:block/quantum_stone_variant_0" },
+      { "model": "quantumfalcon:block/quantum_stone_variant_1" },
+      { "model": "quantumfalcon:block/quantum_stone_variant_2" }
+    ]
+  }
+}

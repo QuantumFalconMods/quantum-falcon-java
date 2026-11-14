@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "#",
+  "B"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:polished_voidshale"
+  },
+  "B": {
+   "item": "minecraft:paper"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:carved_voidshale_lore_panel",
+  "count": 2
+ }
+}

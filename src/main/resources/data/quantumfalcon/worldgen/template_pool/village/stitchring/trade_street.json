@@ -1,0 +1,14 @@
+{
+  "fallback": "quantumfalcon:village/stitchring/terminators",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "quantumfalcon:village/stitchring/street_trade",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

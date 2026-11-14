@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "FCF",
+    "WWW"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "C": {
+      "item": "quantumfalcon:quantum_crystal"
+    },
+    "W": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "quantumfalcon:quantum_nest"
+  }
+}

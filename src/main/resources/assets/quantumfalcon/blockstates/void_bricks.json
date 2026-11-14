@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "": [
+   {
+    "model": "quantumfalcon:block/void_bricks",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/void_bricks_variant_0",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/void_bricks_variant_1",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/void_bricks_variant_2",
+    "weight": 1
+   }
+  ]
+ }
+}

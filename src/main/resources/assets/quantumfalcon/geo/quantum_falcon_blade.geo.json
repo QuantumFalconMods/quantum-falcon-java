@@ -1,0 +1,174 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.quantum_falcon_blade",
+        "texture_width": 32,
+        "texture_height": 32,
+        "visible_bounds_width": 6,
+        "visible_bounds_height": 8,
+        "visible_bounds_offset": [
+          0,
+          4.0,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "blade",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "parent": "root",
+          "cubes": [
+            {
+              "origin": [
+                -1,
+                0,
+                -1
+              ],
+              "size": [
+                2,
+                20,
+                2
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -0.5,
+                18,
+                -0.5
+              ],
+              "size": [
+                1,
+                4,
+                1
+              ],
+              "uv": [
+                8,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "guard",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "parent": "root",
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                -1,
+                -1
+              ],
+              "size": [
+                8,
+                2,
+                2
+              ],
+              "uv": [
+                0,
+                22
+              ]
+            },
+            {
+              "origin": [
+                -6,
+                -1,
+                -0.5
+              ],
+              "size": [
+                2,
+                3,
+                1
+              ],
+              "uv": [
+                16,
+                22
+              ]
+            },
+            {
+              "origin": [
+                4,
+                -1,
+                -0.5
+              ],
+              "size": [
+                2,
+                3,
+                1
+              ],
+              "uv": [
+                16,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "name": "handle",
+          "pivot": [
+            0,
+            -6,
+            0
+          ],
+          "parent": "root",
+          "cubes": [
+            {
+              "origin": [
+                -1,
+                -7,
+                -1
+              ],
+              "size": [
+                2,
+                6,
+                2
+              ],
+              "uv": [
+                0,
+                26
+              ]
+            },
+            {
+              "origin": [
+                -1.5,
+                -8,
+                -1.5
+              ],
+              "size": [
+                3,
+                1,
+                3
+              ],
+              "uv": [
+                8,
+                26
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

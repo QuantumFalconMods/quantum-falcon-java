@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "quantumfalcon:resonance_ingot"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:resonance_leggings"
+  }
+}

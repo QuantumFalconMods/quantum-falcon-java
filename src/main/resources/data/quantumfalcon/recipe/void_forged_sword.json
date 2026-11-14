@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " S ",
+    " I "
+  ],
+  "key": {
+    "S": {
+      "item": "quantumfalcon:purple_ingot"
+    },
+    "I": {
+      "item": "quantumfalcon:purple_ingot"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:purple_sword"
+  }
+}

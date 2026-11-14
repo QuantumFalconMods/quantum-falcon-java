@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:quantum_ore",
+    {
+      "id": "quantumfalcon:rift_ore",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:void_ore",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:temporal_ore",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:echo_ore",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:singularity_ore",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:chaos_ore",
+      "required": false
+    }
+  ]
+}

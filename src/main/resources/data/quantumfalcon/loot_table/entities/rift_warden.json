@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:wardens_fragment",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": { "min": 4, "max": 8 },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:rift_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 2, "max": 4 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": { "min": 1, "max": 2 },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:reality_fragment"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 2 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 8
+        }
+      ]
+    }
+  ]
+}

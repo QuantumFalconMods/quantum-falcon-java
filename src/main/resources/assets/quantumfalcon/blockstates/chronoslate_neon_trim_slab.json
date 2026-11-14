@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "quantumfalcon:block/chronoslate_neon_trim_slab"
+    },
+    "type=top": {
+      "model": "quantumfalcon:block/chronoslate_neon_trim_slab_top"
+    },
+    "type=double": {
+      "model": "quantumfalcon:block/chronoslate_neon_trim"
+    }
+  }
+}

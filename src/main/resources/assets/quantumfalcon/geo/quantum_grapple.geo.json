@@ -1,0 +1,115 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.quantum_grapple",
+        "texture_width": 32,
+        "texture_height": 16,
+        "visible_bounds_width": 6,
+        "visible_bounds_height": 8,
+        "visible_bounds_offset": [
+          0,
+          4.0,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "body",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "parent": "root",
+          "cubes": [
+            {
+              "origin": [
+                -2,
+                -2,
+                -1.5
+              ],
+              "size": [
+                4,
+                6,
+                3
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -1,
+                4,
+                -1
+              ],
+              "size": [
+                2,
+                3,
+                2
+              ],
+              "uv": [
+                14,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hook",
+          "pivot": [
+            0,
+            7,
+            0
+          ],
+          "parent": "body",
+          "cubes": [
+            {
+              "origin": [
+                -1.5,
+                6,
+                -0.5
+              ],
+              "size": [
+                3,
+                2,
+                1
+              ],
+              "uv": [
+                0,
+                9
+              ]
+            },
+            {
+              "origin": [
+                0.5,
+                7,
+                -0.5
+              ],
+              "size": [
+                2,
+                2,
+                1
+              ],
+              "uv": [
+                6,
+                9
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

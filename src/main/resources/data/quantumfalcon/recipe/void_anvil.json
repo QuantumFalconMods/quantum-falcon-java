@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "VVV",
+    " A ",
+    "OOO"
+  ],
+  "key": {
+    "V": {
+      "item": "quantumfalcon:void_steel_ingot"
+    },
+    "A": {
+      "item": "minecraft:anvil"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:void_anvil",
+    "count": 1
+  }
+}

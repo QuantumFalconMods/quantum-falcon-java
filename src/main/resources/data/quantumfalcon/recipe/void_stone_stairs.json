@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "quantumfalcon:void_stone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "quantumfalcon:void_stone_stairs"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "quantumfalcon:phase_crystal"
+    }
+  ],
+  "result": {
+    "id": "quantumfalcon:phase_shard",
+    "count": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "III",
+    "IMI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:packed_ice"
+    },
+    "M": {
+      "item": "quantumfalcon:aurora_shard"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:aurora_ice",
+    "count": 8
+  }
+}

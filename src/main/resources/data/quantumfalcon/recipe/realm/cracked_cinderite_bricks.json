@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:smelting",
+ "category": "blocks",
+ "ingredient": {
+  "item": "quantumfalcon:cinderite_bricks"
+ },
+ "result": {
+  "id": "quantumfalcon:cracked_cinderite_bricks"
+ },
+ "experience": 0.1,
+ "cookingtime": 200
+}

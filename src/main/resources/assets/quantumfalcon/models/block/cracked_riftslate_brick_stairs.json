@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "quantumfalcon:block/realm/riftslate/cracked_bricks",
+    "top": "quantumfalcon:block/realm/riftslate/cracked_bricks",
+    "side": "quantumfalcon:block/realm/riftslate/cracked_bricks"
+  }
+}

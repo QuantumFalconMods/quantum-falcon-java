@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:chaos_stairs",
+    "quantumfalcon:crystal_stairs",
+    "quantumfalcon:echo_stairs",
+    "quantumfalcon:phase_stairs",
+    "quantumfalcon:quantum_stairs",
+    "quantumfalcon:resonance_stairs",
+    "quantumfalcon:temporal_stairs",
+    "quantumfalcon:void_stairs"
+  ]
+}

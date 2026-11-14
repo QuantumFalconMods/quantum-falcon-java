@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "quantumfalcon:block/temporal_slab"
+    },
+    "type=top": {
+      "model": "quantumfalcon:block/temporal_slab_top"
+    },
+    "type=double": {
+      "model": "quantumfalcon:block/temporal_planks"
+    }
+  }
+}

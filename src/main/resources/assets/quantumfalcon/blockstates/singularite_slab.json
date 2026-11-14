@@ -1,0 +1,13 @@
+{
+ "variants": {
+  "type=bottom": {
+   "model": "quantumfalcon:block/singularite_slab"
+  },
+  "type=top": {
+   "model": "quantumfalcon:block/singularite_slab_top"
+  },
+  "type=double": {
+   "model": "quantumfalcon:block/singularite"
+  }
+ }
+}

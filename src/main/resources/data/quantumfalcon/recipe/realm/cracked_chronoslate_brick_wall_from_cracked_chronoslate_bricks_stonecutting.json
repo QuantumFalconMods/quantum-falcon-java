@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quantumfalcon:cracked_chronoslate_bricks"
+  },
+  "result": {
+    "id": "quantumfalcon:cracked_chronoslate_brick_wall",
+    "count": 1
+  }
+}

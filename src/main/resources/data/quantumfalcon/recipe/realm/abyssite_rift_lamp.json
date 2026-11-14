@@ -1,0 +1,24 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "#G#",
+  "GCG",
+  "#G#"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:polished_abyssite"
+  },
+  "G": {
+   "item": "minecraft:glowstone_dust"
+  },
+  "C": {
+   "item": "quantumfalcon:echo_shard"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:abyssite_rift_lamp",
+  "count": 4
+ }
+}

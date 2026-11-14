@@ -1,0 +1,8 @@
+{
+  "type": "quantumfalcon:utility_structure",
+  "utility_type": "QUANTUM_WELL",
+  "biomes": "#quantumfalcon:has_structure/quantum_well",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

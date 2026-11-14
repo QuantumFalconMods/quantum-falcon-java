@@ -1,0 +1,15 @@
+{
+  "animation": {
+    "frametime": 1,
+    "interpolate": false,
+    "width": 3,
+    "height": 12
+  },
+  "gui": {
+    "scaling": {
+      "type": "tile",
+      "width": 3,
+      "height": 12
+    }
+  }
+}

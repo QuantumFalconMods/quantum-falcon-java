@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "CC",
+  "CC"
+ ],
+ "key": {
+  "C": {
+   "item": "quantumfalcon:magenta_gem"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:prismite_crystal_cluster",
+  "count": 1
+ }
+}

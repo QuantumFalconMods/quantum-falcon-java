@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "quantumfalcon:quantum_guardian_arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 18473621,
+    "spacing": 20,
+    "separation": 8,
+    "exclusion_zone": {
+      "other_set": "quantumfalcon:echo_dungeons",
+      "chunk_count": 4
+    }
+  }
+}

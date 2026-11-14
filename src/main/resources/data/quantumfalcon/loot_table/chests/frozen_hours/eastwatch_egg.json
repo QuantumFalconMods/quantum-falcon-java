@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:chest",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "quantumfalcon:falcon_egg",
+     "functions": [
+      {
+       "function": "quantumfalcon:wild_egg",
+       "min_tier": 3,
+       "max_tier": 4
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:dungeon_riftslate",
+    "quantumfalcon:dungeon_aurorite",
+    "quantumfalcon:dungeon_prismite",
+    "quantumfalcon:dungeon_cinderite",
+    "quantumfalcon:dungeon_chronoslate",
+    "quantumfalcon:dungeon_abyssite",
+    "quantumfalcon:dungeon_voidshale",
+    "quantumfalcon:dungeon_singularite",
+    "quantumfalcon:dungeon_overworld_riftslate",
+    "quantumfalcon:dungeon_overworld_aurorite",
+    "quantumfalcon:dungeon_nether_cinderite",
+    "quantumfalcon:dungeon_end_voidshale",
+    "quantumfalcon:eastwatch_aerie"
+  ]
+}

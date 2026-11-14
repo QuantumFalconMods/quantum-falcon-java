@@ -1,0 +1,181 @@
+{
+ "parent": "minecraft:block/block",
+ "textures": {
+  "particle": "quantumfalcon:block/dungeon/danger_sign_side",
+  "front": "quantumfalcon:block/dungeon/danger_sign_rare",
+  "side": "quantumfalcon:block/dungeon/danger_sign_side",
+  "back": "quantumfalcon:block/dungeon/danger_sign_back",
+  "particle_glow": "quantumfalcon:block/dungeon/danger_sign_side_glow",
+  "front_glow": "quantumfalcon:block/dungeon/danger_sign_rare_glow",
+  "side_glow": "quantumfalcon:block/dungeon/danger_sign_side_glow",
+  "back_glow": "quantumfalcon:block/dungeon/danger_sign_back_glow"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    0,
+    14
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#front"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#back",
+     "cullface": "south"
+    },
+    "east": {
+     "uv": [
+      14,
+      0,
+      16,
+      16
+     ],
+     "texture": "#side"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      2,
+      16
+     ],
+     "texture": "#side"
+    },
+    "up": {
+     "uv": [
+      0,
+      14,
+      16,
+      16
+     ],
+     "texture": "#side"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      16,
+      2
+     ],
+     "texture": "#side"
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    0,
+    14
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#front_glow"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#back_glow",
+     "cullface": "south"
+    },
+    "east": {
+     "uv": [
+      14,
+      0,
+      16,
+      16
+     ],
+     "texture": "#side_glow"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      2,
+      16
+     ],
+     "texture": "#side_glow"
+    },
+    "up": {
+     "uv": [
+      0,
+      14,
+      16,
+      16
+     ],
+     "texture": "#side_glow"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      16,
+      2
+     ],
+     "texture": "#side_glow"
+    }
+   }
+  }
+ ],
+ "display": {
+  "gui": {
+   "rotation": [
+    0,
+    180,
+    0
+   ],
+   "scale": [
+    0.8,
+    0.8,
+    0.8
+   ]
+  },
+  "fixed": {
+   "rotation": [
+    0,
+    180,
+    0
+   ]
+  }
+ },
+ "render_type": "minecraft:cutout"
+}

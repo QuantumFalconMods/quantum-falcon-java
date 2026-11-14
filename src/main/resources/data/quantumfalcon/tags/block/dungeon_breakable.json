@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cobweb",
+    "minecraft:skeleton_skull",
+    "minecraft:spawner",
+    "minecraft:chest",
+    "minecraft:torch",
+    "minecraft:wall_torch",
+    "minecraft:soul_torch",
+    "minecraft:soul_wall_torch",
+    "minecraft:lantern",
+    "minecraft:soul_lantern",
+    "quantumfalcon:void_tendrils",
+    "quantumfalcon:crystal_vine",
+    "quantumfalcon:secret_wall",
+    {"id": "quantumfalcon:riftslate_crystal_cluster", "required": false},
+    {"id": "quantumfalcon:aurorite_crystal_cluster", "required": false},
+    {"id": "quantumfalcon:prismite_crystal_cluster", "required": false},
+    {"id": "quantumfalcon:cinderite_crystal_cluster", "required": false},
+    {"id": "quantumfalcon:chronoslate_crystal_cluster", "required": false},
+    {"id": "quantumfalcon:abyssite_crystal_cluster", "required": false},
+    {"id": "quantumfalcon:voidshale_crystal_cluster", "required": false},
+    {"id": "quantumfalcon:singularite_crystal_cluster", "required": false}
+  ]
+}

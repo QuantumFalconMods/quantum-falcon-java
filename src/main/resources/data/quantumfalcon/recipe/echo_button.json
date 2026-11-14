@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "quantumfalcon:echo_planks"
+    }
+  ],
+  "result": {
+    "id": "quantumfalcon:echo_button",
+    "count": 1
+  }
+}

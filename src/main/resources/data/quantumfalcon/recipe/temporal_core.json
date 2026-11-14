@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GDG",
+    "DQD",
+    "GDG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "D": {
+      "item": "quantumfalcon:temporal_dust"
+    },
+    "Q": {
+      "item": "quantumfalcon:quantum_core"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:temporal_core",
+    "count": 1
+  }
+}

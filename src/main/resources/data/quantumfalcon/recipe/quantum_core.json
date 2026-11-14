@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SDS",
+    "DED",
+    "SDS"
+  ],
+  "key": {
+    "S": {
+      "item": "quantumfalcon:quantum_shard"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "quantumfalcon:quantum_core"
+  }
+}

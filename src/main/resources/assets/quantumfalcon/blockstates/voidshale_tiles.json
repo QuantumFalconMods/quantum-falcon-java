@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "": [
+   {
+    "model": "quantumfalcon:block/voidshale_tiles",
+    "weight": 3
+   },
+   {
+    "model": "quantumfalcon:block/voidshale_tiles_v1",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/voidshale_tiles_v2",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/voidshale_tiles_v3",
+    "weight": 1
+   }
+  ]
+ }
+}

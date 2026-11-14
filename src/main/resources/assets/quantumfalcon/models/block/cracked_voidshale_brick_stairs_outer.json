@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "quantumfalcon:block/realm/voidshale/cracked_bricks",
+    "top": "quantumfalcon:block/realm/voidshale/cracked_bricks",
+    "side": "quantumfalcon:block/realm/voidshale/cracked_bricks"
+  }
+}

@@ -1,0 +1,24 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "S S",
+  "FHF",
+  "SSS"
+ ],
+ "key": {
+  "S": {
+   "item": "minecraft:stick"
+  },
+  "F": {
+   "item": "quantumfalcon:falcon_feather"
+  },
+  "H": {
+   "item": "minecraft:hay_block"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:twig_nest",
+  "count": 1
+ }
+}

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:quantum_berry",
+    "quantumfalcon:shiny_charm",
+    {
+      "id": "quantumfalcon:destiny_knot",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:oval_charm",
+      "required": false
+    },
+    {
+      "id": "#quantumfalcon:power_items",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:quantum_feed",
+      "required": false
+    }
+  ]
+}

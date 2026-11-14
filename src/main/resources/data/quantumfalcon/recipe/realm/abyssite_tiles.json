@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "##",
+  "##"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:abyssite_bricks"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:abyssite_tiles",
+  "count": 4
+ }
+}

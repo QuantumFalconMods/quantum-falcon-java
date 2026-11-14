@@ -1,0 +1,30 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "SCS",
+  "GNG",
+  "TTT"
+ ],
+ "key": {
+  "S": {
+   "item": "quantumfalcon:singularity_shard"
+  },
+  "C": {
+   "item": "quantumfalcon:quantum_core"
+  },
+  "G": {
+   "item": "quantumfalcon:singularite_rift_lamp"
+  },
+  "N": {
+   "item": "quantumfalcon:voidforged_nest"
+  },
+  "T": {
+   "item": "quantumfalcon:singularite_tiles"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:quantum_aerie",
+  "count": 1
+ }
+}

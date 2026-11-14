@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quantumfalcon:phase_stone"
+  },
+  "result": {
+    "id": "quantumfalcon:phase_stone_bricks"
+  },
+  "count": 1
+}

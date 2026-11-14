@@ -1,0 +1,5 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#quantumfalcon:falcon_spawns_overworld",
+  "spawners": { "type": "quantumfalcon:quantum_falcon", "weight": 3, "minCount": 1, "maxCount": 2 }
+}

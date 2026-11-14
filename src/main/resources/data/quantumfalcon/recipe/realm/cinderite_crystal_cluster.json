@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "CC",
+  "CC"
+ ],
+ "key": {
+  "C": {
+   "item": "minecraft:blaze_powder"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:cinderite_crystal_cluster",
+  "count": 1
+ }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "quantumfalcon:story/defeat_overseer",
+  "display": {
+    "icon": {
+      "item": "quantumfalcon:wardens_fragment"
+    },
+    "title": {
+      "translate": "advancements.quantumfalcon.defeat_warden.title",
+      "fallback": "Guardian Broken"
+    },
+    "description": {
+      "translate": "advancements.quantumfalcon.defeat_warden.description",
+      "fallback": "Defeat the Rift Warden"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "killed_warden": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "quantumfalcon:rift_warden"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+}

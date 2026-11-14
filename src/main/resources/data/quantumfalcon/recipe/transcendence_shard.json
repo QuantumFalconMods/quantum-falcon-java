@@ -1,0 +1,11 @@
+{
+  "type": "quantumfalcon:bound_relic",
+  "category": "misc",
+  "pattern": ["SVS", "VGV", "SVS"],
+  "key": {
+    "S": {"item": "quantumfalcon:singularity_fragment"},
+    "V": {"item": "quantumfalcon:void_stone"},
+    "G": {"item": "quantumfalcon:reality_gem"}
+  },
+  "result": {"id": "quantumfalcon:transcendence_shard", "count": 1}
+}

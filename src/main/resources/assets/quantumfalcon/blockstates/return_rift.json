@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "quantumfalcon:block/dungeon/return_rift"
+    }
+  }
+}

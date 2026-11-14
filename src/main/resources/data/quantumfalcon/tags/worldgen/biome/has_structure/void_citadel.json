@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    "minecraft:taiga",
+    "minecraft:dark_forest",
+    "minecraft:desert",
+    "minecraft:badlands",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:jagged_peaks",
+    "minecraft:frozen_peaks",
+    "minecraft:stony_peaks",
+    "minecraft:dripstone_caves",
+    "minecraft:deep_dark",
+    {
+      "id": "#c:is_overworld",
+      "required": false
+    },
+    "#quantumfalcon:instability_tier_2"
+  ]
+}

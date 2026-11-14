@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R R",
+    " C ",
+    " B "
+  ],
+  "key": {
+    "R": {
+      "item": "quantumfalcon:rift_shard"
+    },
+    "C": {
+      "item": "quantumfalcon:quantum_core"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "quantumfalcon:rift_igniter"
+  }
+}

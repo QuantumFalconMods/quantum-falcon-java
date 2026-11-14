@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CSC",
+    "SHS",
+    "CSC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cyan_dye"
+    },
+    "S": {
+      "item": "quantumfalcon:quantum_shard"
+    },
+    "H": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:aqua_aegis_reliquary",
+    "count": 1
+  }
+}

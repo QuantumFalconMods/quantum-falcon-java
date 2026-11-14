@@ -1,0 +1,37 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "building",
+ "ingredients": [
+  {
+   "item": "quantumfalcon:chiseled_riftslate"
+  },
+  {
+   "item": "quantumfalcon:chiseled_riftslate"
+  },
+  {
+   "item": "quantumfalcon:chiseled_riftslate"
+  },
+  {
+   "item": "quantumfalcon:chiseled_riftslate"
+  },
+  {
+   "item": "quantumfalcon:chiseled_riftslate"
+  },
+  {
+   "item": "quantumfalcon:chiseled_riftslate"
+  },
+  {
+   "item": "quantumfalcon:chiseled_riftslate"
+  },
+  {
+   "item": "quantumfalcon:chiseled_riftslate"
+  },
+  {
+   "item": "quantumfalcon:temporal_dust"
+  }
+ ],
+ "result": {
+  "id": "quantumfalcon:chiseled_riftslate_then",
+  "count": 8
+ }
+}

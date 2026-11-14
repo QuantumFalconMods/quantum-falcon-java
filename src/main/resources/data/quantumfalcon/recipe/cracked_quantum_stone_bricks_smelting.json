@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "quantumfalcon:quantum_stone_bricks"
+  },
+  "result": {
+    "id": "quantumfalcon:cracked_quantum_stone_bricks"
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

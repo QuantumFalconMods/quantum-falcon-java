@@ -1,0 +1,10 @@
+{
+ "type": "minecraft:stonecutting",
+ "ingredient": {
+  "item": "quantumfalcon:aurorite"
+ },
+ "result": {
+  "id": "quantumfalcon:aurorite_slab",
+  "count": 2
+ }
+}

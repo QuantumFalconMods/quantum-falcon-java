@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "curios"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RCR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "item": "quantumfalcon:rift_shard"
+    },
+    "C": {
+      "item": "quantumfalcon:quantum_core"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "quantumfalcon:reality_anchor"
+  }
+}

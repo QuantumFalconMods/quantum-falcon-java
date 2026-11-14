@@ -1,0 +1,225 @@
+{
+ "parent": "minecraft:block/block",
+ "textures": {
+  "top": "quantumfalcon:block/frozen_hours/eastwatch/hour_socket/now/top",
+  "front": "quantumfalcon:block/frozen_hours/eastwatch/hour_socket/now/front",
+  "side": "quantumfalcon:block/frozen_hours/eastwatch/hour_socket/now/side",
+  "bottom": "quantumfalcon:block/frozen_hours/eastwatch/hour_socket/now/bottom",
+  "particle": "quantumfalcon:block/frozen_hours/eastwatch/hour_socket/now/side",
+  "top_glow": "quantumfalcon:block/frozen_hours/eastwatch/hour_socket/now/top_glow_pulse",
+  "front_glow": "quantumfalcon:block/frozen_hours/eastwatch/hour_socket/now/front_glow_pulse"
+ },
+ "elements": [
+  {
+   "name": "plinth",
+   "from": [
+    2,
+    0,
+    2
+   ],
+   "to": [
+    14,
+    5,
+    14
+   ],
+   "faces": {
+    "down": {
+     "texture": "#bottom",
+     "cullface": "down"
+    },
+    "up": {
+     "texture": "#top"
+    },
+    "north": {
+     "texture": "#side"
+    },
+    "south": {
+     "texture": "#front"
+    },
+    "west": {
+     "texture": "#side"
+    },
+    "east": {
+     "texture": "#side"
+    }
+   }
+  },
+  {
+   "name": "collar",
+   "from": [
+    4,
+    5,
+    4
+   ],
+   "to": [
+    12,
+    7,
+    12
+   ],
+   "faces": {
+    "up": {
+     "texture": "#top"
+    },
+    "north": {
+     "texture": "#side"
+    },
+    "south": {
+     "texture": "#front"
+    },
+    "west": {
+     "texture": "#side"
+    },
+    "east": {
+     "texture": "#side"
+    }
+   }
+  },
+  {
+   "name": "hourglass",
+   "from": [
+    6,
+    7,
+    6
+   ],
+   "to": [
+    10,
+    15,
+    10
+   ],
+   "faces": {
+    "up": {
+     "texture": "#top"
+    },
+    "down": {
+     "texture": "#bottom"
+    },
+    "north": {
+     "texture": "#front"
+    },
+    "south": {
+     "texture": "#front"
+    },
+    "west": {
+     "texture": "#front"
+    },
+    "east": {
+     "texture": "#front"
+    }
+   }
+  },
+  {
+   "from": [
+    2,
+    0,
+    2
+   ],
+   "to": [
+    14,
+    5,
+    14
+   ],
+   "faces": {
+    "up": {
+     "texture": "#top_glow"
+    },
+    "south": {
+     "texture": "#front_glow"
+    }
+   },
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   }
+  },
+  {
+   "from": [
+    4,
+    5,
+    4
+   ],
+   "to": [
+    12,
+    7,
+    12
+   ],
+   "faces": {
+    "up": {
+     "texture": "#top_glow"
+    },
+    "south": {
+     "texture": "#front_glow"
+    }
+   },
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   }
+  },
+  {
+   "from": [
+    6,
+    7,
+    6
+   ],
+   "to": [
+    10,
+    15,
+    10
+   ],
+   "faces": {
+    "up": {
+     "texture": "#top_glow"
+    },
+    "north": {
+     "texture": "#front_glow"
+    },
+    "south": {
+     "texture": "#front_glow"
+    },
+    "west": {
+     "texture": "#front_glow"
+    },
+    "east": {
+     "texture": "#front_glow"
+    }
+   },
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   }
+  }
+ ],
+ "display": {
+  "thirdperson_righthand": {
+   "scale": [
+    0.375,
+    0.375,
+    0.375
+   ],
+   "translation": [
+    0,
+    2.5,
+    0
+   ]
+  },
+  "gui": {
+   "rotation": [
+    30,
+    225,
+    0
+   ],
+   "scale": [
+    0.625,
+    0.625,
+    0.625
+   ]
+  }
+ },
+ "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#quantumfalcon:has_structure/quantum_guardian_arena",
+    "#quantumfalcon:has_structure/void_horror_arena",
+    "#quantumfalcon:has_structure/entangled_twins_arena",
+    "#quantumfalcon:has_structure/singularity_sovereign_arena"
+  ]
+}

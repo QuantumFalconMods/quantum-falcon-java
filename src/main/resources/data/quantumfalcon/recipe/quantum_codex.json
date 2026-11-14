@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  {
+   "item": "minecraft:book"
+  },
+  {
+   "item": "quantumfalcon:falcon_feather"
+  },
+  {
+   "item": "quantumfalcon:rift_shard"
+  }
+ ],
+ "result": {
+  "id": "quantumfalcon:quantum_codex",
+  "count": 1
+ }
+}

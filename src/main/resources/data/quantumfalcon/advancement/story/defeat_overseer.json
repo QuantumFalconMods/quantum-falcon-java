@@ -1,0 +1,30 @@
+{
+  "parent": "quantumfalcon:story/enter_rift",
+  "display": {
+    "icon": {
+      "item": "quantumfalcon:overseers_eye"
+    },
+    "title": {
+      "translate": "advancements.quantumfalcon.defeat_overseer.title",
+      "fallback": "The Watcher Falls"
+    },
+    "description": {
+      "translate": "advancements.quantumfalcon.defeat_overseer.description",
+      "fallback": "Defeat the Quantum Overseer"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "killed_overseer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "quantumfalcon:quantum_overseer"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#quantumfalcon:echo_rift_biomes",
+  "spawners": {
+    "type": "quantumfalcon:quantum_stalker",
+    "weight": 12,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

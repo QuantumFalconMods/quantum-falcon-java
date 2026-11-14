@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  F",
+    "#B#",
+    "# #"
+  ],
+  "key": {
+    "F": {
+      "item": "quantumfalcon:falcon_feather"
+    },
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "quantumfalcon:leather_falcon_barding"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:iron_falcon_barding"
+  }
+}

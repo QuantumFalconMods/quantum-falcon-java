@@ -1,0 +1,23 @@
+{
+  "fallback": "quantumfalcon:dungeon/cinderite/cap",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "quantumfalcon:dungeon/cinderite/trap_room",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "quantumfalcon:dungeon/cinderite/puzzle_room",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

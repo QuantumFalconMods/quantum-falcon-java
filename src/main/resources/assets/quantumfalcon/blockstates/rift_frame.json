@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "activated=false,axis=x": {"model": "quantumfalcon:block/rift_frame"},
+    "activated=false,axis=z": {"model": "quantumfalcon:block/rift_frame", "y": 90},
+    "activated=true,axis=x": {"model": "quantumfalcon:block/rift_frame"},
+    "activated=true,axis=z": {"model": "quantumfalcon:block/rift_frame", "y": 90}
+  }
+}

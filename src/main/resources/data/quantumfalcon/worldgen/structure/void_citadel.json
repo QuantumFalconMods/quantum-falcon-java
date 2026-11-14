@@ -1,0 +1,32 @@
+{
+  "type": "quantumfalcon:utility_structure",
+  "utility_type": "VOID_CITADEL",
+  "biomes": "#quantumfalcon:has_structure/void_citadel",
+  "step": "underground_structures",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "quantumfalcon:data_construct",
+          "weight": 2,
+          "minCount": 2,
+          "maxCount": 4
+        },
+        {
+          "type": "quantumfalcon:void_echo",
+          "weight": 3,
+          "minCount": 3,
+          "maxCount": 6
+        },
+        {
+          "type": "quantumfalcon:crystal_guardian",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ]
+    }
+  },
+  "terrain_adaptation": "none"
+}

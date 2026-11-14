@@ -1,0 +1,26 @@
+{
+  "type": "quantumfalcon:boss_arena",
+  "arena_type": "ENTANGLED_TWINS",
+  "biomes": "#quantumfalcon:has_structure/entangled_twins_arena",
+  "step": "top_layer_modification",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "quantumfalcon:quantum_phantom",
+          "weight": 2,
+          "minCount": 1,
+          "maxCount": 3
+        },
+        {
+          "type": "quantumfalcon:crystal_guardian",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ]
+    }
+  },
+  "terrain_adaptation": "none"
+}

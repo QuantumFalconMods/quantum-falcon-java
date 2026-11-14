@@ -1,0 +1,294 @@
+{
+ "parent": "minecraft:block/block",
+ "textures": {
+  "side": "quantumfalcon:block/frozen_hours/eastwatch/props/feeder_trough/then/side",
+  "end": "quantumfalcon:block/frozen_hours/eastwatch/props/feeder_trough/then/end",
+  "top": "quantumfalcon:block/frozen_hours/eastwatch/props/feeder_trough/then/top",
+  "inside": "quantumfalcon:block/frozen_hours/eastwatch/props/feeder_trough/then/inside",
+  "bottom": "quantumfalcon:block/frozen_hours/eastwatch/props/feeder_trough/then/bottom",
+  "particle": "quantumfalcon:block/frozen_hours/eastwatch/props/feeder_trough/then/side",
+  "side_glow": "quantumfalcon:block/frozen_hours/eastwatch/props/feeder_trough/then/side_glow",
+  "end_glow": "quantumfalcon:block/frozen_hours/eastwatch/props/feeder_trough/then/end_glow"
+ },
+ "elements": [
+  {
+   "name": "bottom",
+   "from": [
+    1,
+    0,
+    1
+   ],
+   "to": [
+    15,
+    2,
+    15
+   ],
+   "faces": {
+    "down": {
+     "texture": "#bottom",
+     "cullface": "down"
+    },
+    "up": {
+     "texture": "#inside"
+    },
+    "north": {
+     "texture": "#side"
+    },
+    "south": {
+     "texture": "#side"
+    },
+    "west": {
+     "texture": "#end"
+    },
+    "east": {
+     "texture": "#end"
+    }
+   }
+  },
+  {
+   "name": "wall_n",
+   "from": [
+    1,
+    2,
+    1
+   ],
+   "to": [
+    15,
+    8,
+    3
+   ],
+   "faces": {
+    "north": {
+     "texture": "#side"
+    },
+    "south": {
+     "texture": "#inside"
+    },
+    "west": {
+     "texture": "#end"
+    },
+    "east": {
+     "texture": "#end"
+    },
+    "up": {
+     "texture": "#top"
+    }
+   }
+  },
+  {
+   "name": "wall_s",
+   "from": [
+    1,
+    2,
+    13
+   ],
+   "to": [
+    15,
+    8,
+    15
+   ],
+   "faces": {
+    "south": {
+     "texture": "#side"
+    },
+    "north": {
+     "texture": "#inside"
+    },
+    "west": {
+     "texture": "#end"
+    },
+    "east": {
+     "texture": "#end"
+    },
+    "up": {
+     "texture": "#top"
+    }
+   }
+  },
+  {
+   "name": "wall_w",
+   "from": [
+    1,
+    2,
+    3
+   ],
+   "to": [
+    3,
+    8,
+    13
+   ],
+   "faces": {
+    "west": {
+     "texture": "#end"
+    },
+    "east": {
+     "texture": "#inside"
+    },
+    "up": {
+     "texture": "#top"
+    }
+   }
+  },
+  {
+   "name": "wall_e",
+   "from": [
+    13,
+    2,
+    3
+   ],
+   "to": [
+    15,
+    8,
+    13
+   ],
+   "faces": {
+    "east": {
+     "texture": "#end"
+    },
+    "west": {
+     "texture": "#inside"
+    },
+    "up": {
+     "texture": "#top"
+    }
+   }
+  },
+  {
+   "from": [
+    1,
+    0,
+    1
+   ],
+   "to": [
+    15,
+    2,
+    15
+   ],
+   "faces": {
+    "north": {
+     "texture": "#side_glow"
+    },
+    "south": {
+     "texture": "#side_glow"
+    },
+    "west": {
+     "texture": "#end_glow"
+    },
+    "east": {
+     "texture": "#end_glow"
+    }
+   },
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   }
+  },
+  {
+   "from": [
+    1,
+    2,
+    1
+   ],
+   "to": [
+    15,
+    8,
+    3
+   ],
+   "faces": {
+    "north": {
+     "texture": "#side_glow"
+    },
+    "west": {
+     "texture": "#end_glow"
+    },
+    "east": {
+     "texture": "#end_glow"
+    }
+   },
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   }
+  },
+  {
+   "from": [
+    1,
+    2,
+    13
+   ],
+   "to": [
+    15,
+    8,
+    15
+   ],
+   "faces": {
+    "south": {
+     "texture": "#side_glow"
+    },
+    "west": {
+     "texture": "#end_glow"
+    },
+    "east": {
+     "texture": "#end_glow"
+    }
+   },
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   }
+  },
+  {
+   "from": [
+    1,
+    2,
+    3
+   ],
+   "to": [
+    3,
+    8,
+    13
+   ],
+   "faces": {
+    "west": {
+     "texture": "#end_glow"
+    }
+   },
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   }
+  },
+  {
+   "from": [
+    13,
+    2,
+    3
+   ],
+   "to": [
+    15,
+    8,
+    13
+   ],
+   "faces": {
+    "east": {
+     "texture": "#end_glow"
+    }
+   },
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   }
+  }
+ ],
+ "render_type": "minecraft:cutout"
+}

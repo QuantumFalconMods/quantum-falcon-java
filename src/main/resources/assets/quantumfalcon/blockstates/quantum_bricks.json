@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      { "model": "quantumfalcon:block/quantum_bricks_v1" },
+      { "model": "quantumfalcon:block/quantum_bricks_v2" },
+      { "model": "quantumfalcon:block/quantum_bricks_v3" },
+      { "model": "quantumfalcon:block/quantum_bricks_v4" },
+      { "model": "quantumfalcon:block/quantum_bricks_v5" },
+      { "model": "quantumfalcon:block/quantum_bricks_v6" }
+    ]
+  }
+}

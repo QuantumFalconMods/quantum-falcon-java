@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "particle": "quantumfalcon:block/rift_portal",
+    "portal": "quantumfalcon:block/rift_portal"
+  }
+}

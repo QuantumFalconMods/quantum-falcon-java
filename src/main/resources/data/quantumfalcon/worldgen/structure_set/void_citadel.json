@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "quantumfalcon:void_citadel",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 11826397,
+    "spacing": 60,
+    "separation": 24
+  }
+}

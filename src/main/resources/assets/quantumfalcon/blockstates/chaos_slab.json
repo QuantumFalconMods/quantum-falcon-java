@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "quantumfalcon:block/chaos_slab"
+    },
+    "type=top": {
+      "model": "quantumfalcon:block/chaos_slab_top"
+    },
+    "type=double": {
+      "model": "quantumfalcon:block/chaos_planks"
+    }
+  }
+}

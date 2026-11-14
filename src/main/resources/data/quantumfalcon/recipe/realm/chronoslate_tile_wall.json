@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "###",
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:chronoslate_tiles"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:chronoslate_tile_wall",
+  "count": 6
+ }
+}

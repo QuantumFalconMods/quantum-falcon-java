@@ -1,0 +1,24 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "#G#",
+  "GCG",
+  "#G#"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:polished_cinderite"
+  },
+  "G": {
+   "item": "minecraft:glowstone_dust"
+  },
+  "C": {
+   "item": "minecraft:blaze_powder"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:cinderite_rift_lamp",
+  "count": 4
+ }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  T",
+    " I ",
+    "S  "
+  ],
+  "key": {
+    "T": {
+      "item": "quantumfalcon:temporal_core"
+    },
+    "I": {
+      "item": "quantumfalcon:temporal_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:temporal_staff",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "quantumfalcon:block/chaos_log"
+    },
+    "axis=z": {
+      "model": "quantumfalcon:block/chaos_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "quantumfalcon:block/chaos_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

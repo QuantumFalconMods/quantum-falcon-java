@@ -1,0 +1,88 @@
+{
+  "temperature": 0.7,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 5894655,
+    "fog_color": 9159653,
+    "water_color": 4315319,
+    "water_fog_color": 668458,
+    "grass_color": 12407244,
+    "foliage_color": 9126591,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "music": {
+      "sound": "quantumfalcon:quantum_biome_ambient",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:end_rod"
+      },
+      "probability": 0.002
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "quantumfalcon:crystal_guardian",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "quantumfalcon:quantum_falcon",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [
+      {
+        "type": "quantumfalcon:quantum_wisp",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "quantumfalcon:ore_quantum",
+      "quantumfalcon:ore_crystal"
+    ],
+    [],
+    [],
+    [
+      "quantumfalcon:tree_quantum_sparse",
+      "quantumfalcon:patch_crystal_cluster"
+    ],
+    []
+  ]
+}

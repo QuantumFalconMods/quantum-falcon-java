@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "##",
+  "##"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:aurorite"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:polished_aurorite",
+  "count": 4
+ }
+}

@@ -1,0 +1,392 @@
+{
+ "title": "Bosses & Relics",
+ "intro": "Four still guard the held hour. Each one, beaten, gives back a piece of it. In company, the old rewards are first come, first served: a treasury vault pays whoever opens it, a merchant's rare egg goes to the first buyer of the day, and one key opens a door for its earner and its holder alike. Share as you see fit.",
+ "order": 6,
+ "quests": [
+  {
+   "id": "bo_01",
+   "title": "The Overseer's Gaze",
+   "text": "Defeat the Quantum Overseer.",
+   "task": {
+    "type": "BOSS_KILL",
+    "target": "quantumfalcon:quantum_overseer",
+    "count": 1
+   },
+   "requires": [
+    "ri_06"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:stability_shard",
+      "count": 4
+     }
+    ],
+    "xp": 300
+   }
+  },
+  {
+   "id": "bo_02",
+   "title": "The Eye Opens",
+   "text": "Carry the Overseer's Eye.",
+   "task": {
+    "type": "COLLECT_ITEM",
+    "target": "quantumfalcon:overseers_eye",
+    "count": 1
+   },
+   "requires": [
+    "bo_01"
+   ],
+   "reward": {
+    "xp": 100
+   }
+  },
+  {
+   "id": "bo_03",
+   "title": "Warden of the Rift",
+   "text": "Defeat the Rift Warden.",
+   "task": {
+    "type": "BOSS_KILL",
+    "target": "quantumfalcon:rift_warden",
+    "count": 1
+   },
+   "requires": [
+    "bo_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:echo_crystal",
+      "count": 2
+     }
+    ],
+    "xp": 400
+   }
+  },
+  {
+   "id": "bo_04",
+   "title": "Fragments",
+   "text": "Carry the Warden's Fragment.",
+   "task": {
+    "type": "COLLECT_ITEM",
+    "target": "quantumfalcon:wardens_fragment",
+    "count": 1
+   },
+   "requires": [
+    "bo_03"
+   ],
+   "reward": {
+    "xp": 100
+   }
+  },
+  {
+   "id": "bo_05",
+   "title": "Two as One",
+   "text": "Defeat the Entangled Twins.",
+   "task": {
+    "type": "BOSS_KILL",
+    "target": "quantumfalcon:entangled_twins",
+    "count": 1
+   },
+   "requires": [
+    "bo_03"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:twin_essence",
+      "count": 1
+     }
+    ],
+    "xp": 500
+   }
+  },
+  {
+   "id": "bo_06",
+   "title": "Artifact Hunter",
+   "text": "Collect 4 Artifact Fragments.",
+   "task": {
+    "type": "COLLECT_ITEM",
+    "target": "quantumfalcon:artifact_fragment",
+    "count": 4
+   },
+   "requires": [
+    "bo_03"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_reroll_token",
+      "count": 1
+     }
+    ],
+    "xp": 200
+   }
+  },
+  {
+   "id": "bo_07",
+   "title": "The Sovereign's Throne",
+   "text": "Find the Singularity Sovereign's throne.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "sovereign_throne",
+    "count": 1
+   },
+   "requires": [
+    "bo_05"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:singularity_shard",
+      "count": 2
+     }
+    ],
+    "xp": 300
+   }
+  },
+  {
+   "id": "bo_08",
+   "title": "Collapse the Singularity",
+   "text": "Defeat the Singularity Sovereign.",
+   "task": {
+    "type": "BOSS_KILL",
+    "target": "quantumfalcon:singularity_sovereign",
+    "count": 1
+   },
+   "requires": [
+    "bo_07"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:singularity_core",
+      "count": 1
+     }
+    ],
+    "xp": 800
+   }
+  },
+  {
+   "id": "bo_09",
+   "title": "Heart of Quantum",
+   "text": "Craft the Heart of Quantum.",
+   "task": {
+    "type": "CRAFT_ITEM",
+    "target": "quantumfalcon:heart_of_quantum",
+    "count": 1
+   },
+   "requires": [
+    "bo_08"
+   ],
+   "reward": {
+    "xp": 500
+   }
+  },
+  {
+   "id": "bo_10",
+   "title": "Void Lord",
+   "text": "Defeat the Void Lord.",
+   "task": {
+    "type": "SIG_KILL",
+    "target": "void_lord",
+    "count": 1
+   },
+   "requires": [
+    "bo_03"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:void_shard",
+      "count": 2
+     }
+    ],
+    "xp": 500
+   }
+  },
+  {
+   "id": "bo_11",
+   "title": "Eclipse",
+   "text": "Defeat the Eclipse Phantom.",
+   "task": {
+    "type": "SIG_KILL",
+    "target": "eclipse_phantom",
+    "count": 1
+   },
+   "requires": [
+    "bo_03"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:temporal_crystal",
+      "count": 2
+     }
+    ],
+    "xp": 500
+   }
+  },
+  {
+   "id": "bo_12",
+   "title": "The Hollow Falconer",
+   "text": "Defeat Sha'Sha, the falconer who kept the Rift's power.",
+   "task": {
+    "type": "SIG_KILL",
+    "target": "sha_sha",
+    "count": 1
+   },
+   "requires": [
+    "bo_03"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:transcendence_shard",
+      "count": 1
+     }
+    ],
+    "xp": 500
+   }
+  },
+  {
+   "id": "bo_13",
+   "title": "Dungeon Warden",
+   "text": "Defeat a dungeon Warden miniboss.",
+   "task": {
+    "type": "SIG_KILL",
+    "target": "dungeon_warden",
+    "count": 1
+   },
+   "requires": [
+    "ef_09"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:lockpick",
+      "count": 2
+     }
+    ],
+    "xp": 200
+   }
+  },
+  {
+   "id": "bo_14",
+   "title": "Keybearer",
+   "text": "Defeat a dungeon Keybearer.",
+   "task": {
+    "type": "SIG_KILL",
+    "target": "dungeon_keybearer",
+    "count": 1
+   },
+   "requires": [
+    "ef_09"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:echo_crystal",
+      "count": 1
+     }
+    ],
+    "xp": 200
+   }
+  },
+  {
+   "id": "bo_15",
+   "title": "Epic Spoils",
+   "text": "Earn an Epic (or better) signature item.",
+   "task": {
+    "type": "SIG_LOOT",
+    "target": "epic",
+    "count": 1
+   },
+   "requires": [
+    "ef_14"
+   ],
+   "reward": {
+    "xp": 400
+   }
+  },
+  {
+   "id": "bo_16",
+   "title": "Legend",
+   "text": "Earn a Legendary signature item.",
+   "task": {
+    "type": "SIG_LOOT",
+    "target": "legendary",
+    "count": 1
+   },
+   "requires": [
+    "bo_15"
+   ],
+   "reward": {
+    "xp": 800
+   }
+  },
+  {
+   "id": "bo_17",
+   "title": "Boss Hunter",
+   "text": "Defeat 10 bosses (any).",
+   "task": {
+    "type": "BOSS_KILL",
+    "target": "any",
+    "count": 10
+   },
+   "requires": [
+    "bo_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_reroll_token",
+      "count": 2
+     }
+    ],
+    "xp": 600
+   }
+  },
+  {
+   "id": "bo_18",
+   "title": "A Will Doesn't Stay Down",
+   "text": "The Sovereign has re-formed at another stitch. Bring it down again.",
+   "task": {
+    "type": "BOSS_KILL",
+    "target": "quantumfalcon:singularity_sovereign",
+    "count": 1
+   },
+   "requires": [
+    "bo_08",
+    "bo_10",
+    "bo_11",
+    "bo_12"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:transcendence_shard",
+      "count": 1
+     }
+    ],
+    "xp": 1000
+   }
+  },
+  {
+   "id": "bo_19",
+   "title": "The Scattered Islands",
+   "text": "Find the Rift Warden's arena: void islands around six spires, high over the Echo Rift.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:void_horror_arena",
+    "count": 1
+   },
+   "requires": [
+    "bo_01"
+   ],
+   "reward": {
+    "xp": 150
+   }
+  }
+ ]
+}

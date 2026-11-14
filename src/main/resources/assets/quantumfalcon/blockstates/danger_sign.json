@@ -1,0 +1,109 @@
+{
+  "variants": {
+    "facing=north,tier=common": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_common"
+    },
+    "facing=north,tier=uncommon": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_uncommon"
+    },
+    "facing=north,tier=rare": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_rare"
+    },
+    "facing=north,tier=epic": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_epic"
+    },
+    "facing=north,tier=mythic": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_mythic"
+    },
+    "facing=north,tier=legendary": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_legendary"
+    },
+    "facing=north,tier=quantum": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_quantum"
+    },
+    "facing=east,tier=common": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_common",
+      "y": 90
+    },
+    "facing=east,tier=uncommon": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_uncommon",
+      "y": 90
+    },
+    "facing=east,tier=rare": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_rare",
+      "y": 90
+    },
+    "facing=east,tier=epic": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_epic",
+      "y": 90
+    },
+    "facing=east,tier=mythic": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_mythic",
+      "y": 90
+    },
+    "facing=east,tier=legendary": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_legendary",
+      "y": 90
+    },
+    "facing=east,tier=quantum": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_quantum",
+      "y": 90
+    },
+    "facing=south,tier=common": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_common",
+      "y": 180
+    },
+    "facing=south,tier=uncommon": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_uncommon",
+      "y": 180
+    },
+    "facing=south,tier=rare": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_rare",
+      "y": 180
+    },
+    "facing=south,tier=epic": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_epic",
+      "y": 180
+    },
+    "facing=south,tier=mythic": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_mythic",
+      "y": 180
+    },
+    "facing=south,tier=legendary": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_legendary",
+      "y": 180
+    },
+    "facing=south,tier=quantum": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_quantum",
+      "y": 180
+    },
+    "facing=west,tier=common": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_common",
+      "y": 270
+    },
+    "facing=west,tier=uncommon": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_uncommon",
+      "y": 270
+    },
+    "facing=west,tier=rare": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_rare",
+      "y": 270
+    },
+    "facing=west,tier=epic": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_epic",
+      "y": 270
+    },
+    "facing=west,tier=mythic": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_mythic",
+      "y": 270
+    },
+    "facing=west,tier=legendary": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_legendary",
+      "y": 270
+    },
+    "facing=west,tier=quantum": {
+      "model": "quantumfalcon:block/dungeon/danger_sign_quantum",
+      "y": 270
+    }
+  }
+}

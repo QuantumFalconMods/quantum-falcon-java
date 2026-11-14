@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quantumfalcon:chaos_ingot"
+  },
+  "result": {
+    "id": "quantumfalcon:chaos_shard",
+    "count": 3
+  }
+}

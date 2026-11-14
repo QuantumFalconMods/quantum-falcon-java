@@ -1,0 +1,31 @@
+{
+  "parent": "quantumfalcon:story/defeat_twins",
+  "display": {
+    "icon": {
+      "item": "quantumfalcon:sovereigns_crown"
+    },
+    "title": {
+      "translate": "advancements.quantumfalcon.defeat_sovereign.title",
+      "fallback": "Quantum Conqueror"
+    },
+    "description": {
+      "translate": "advancements.quantumfalcon.defeat_sovereign.description",
+      "fallback": "Defeat the Singularity Sovereign"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "criteria": {
+    "killed_sovereign": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "quantumfalcon:singularity_sovereign"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2000
+  }
+}

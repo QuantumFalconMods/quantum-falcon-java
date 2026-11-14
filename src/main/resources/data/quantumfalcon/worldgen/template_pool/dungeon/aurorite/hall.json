@@ -1,0 +1,23 @@
+{
+  "fallback": "quantumfalcon:dungeon/aurorite/cap",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "quantumfalcon:dungeon/aurorite/hall_pillared",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "quantumfalcon:dungeon/aurorite/hall_crystal",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

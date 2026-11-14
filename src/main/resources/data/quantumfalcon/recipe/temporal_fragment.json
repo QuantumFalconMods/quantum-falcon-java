@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DCD",
+    "CKC",
+    "DCD"
+  ],
+  "key": {
+    "D": {
+      "item": "quantumfalcon:temporal_dust"
+    },
+    "C": {
+      "item": "quantumfalcon:temporal_crystal"
+    },
+    "K": {
+      "item": "minecraft:clock"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:temporal_fragment",
+    "count": 2
+  }
+}

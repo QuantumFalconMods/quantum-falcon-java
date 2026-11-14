@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "P P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "C": {
+      "item": "minecraft:cyan_dye"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:aqua_helmet",
+    "count": 1
+  }
+}

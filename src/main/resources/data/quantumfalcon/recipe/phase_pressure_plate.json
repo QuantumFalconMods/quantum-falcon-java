@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "quantumfalcon:phase_planks"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:phase_pressure_plate",
+    "count": 1
+  }
+}

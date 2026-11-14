@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "quantumfalcon:ancient_nest",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 55917025,
+    "spacing": 20,
+    "separation": 7
+  }
+}

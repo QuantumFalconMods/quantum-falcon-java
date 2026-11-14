@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "GGG",
+    "GMG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "M": {
+      "item": "quantumfalcon:quantum_shard"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:quantum_glass_block",
+    "count": 8
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quantumfalcon:phase_log"
+  },
+  "result": {
+    "id": "quantumfalcon:stripped_phase_log"
+  },
+  "count": 1
+}

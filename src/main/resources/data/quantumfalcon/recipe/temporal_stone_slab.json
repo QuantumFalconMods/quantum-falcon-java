@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "quantumfalcon:temporal_stone"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "quantumfalcon:temporal_stone_slab"
+  }
+}

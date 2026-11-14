@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "quantumfalcon:cracked_chronoslate_bricks"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:cracked_chronoslate_brick_stairs",
+    "count": 4
+  }
+}

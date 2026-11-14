@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "quantumfalcon:block/quantum_soil" }
+  }
+}

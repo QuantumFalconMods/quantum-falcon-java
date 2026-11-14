@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:overseers_eye",
+    "quantumfalcon:wardens_fragment",
+    "quantumfalcon:twin_essence",
+    "quantumfalcon:sovereigns_crown",
+    {
+      "id": "quantumfalcon:heart_of_quantum",
+      "required": false
+    }
+  ]
+}

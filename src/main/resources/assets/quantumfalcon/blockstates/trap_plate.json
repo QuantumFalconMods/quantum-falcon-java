@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "quantumfalcon:block/dungeon/trap_plate_armed"
+    },
+    "powered=true": {
+      "model": "quantumfalcon:block/dungeon/trap_plate_triggered"
+    }
+  }
+}

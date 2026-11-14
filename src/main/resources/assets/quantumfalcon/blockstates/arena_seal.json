@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=false": { "model": "quantumfalcon:block/arena_seal" },
+    "lit=true": { "model": "quantumfalcon:block/arena_seal" }
+  }
+}

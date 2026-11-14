@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": { "item": "quantumfalcon:quantum_ore" },
+  "result": {
+    "id": "quantumfalcon:quantum_shard",
+    "count": 1
+  },
+  "experience": 0.7,
+  "cookingtime": 100
+}

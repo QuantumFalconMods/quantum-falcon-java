@@ -1,0 +1,360 @@
+{
+ "title": "Deep Rift & Abyss",
+ "intro": "Out here the hour is less agreed upon. Things that should have ended keep walking.",
+ "order": 5,
+ "quests": [
+  {
+   "id": "da_01",
+   "title": "Deeper Still",
+   "text": "Push past the Frontier into the Deep Rift.",
+   "task": {
+    "type": "RIFT_BAND",
+    "target": "deep_rift",
+    "count": 1
+   },
+   "requires": [
+    "ef_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:stability_shard",
+      "count": 4
+     }
+    ],
+    "xp": 150
+   }
+  },
+  {
+   "id": "da_02",
+   "title": "Gravity Lies",
+   "text": "Stand in a Gravitational Anomaly.",
+   "task": {
+    "type": "VISIT_BIOME",
+    "target": "quantumfalcon:gravitational_anomaly",
+    "count": 1
+   },
+   "requires": [
+    "da_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:void_shard",
+      "count": 1
+     }
+    ],
+    "xp": 150
+   }
+  },
+  {
+   "id": "da_03",
+   "title": "Entropy",
+   "text": "Cross the Entropy Wastes.",
+   "task": {
+    "type": "VISIT_BIOME",
+    "target": "quantumfalcon:entropy_wastes",
+    "count": 1
+   },
+   "requires": [
+    "da_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:void_shard",
+      "count": 3
+     }
+    ],
+    "xp": 150
+   }
+  },
+  {
+   "id": "da_04",
+   "title": "Dark Matter",
+   "text": "Sail the Dark Matter Sea.",
+   "task": {
+    "type": "VISIT_BIOME",
+    "target": "quantumfalcon:dark_matter_sea",
+    "count": 1
+   },
+   "requires": [
+    "da_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:void_shard",
+      "count": 1
+     }
+    ],
+    "xp": 150
+   }
+  },
+  {
+   "id": "da_05",
+   "title": "The Abyss",
+   "text": "Go far enough out that the danger banner reads Abyss.",
+   "task": {
+    "type": "RIFT_BAND",
+    "target": "abyss",
+    "count": 1
+   },
+   "requires": [
+    "da_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:stability_shard",
+      "count": 6
+     }
+    ],
+    "xp": 250
+   }
+  },
+  {
+   "id": "da_06",
+   "title": "Cosmic String",
+   "text": "Walk a Cosmic String.",
+   "task": {
+    "type": "VISIT_BIOME",
+    "target": "quantumfalcon:cosmic_string",
+    "count": 1
+   },
+   "requires": [
+    "da_05"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:singularity_shard",
+      "count": 1
+     }
+    ],
+    "xp": 200
+   }
+  },
+  {
+   "id": "da_07",
+   "title": "Edge of Everything",
+   "text": "Stand where the Abyss runs out of names.",
+   "task": {
+    "type": "RIFT_BAND",
+    "target": "edge",
+    "count": 1
+   },
+   "requires": [
+    "da_05"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:singularity_fragment",
+      "count": 1
+     }
+    ],
+    "xp": 400
+   }
+  },
+  {
+   "id": "da_08",
+   "title": "Event Horizon",
+   "text": "Stand at the Event Horizon.",
+   "task": {
+    "type": "VISIT_BIOME",
+    "target": "quantumfalcon:event_horizon",
+    "count": 1
+   },
+   "requires": [
+    "da_07"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:singularity_shard",
+      "count": 1
+     }
+    ],
+    "xp": 300
+   }
+  },
+  {
+   "id": "da_09",
+   "title": "The Depths Below",
+   "text": "Find the Echo Depths, where the Rift floor sinks lowest.",
+   "task": {
+    "type": "VISIT_BIOME",
+    "target": "quantumfalcon:echo_depths",
+    "count": 1
+   },
+   "requires": [
+    "da_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:echo_crystal",
+      "count": 2
+     }
+    ],
+    "xp": 200
+   }
+  },
+  {
+   "id": "da_10",
+   "title": "Voidshale Vaults",
+   "text": "Enter a Voidshale dungeon.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:dungeon_voidshale",
+    "count": 1
+   },
+   "requires": [
+    "da_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:void_shard",
+      "count": 1
+     }
+    ],
+    "xp": 200
+   }
+  },
+  {
+   "id": "da_11",
+   "title": "Singularite Depths",
+   "text": "Enter a Singularite dungeon.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:dungeon_singularite",
+    "count": 1
+   },
+   "requires": [
+    "da_05"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:singularity_shard",
+      "count": 2
+     }
+    ],
+    "xp": 300
+   }
+  },
+  {
+   "id": "da_12",
+   "title": "Void Citadel",
+   "text": "Find the Void Citadel.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:void_citadel",
+    "count": 1
+   },
+   "requires": [
+    "da_05"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:singularity_fragment",
+      "count": 1
+     }
+    ],
+    "xp": 300
+   }
+  },
+  {
+   "id": "da_13",
+   "title": "Temporal Nexus",
+   "text": "Find the Temporal Nexus.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:temporal_nexus",
+    "count": 1
+   },
+   "requires": [
+    "da_05"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:temporal_dust",
+      "count": 1
+     }
+    ],
+    "xp": 300
+   }
+  },
+  {
+   "id": "da_14",
+   "title": "Echo Hunter",
+   "text": "Defeat 5 Void Echoes.",
+   "task": {
+    "type": "KILL_ENTITY",
+    "target": "entity.quantumfalcon.void_echo",
+    "count": 5
+   },
+   "requires": [
+    "da_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:echo_shard",
+      "count": 4
+     }
+    ],
+    "xp": 200
+   }
+  },
+  {
+   "id": "da_15",
+   "title": "Guardian Breaker",
+   "text": "Defeat 3 Crystal Guardians.",
+   "task": {
+    "type": "KILL_ENTITY",
+    "target": "entity.quantumfalcon.crystal_guardian",
+    "count": 3
+   },
+   "requires": [
+    "da_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_crystal",
+      "count": 2
+     }
+    ],
+    "xp": 250
+   }
+  },
+  {
+   "id": "da_16",
+   "title": "Unshakeable",
+   "text": "Reach Arcana 30.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "arcana",
+    "count": 30,
+    "absolute": true
+   },
+   "requires": [
+    "da_05"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_stabilizer",
+      "count": 1
+     }
+    ],
+    "xp": 400
+   }
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "quantumfalcon:bound_relic",
+  "category": "misc",
+  "pattern": [" E ", "WFT", " C "],
+  "key": {
+    "E": {"item": "quantumfalcon:overseers_eye"},
+    "W": {"item": "quantumfalcon:wardens_fragment"},
+    "T": {"item": "quantumfalcon:twin_essence"},
+    "C": {"item": "quantumfalcon:sovereigns_crown"},
+    "F": {"item": "quantumfalcon:reality_fragment"}
+  },
+  "result": {"id": "quantumfalcon:reality_gem", "count": 1}
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quantumfalcon:cracked_riftslate_bricks"
+  },
+  "result": {
+    "id": "quantumfalcon:cracked_riftslate_brick_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GTG",
+    "N N",
+    "C C"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "T": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "N": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "C": {
+      "item": "minecraft:clock"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:gold_leggings_custom",
+    "count": 1
+  }
+}

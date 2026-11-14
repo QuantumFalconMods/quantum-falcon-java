@@ -1,0 +1,24 @@
+{
+  "type": "quantumfalcon:bound_relic",
+  "category": "misc",
+  "pattern": [
+    " N ",
+    " G ",
+    " C "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "G": {
+      "item": "quantumfalcon:reality_gem"
+    },
+    "C": {
+      "item": "quantumfalcon:quantum_core"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "quantumfalcon:heart_of_quantum"
+  }
+}

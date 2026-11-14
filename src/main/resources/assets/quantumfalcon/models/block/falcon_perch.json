@@ -1,0 +1,411 @@
+{
+ "parent": "minecraft:block/block",
+ "ambientocclusion": false,
+ "textures": {
+  "particle": "quantumfalcon:block/falcon_perch",
+  "wood": "quantumfalcon:block/falcon_perch",
+  "particle_glow": "quantumfalcon:block/falcon_perch_glow",
+  "wood_glow": "quantumfalcon:block/falcon_perch_glow"
+ },
+ "elements": [
+  {
+   "name": "base",
+   "from": [
+    4,
+    0,
+    4
+   ],
+   "to": [
+    12,
+    2,
+    12
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      4,
+      14,
+      12,
+      16
+     ],
+     "texture": "#wood"
+    },
+    "south": {
+     "uv": [
+      4,
+      14,
+      12,
+      16
+     ],
+     "texture": "#wood"
+    },
+    "east": {
+     "uv": [
+      4,
+      14,
+      12,
+      16
+     ],
+     "texture": "#wood"
+    },
+    "west": {
+     "uv": [
+      4,
+      14,
+      12,
+      16
+     ],
+     "texture": "#wood"
+    },
+    "up": {
+     "uv": [
+      4,
+      4,
+      12,
+      12
+     ],
+     "texture": "#wood"
+    },
+    "down": {
+     "uv": [
+      4,
+      4,
+      12,
+      12
+     ],
+     "texture": "#wood",
+     "cullface": "down"
+    }
+   }
+  },
+  {
+   "name": "base",
+   "from": [
+    4,
+    0,
+    4
+   ],
+   "to": [
+    12,
+    2,
+    12
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "north": {
+     "uv": [
+      4,
+      14,
+      12,
+      16
+     ],
+     "texture": "#wood_glow"
+    },
+    "south": {
+     "uv": [
+      4,
+      14,
+      12,
+      16
+     ],
+     "texture": "#wood_glow"
+    },
+    "east": {
+     "uv": [
+      4,
+      14,
+      12,
+      16
+     ],
+     "texture": "#wood_glow"
+    },
+    "west": {
+     "uv": [
+      4,
+      14,
+      12,
+      16
+     ],
+     "texture": "#wood_glow"
+    },
+    "up": {
+     "uv": [
+      4,
+      4,
+      12,
+      12
+     ],
+     "texture": "#wood_glow"
+    },
+    "down": {
+     "uv": [
+      4,
+      4,
+      12,
+      12
+     ],
+     "texture": "#wood_glow",
+     "cullface": "down"
+    }
+   }
+  },
+  {
+   "name": "post",
+   "from": [
+    7,
+    2,
+    7
+   ],
+   "to": [
+    9,
+    12,
+    9
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      7,
+      4,
+      9,
+      14
+     ],
+     "texture": "#wood"
+    },
+    "south": {
+     "uv": [
+      7,
+      4,
+      9,
+      14
+     ],
+     "texture": "#wood"
+    },
+    "east": {
+     "uv": [
+      7,
+      4,
+      9,
+      14
+     ],
+     "texture": "#wood"
+    },
+    "west": {
+     "uv": [
+      7,
+      4,
+      9,
+      14
+     ],
+     "texture": "#wood"
+    }
+   }
+  },
+  {
+   "name": "post",
+   "from": [
+    7,
+    2,
+    7
+   ],
+   "to": [
+    9,
+    12,
+    9
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "north": {
+     "uv": [
+      7,
+      4,
+      9,
+      14
+     ],
+     "texture": "#wood_glow"
+    },
+    "south": {
+     "uv": [
+      7,
+      4,
+      9,
+      14
+     ],
+     "texture": "#wood_glow"
+    },
+    "east": {
+     "uv": [
+      7,
+      4,
+      9,
+      14
+     ],
+     "texture": "#wood_glow"
+    },
+    "west": {
+     "uv": [
+      7,
+      4,
+      9,
+      14
+     ],
+     "texture": "#wood_glow"
+    }
+   }
+  },
+  {
+   "name": "crossbar",
+   "from": [
+    2,
+    12,
+    7
+   ],
+   "to": [
+    14,
+    14,
+    9
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      2,
+      2,
+      14,
+      4
+     ],
+     "texture": "#wood"
+    },
+    "south": {
+     "uv": [
+      2,
+      2,
+      14,
+      4
+     ],
+     "texture": "#wood"
+    },
+    "east": {
+     "uv": [
+      7,
+      2,
+      9,
+      4
+     ],
+     "texture": "#wood"
+    },
+    "west": {
+     "uv": [
+      7,
+      2,
+      9,
+      4
+     ],
+     "texture": "#wood"
+    },
+    "up": {
+     "uv": [
+      2,
+      7,
+      14,
+      9
+     ],
+     "texture": "#wood"
+    },
+    "down": {
+     "uv": [
+      2,
+      7,
+      14,
+      9
+     ],
+     "texture": "#wood"
+    }
+   }
+  },
+  {
+   "name": "crossbar",
+   "from": [
+    2,
+    12,
+    7
+   ],
+   "to": [
+    14,
+    14,
+    9
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "north": {
+     "uv": [
+      2,
+      2,
+      14,
+      4
+     ],
+     "texture": "#wood_glow"
+    },
+    "south": {
+     "uv": [
+      2,
+      2,
+      14,
+      4
+     ],
+     "texture": "#wood_glow"
+    },
+    "east": {
+     "uv": [
+      7,
+      2,
+      9,
+      4
+     ],
+     "texture": "#wood_glow"
+    },
+    "west": {
+     "uv": [
+      7,
+      2,
+      9,
+      4
+     ],
+     "texture": "#wood_glow"
+    },
+    "up": {
+     "uv": [
+      2,
+      7,
+      14,
+      9
+     ],
+     "texture": "#wood_glow"
+    },
+    "down": {
+     "uv": [
+      2,
+      7,
+      14,
+      9
+     ],
+     "texture": "#wood_glow"
+    }
+   }
+  }
+ ],
+ "render_type": "minecraft:cutout"
+}

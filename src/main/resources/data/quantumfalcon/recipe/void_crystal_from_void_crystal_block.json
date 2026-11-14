@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "quantumfalcon:void_crystal_block"
+    }
+  ],
+  "result": {
+    "id": "quantumfalcon:void_crystal",
+    "count": 9
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:chaos_trapdoor",
+    "quantumfalcon:crystal_trapdoor",
+    "quantumfalcon:echo_trapdoor",
+    "quantumfalcon:phase_trapdoor",
+    "quantumfalcon:quantum_trapdoor",
+    "quantumfalcon:resonance_trapdoor",
+    "quantumfalcon:temporal_trapdoor",
+    "quantumfalcon:void_trapdoor"
+  ]
+}

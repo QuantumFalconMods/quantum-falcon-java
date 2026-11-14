@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "##",
+  "##"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:polished_chronoslate"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:chronoslate_bricks",
+  "count": 4
+ }
+}

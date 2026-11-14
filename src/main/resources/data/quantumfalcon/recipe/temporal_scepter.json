@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "TC",
+    "SG",
+    "S "
+  ],
+  "key": {
+    "T": {
+      "item": "quantumfalcon:temporal_crystal"
+    },
+    "C": {
+      "item": "minecraft:clock"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:temporal_scepter",
+    "count": 1
+  }
+}

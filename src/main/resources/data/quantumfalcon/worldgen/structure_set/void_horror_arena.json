@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "quantumfalcon:void_horror_arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 29584712,
+    "spacing": 26,
+    "separation": 10,
+    "exclusion_zone": {
+      "other_set": "quantumfalcon:echo_dungeons",
+      "chunk_count": 4
+    }
+  }
+}

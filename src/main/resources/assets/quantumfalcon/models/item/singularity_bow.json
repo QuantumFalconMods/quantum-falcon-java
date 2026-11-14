@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "quantumfalcon:item/singularity_bow",
+    "layer1": "quantumfalcon:item/singularity_bow_glow"
+  },
+  "loader": "neoforge:item_layers",
+  "neoforge_data": {
+    "layers": {
+      "1": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    }
+  },
+  "render_types": {
+    "minecraft:translucent": [
+      1
+    ]
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "pulling": 1
+      },
+      "model": "quantumfalcon:item/singularity_bow_pulling_0"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.65
+      },
+      "model": "quantumfalcon:item/singularity_bow_pulling_1"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.9
+      },
+      "model": "quantumfalcon:item/singularity_bow_pulling_2"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CFC",
+    "OOO"
+  ],
+  "key": {
+    "C": {
+      "item": "quantumfalcon:quantum_core"
+    },
+    "F": {
+      "item": "minecraft:blast_furnace"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "quantumfalcon:quantum_forge"
+  }
+}

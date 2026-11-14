@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:abyssal_depths",
+    "quantumfalcon:annihilation_border",
+    "quantumfalcon:antimatter_fields",
+    "quantumfalcon:collapsed_timeline",
+    "quantumfalcon:dark_matter_sea",
+    "quantumfalcon:entropy_wastes",
+    "quantumfalcon:gravitational_anomaly",
+    "quantumfalcon:negative_space",
+    "quantumfalcon:paradox_zone",
+    "quantumfalcon:reality_fracture",
+    "quantumfalcon:shadow_realm",
+    "quantumfalcon:void_crater",
+    "quantumfalcon:void_forest",
+    "quantumfalcon:void_peaks",
+    "quantumfalcon:void_plains",
+    "quantumfalcon:void_rift",
+    "quantumfalcon:void_touched_plains"
+  ]
+}

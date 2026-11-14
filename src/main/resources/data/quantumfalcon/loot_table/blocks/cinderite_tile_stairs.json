@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "quantumfalcon:cinderite_tile_stairs"
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:survives_explosion"
+    }
+   ]
+  }
+ ],
+ "random_sequence": "quantumfalcon:blocks/cinderite_tile_stairs"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BSB",
+    "SQS",
+    "BSB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "S": {
+      "item": "quantumfalcon:chaos_shard"
+    },
+    "Q": {
+      "item": "quantumfalcon:quantum_core"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:chaos_core",
+    "count": 1
+  }
+}

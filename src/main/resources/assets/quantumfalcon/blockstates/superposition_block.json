@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "quantum_state=superposition": { "model": "quantumfalcon:block/superposition_block" },
+    "quantum_state=solid": { "model": "quantumfalcon:block/superposition_block" },
+    "quantum_state=transparent": { "model": "quantumfalcon:block/superposition_block" },
+    "quantum_state=phased": { "model": "quantumfalcon:block/superposition_block" }
+  }
+}

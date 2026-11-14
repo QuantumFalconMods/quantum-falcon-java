@@ -1,0 +1,8 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "quantumfalcon:item/falcon_egg_t6",
+  "layer1": "quantumfalcon:item/falcon_egg_t6_cracks",
+  "layer2": "quantumfalcon:item/falcon_egg_t6_pip"
+ }
+}

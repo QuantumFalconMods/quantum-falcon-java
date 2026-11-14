@@ -1,0 +1,28 @@
+{
+  "parent": "quantumfalcon:story/defeat_sovereign",
+  "display": {
+    "icon": {
+      "id": "quantumfalcon:reality_gem"
+    },
+    "title": {
+      "translate": "advancements.quantumfalcon.forge_reality_gem.title"
+    },
+    "description": {
+      "translate": "advancements.quantumfalcon.forge_reality_gem.description"
+    },
+    "frame": "goal",
+    "hidden": false
+  },
+  "criteria": {
+    "has_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumfalcon:reality_gem"
+          }
+        ]
+      }
+    }
+  }
+}

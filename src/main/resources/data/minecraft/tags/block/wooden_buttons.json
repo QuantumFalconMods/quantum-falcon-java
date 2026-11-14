@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:chaos_button",
+    "quantumfalcon:crystal_button",
+    "quantumfalcon:echo_button",
+    "quantumfalcon:phase_button",
+    "quantumfalcon:quantum_button",
+    "quantumfalcon:resonance_button",
+    "quantumfalcon:temporal_button",
+    "quantumfalcon:void_button"
+  ]
+}

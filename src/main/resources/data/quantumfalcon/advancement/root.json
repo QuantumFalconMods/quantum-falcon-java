@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "quantumfalcon:quantum_crystal"
+    },
+    "title": {
+      "translate": "advancements.quantumfalcon.root.title"
+    },
+    "description": {
+      "translate": "advancements.quantumfalcon.root.description"
+    },
+    "background": "minecraft:textures/block/stone.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "quantum_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quantumfalcon:quantum_crystal"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

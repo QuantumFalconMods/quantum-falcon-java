@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "D D",
+    "P P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "C": {
+      "item": "minecraft:conduit"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:aqua_leggings",
+    "count": 1
+  }
+}

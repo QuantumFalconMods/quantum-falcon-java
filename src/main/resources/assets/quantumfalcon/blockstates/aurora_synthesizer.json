@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "quantumfalcon:block/aurora_synthesizer"
+  },
+  "facing=south": {
+   "model": "quantumfalcon:block/aurora_synthesizer",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "quantumfalcon:block/aurora_synthesizer",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "quantumfalcon:block/aurora_synthesizer",
+   "y": 90
+  }
+ }
+}

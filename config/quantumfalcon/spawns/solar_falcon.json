@@ -1,0 +1,72 @@
+{
+  "_comment": "Solar Falcon spawn configuration - Desert/hot biomes with sun themes",
+  "variant": "SOLAR",
+  "biomes": [
+    {
+      "_comment": "Desert (primary solar habitat)",
+      "conditions": [
+        {
+          "type": "BIOME_TAG",
+          "negate": false,
+          "value": "minecraft:is_desert"
+        }
+      ]
+    },
+    {
+      "_comment": "Badlands/mesa",
+      "conditions": [
+        {
+          "type": "BIOME_TAG",
+          "negate": false,
+          "value": "minecraft:is_badlands"
+        }
+      ]
+    },
+    {
+      "_comment": "Hot biomes with high temperature",
+      "conditions": [
+        {
+          "type": "TEMPERATURE",
+          "operator": ">",
+          "value": 1.5
+        }
+      ]
+    },
+    {
+      "_comment": "Savanna plateaus (high altitude + hot)",
+      "conditions": [
+        {
+          "type": "BIOME_TAG",
+          "negate": false,
+          "value": "minecraft:is_savanna"
+        },
+        {
+          "type": "HEIGHT_RANGE",
+          "min": 80,
+          "max": 180
+        }
+      ]
+    },
+    {
+      "_comment": "Modded hot biomes",
+      "conditions": [
+        {
+          "type": "REGISTRY_NAME",
+          "negate": false,
+          "value": "terralith:bryce_canyon"
+        }
+      ]
+    }
+  ],
+  "spawning": {
+    "weight": 12,
+    "rolls": 0,
+    "minGroupSize": 1,
+    "maxGroupSize": 3,
+    "minHeight": 64,
+    "maxHeight": 200,
+    "canDespawn": false,
+    "despawnDistance": 128,
+    "timeOfDay": "DAY_ONLY"
+  }
+}

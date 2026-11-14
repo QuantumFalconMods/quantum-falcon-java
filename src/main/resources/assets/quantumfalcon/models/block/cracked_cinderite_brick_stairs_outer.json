@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "quantumfalcon:block/realm/cinderite/cracked_bricks",
+    "top": "quantumfalcon:block/realm/cinderite/cracked_bricks",
+    "side": "quantumfalcon:block/realm/cinderite/cracked_bricks"
+  }
+}

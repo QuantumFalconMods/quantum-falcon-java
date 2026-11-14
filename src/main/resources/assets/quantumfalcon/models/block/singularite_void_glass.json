@@ -1,0 +1,93 @@
+{
+ "parent": "minecraft:block/block",
+ "render_type": "minecraft:translucent",
+ "textures": {
+  "all": "quantumfalcon:block/realm/singularite/glass",
+  "particle": "quantumfalcon:block/realm/singularite/glass",
+  "ov": "quantumfalcon:block/realm/singularite/glass_glow"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#all",
+     "cullface": "north"
+    },
+    "south": {
+     "texture": "#all",
+     "cullface": "south"
+    },
+    "east": {
+     "texture": "#all",
+     "cullface": "east"
+    },
+    "west": {
+     "texture": "#all",
+     "cullface": "west"
+    },
+    "up": {
+     "texture": "#all",
+     "cullface": "up"
+    },
+    "down": {
+     "texture": "#all",
+     "cullface": "down"
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "north": {
+     "texture": "#ov",
+     "cullface": "north"
+    },
+    "south": {
+     "texture": "#ov",
+     "cullface": "south"
+    },
+    "east": {
+     "texture": "#ov",
+     "cullface": "east"
+    },
+    "west": {
+     "texture": "#ov",
+     "cullface": "west"
+    },
+    "up": {
+     "texture": "#ov",
+     "cullface": "up"
+    },
+    "down": {
+     "texture": "#ov",
+     "cullface": "down"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "quantumfalcon:aurora_block"
+    }
+  ],
+  "result": {
+    "id": "quantumfalcon:aurora_shard",
+    "count": 9
+  }
+}

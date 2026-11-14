@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "axis=y": {
+   "model": "quantumfalcon:block/cinderite_pillar"
+  },
+  "axis=z": {
+   "model": "quantumfalcon:block/cinderite_pillar",
+   "x": 90
+  },
+  "axis=x": {
+   "model": "quantumfalcon:block/cinderite_pillar",
+   "x": 90,
+   "y": 90
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "title": "Frozen Hours",
+ "intro": "Some places froze mid-moment when the hour broke. Turn the hour, and you can walk both.",
+ "order": 7,
+ "quests": [
+  {
+   "id": "fh_01",
+   "title": "The Eastward Birds",
+   "text": "Find Eastwatch Aerie, the roost where every perch faces east.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:eastwatch_aerie",
+    "count": 1
+   },
+   "requires": [
+    "fb_02"
+   ],
+   "reward": {
+    "xp": 40
+   }
+  },
+  {
+   "id": "fh_02",
+   "title": "The Flight Lesson",
+   "text": "Finish Skywarden Irel's lesson. She has waited a long time to give it.",
+   "task": {
+    "type": "SIG_KILL",
+    "target": "skywarden_irel",
+    "count": 1
+   },
+   "requires": [
+    "fh_01"
+   ],
+   "reward": {
+    "xp": 80
+   }
+  }
+ ]
+}

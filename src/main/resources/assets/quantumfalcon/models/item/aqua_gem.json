@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "quantumfalcon:item/materials/variants/gems/quantum_gem_cyan_var_01"
+  }
+}

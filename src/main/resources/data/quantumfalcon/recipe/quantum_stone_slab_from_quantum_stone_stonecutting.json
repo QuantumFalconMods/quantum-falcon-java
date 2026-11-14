@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quantumfalcon:quantum_stone"
+  },
+  "result": {
+    "id": "quantumfalcon:quantum_stone_slab"
+  },
+  "count": 1
+}

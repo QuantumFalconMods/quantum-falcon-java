@@ -1,0 +1,20 @@
+{
+  "parent": "quantumfalcon:tame_falcon",
+  "display": {
+    "icon": {
+      "item": "quantumfalcon:falcon_egg"
+    },
+    "title": {
+      "text": "Legendary Genetics"
+    },
+    "description": {
+      "text": "Hatch a Legendary (or higher) falcon from a bred egg"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "breed_legendary": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

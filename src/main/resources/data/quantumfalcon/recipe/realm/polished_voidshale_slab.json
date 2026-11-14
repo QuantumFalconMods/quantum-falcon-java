@@ -1,0 +1,16 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:polished_voidshale"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:polished_voidshale_slab",
+  "count": 6
+ }
+}

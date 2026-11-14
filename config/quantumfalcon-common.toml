@@ -1,0 +1,295 @@
+# Quantum Falcon - Common Configuration
+# Based on elite modpack patterns (ATM10, Better MC, Prominence II)
+# NeoForge 1.21.11+ compatible
+
+[general]
+    # Whether to give new players a Falcon Encyclopedia on first join
+    giveFalconBookOnStartup = true
+    
+    # Whether falcons should teleport back if stuck (Optifine/Shader compat)
+    # Inspired by Alex's Mobs falconry system
+    falconTeleportBack = false
+    
+    # Whether wild falcons can be tamed with Quantum Crystals
+    wildFalconTaming = true
+    
+    # Percent chance for taming success per crystal used
+    # Range: 0.0 ~ 1.0
+    tamingSuccessChance = 0.33
+    
+    # Whether falcons can transform variants via special items
+    # (e.g., Void Crystal transforms Quantum → Void)
+    variantTransformation = true
+    
+    # Whether eggs should spawn in loot chests
+    addEggsToChests = true
+    
+    # Whether wandering traders offer falcon eggs
+    # (Alex's Mobs pattern for rare mob acquisition)
+    wanderingTraderEggOffers = true
+    
+    # Egg trading cost in emeralds
+    # Range: 1 ~ 64
+    eggTradeCost = 16
+    
+    # Max number of falcons a player can own simultaneously
+    # Range: 1 ~ 100
+    maxOwnedFalcons = 10
+    
+    # Whether falcons can break blocks when angry (cachalot pattern)
+    falconBlockDestruction = false
+
+[breeding]
+    # Whether breeding is enabled
+    breedingEnabled = true
+    
+    # Time between breeding attempts (ticks, 20/sec)
+    # Range: 100 ~ 1000000
+    breedingCooldown = 6000  # 5 minutes
+    
+    # Whether Destiny Knot inheritance works (5 IVs vs 3)
+    # Pokémon breeding mechanics
+    destinyKnotEnabled = true
+    
+    # Whether Masuda Method boosts shiny chance
+    # (Breeding two different variants = 6x shiny boost)
+    masudaMethodEnabled = true
+    
+    # Base shiny spawn chance (1 in X)
+    # Range: 1 ~ 1000000
+    shinyChance = 4096  # Pokémon default
+    
+    # Shiny charm multiplier
+    # Range: 1.0 ~ 10.0
+    shinyCharmBoost = 3.0
+    
+    # Masuda Method multiplier
+    # Range: 1.0 ~ 10.0
+    masudaBoost = 6.0
+    
+    # Max IV value (Pokémon uses 31)
+    # Range: 10 ~ 255
+    maxIV = 31
+    
+    # Percent chance for rare variant (albino, melanistic, iridescent)
+    # Alex's Mobs pattern: 0.2-0.5% for ultra-rares
+    # Range: 0.0 ~ 1.0
+    albino_chance = 0.005   # 0.5%
+    melanistic_chance = 0.003  # 0.3%
+    iridescent_chance = 0.002  # 0.2%
+    
+    # Egg hatching time (ticks)
+    # Range: 1000 ~ 1000000
+    eggHatchTime = 24000  # 20 minutes (1 Minecraft day)
+    
+    # Whether Oval Charm reduces hatch time
+    ovalCharmEnabled = true
+    
+    # Oval Charm hatch time reduction (multiplier)
+    # Range: 0.1 ~ 1.0
+    ovalCharmMultiplier = 0.5  # 50% faster hatching
+
+[spawning]
+    # Global spawn weight multiplier
+    # Range: 0.0 ~ 10.0
+    spawnWeightMultiplier = 1.0
+    
+    # Per-variant spawn weights (0 = disabled, 1-1000 = weight)
+    # Alex's Mobs pattern: Common = 10-30, Uncommon = 5-10, Rare = 1-5
+    # Range: 0 ~ 1000
+    
+    # Free Tier (11 variants)
+    quantumSpawnWeight = 15      # Common
+    voidSpawnWeight = 8          # Uncommon
+    crystalSpawnWeight = 10      # Common
+    solarSpawnWeight = 12        # Common
+    plasmaSpawnWeight = 9        # Uncommon
+    lunarSpawnWeight = 10        # Common
+    temporalSpawnWeight = 7      # Uncommon
+    spectralSpawnWeight = 5      # Rare
+    volcanicSpawnWeight = 11     # Common
+    arcticSpawnWeight = 10       # Common
+    prismaticSpawnWeight = 6     # Uncommon
+    
+    # Pro Tier (4 variants) - lower weights
+    omniSpawnWeight = 3          # Rare
+    obsidianSpawnWeight = 4      # Rare
+    biolumSpawnWeight = 3        # Rare
+    aetherSpawnWeight = 4        # Rare
+    
+    # Elite Tier (1 variant) - ultra rare
+    singularitySpawnWeight = 1   # Ultra rare
+    
+    # Spawn roll divisors (Alex's Mobs pattern)
+    # Higher number = rarer (applies AFTER weight check)
+    # 0 = always spawn if weight check passes, 1+ = 1 in X chance
+    # Range: 0 ~ 10000
+    quantumSpawnRolls = 0
+    voidSpawnRolls = 1
+    crystalSpawnRolls = 0
+    solarSpawnRolls = 0
+    plasmaSpawnRolls = 1
+    lunarSpawnRolls = 0
+    temporalSpawnRolls = 2
+    spectralSpawnRolls = 5
+    volcanicSpawnRolls = 1
+    arcticSpawnRolls = 0
+    prismaticSpawnRolls = 3
+    omniSpawnRolls = 10
+    obsidianSpawnRolls = 8
+    biolumSpawnRolls = 10
+    aetherSpawnRolls = 8
+    singularitySpawnRolls = 100  # 1 in 100 after weight
+    
+    # Global spawn height restrictions
+    # Range: -64 ~ 320
+    minSpawnHeight = 64
+    maxSpawnHeight = 256
+    
+    # Group size (how many spawn together)
+    # Range: 1 ~ 10
+    minGroupSize = 1
+    maxGroupSize = 3
+    
+    # Whether to restrict certain variants to structures
+    # (Alex's Mobs pattern: skelewag → shipwreck, underminer → mineshaft)
+    restrictSingularityToEndCity = true
+    restrictVoidToDeepDark = false
+    restrictAetherToMountainPeaks = false
+    
+    # Weather-dependent spawns
+    # (Alex's Mobs: guster only spawns in storms)
+    limitPlasmaSpawnsToWeather = true  # Only during thunderstorms
+
+[abilities]
+    # Falcon ability cooldowns (ticks, 20/sec)
+    # Range: 20 ~ 10000
+    quantumTeleportCooldown = 200   # 10 seconds
+    voidRiftCooldown = 600           # 30 seconds
+    crystalBarrierCooldown = 400     # 20 seconds
+    solarFlareEooldown = 500         # 25 seconds
+    plasmaBoltCooldown = 300         # 15 seconds
+    lunarBeamCooldown = 450          # 22.5 seconds
+    temporalStasisCooldown = 800     # 40 seconds
+    spectralPhaseCooldown = 350      # 17.5 seconds
+    volcanicEruptionCooldown = 600   # 30 seconds
+    arcticFreezeCooldown = 400       # 20 seconds
+    prismaticBurstCooldown = 500     # 25 seconds
+    
+    # Pro tier abilities (longer cooldowns)
+    omniWaveCooldown = 1000          # 50 seconds
+    obsidianWallCooldown = 900       # 45 seconds
+    biolumHealCooldown = 1200        # 60 seconds
+    aetherWingsCooldown = 800        # 40 seconds
+    
+    # Elite tier (very long cooldown)
+    singularityCollapseCooldown = 2400  # 2 minutes
+    
+    # Ability damage multipliers
+    # Range: 0.1 ~ 10.0
+    abilityDamageMultiplier = 1.0
+    
+    # Whether abilities consume hunger
+    abilitiesConsumeHunger = true
+    
+    # Hunger cost per ability use
+    # Range: 0.0 ~ 20.0
+    abilityHungerCost = 2.0
+
+[compatibility]
+    # Enable KubeJS script hooks
+    # (ATM10 pattern: allow modpack makers to tweak everything)
+    kubeJSHooks = true
+    
+    # Enable JEI/REI/EMI integration
+    # (Show breeding recipes, egg sources, etc.)
+    jeiIntegration = true
+    
+    # Enable Puffish Skills integration
+    # (Prominence II: skill tree for breeding mastery)
+    puffishSkillsCompat = true
+    
+    # Enable Alex's Mobs cross-taming
+    # (Allow falcons to interact with Alex's Mobs birds)
+    alexsMobsCompat = true
+    
+    # Enable Mystical Agriculture seed recipes
+    # (ATM10 pattern: falcon essence seeds)
+    mysticalAgricultureCompat = true
+    
+    # Enable FTB Quests hooks
+    # (ATM10: 707 quest files!)
+    ftbQuestsCompat = true
+    
+    # Enable Apotheosis enchantment compat
+    # (ATM10: allow custom enchants on falcon gear)
+    apotheosisCompat = true
+    
+    # Enable Create mod automation
+    # (Egg incubators, breeding farms)
+    createCompat = true
+
+[performance]
+    # Max falcon entities in loaded chunks (performance limiter)
+    # Range: 10 ~ 10000
+    maxLoadedFalcons = 500
+    
+    # Pathfinding thread count
+    # Alex's Mobs pattern: spread pathfinding across cores
+    # Range: 1 ~ 16
+    pathfindingThreads = 4
+    
+    # Whether to enable advanced animations
+    # (Disable if TPS drops below threshold)
+    enableAdvancedAnimations = true
+    
+    # TPS threshold to disable animations
+    # Range: 1.0 ~ 20.0
+    animationTPSThreshold = 15.0
+    
+    # Max render distance for falcon particles
+    # Range: 8 ~ 256
+    particleRenderDistance = 64
+
+[loot]
+    # Chance for falcons to drop feathers on death
+    # Range: 0.0 ~ 1.0
+    featherDropChance = 0.8
+    
+    # Min/max feather drops
+    # Range: 0 ~ 64
+    minFeatherDrops = 1
+    maxFeatherDrops = 3
+    
+    # Chance for rare feather (shiny/rare variant bonus)
+    # Range: 0.0 ~ 1.0
+    rareFeatherChance = 0.05
+    
+    # Chest loot weight (0 = disable)
+    # Range: 0 ~ 100
+    chestLootWeight = 5
+    
+    # Which chest types can contain eggs
+    # Vanilla: end_city_treasure, stronghold_library, dungeon
+    # Modded: expanded by other mods
+    chestLootTypes = ["minecraft:chests/end_city_treasure", "minecraft:chests/stronghold_library", "minecraft:chests/buried_treasure"]
+
+[worldgen]
+    # Whether to generate falcon nests as structures
+    nestWorldgenEnabled = true
+    
+    # Nest spawn chance per chunk
+    # Range: 0.0 ~ 1.0
+    nestSpawnChance = 0.001  # 0.1% per chunk
+    
+    # Nest egg count
+    # Range: 0 ~ 10
+    minNestEggs = 1
+    maxNestEggs = 3
+    
+    # Whether nests should spawn in trees
+    nestInTrees = true
+    
+    # Min tree height for nests
+    # Range: 5 ~ 100
+    minTreeHeight = 15

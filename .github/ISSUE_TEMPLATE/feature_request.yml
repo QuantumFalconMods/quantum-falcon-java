@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest an idea for Quantum Falcon
+labels: ["feature"]
+body:
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition
+      options: ["Java", "Bedrock", "Both"]
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+    validations:
+      required: true

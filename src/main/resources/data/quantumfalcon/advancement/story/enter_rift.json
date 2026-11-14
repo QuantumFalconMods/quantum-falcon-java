@@ -1,0 +1,28 @@
+{
+  "parent": "quantumfalcon:story/craft_quantum_core",
+  "display": {
+    "icon": {
+      "item": "quantumfalcon:rift_frame"
+    },
+    "title": {
+      "translate": "advancements.quantumfalcon.enter_rift.title",
+      "fallback": "Into the Rift"
+    },
+    "description": {
+      "translate": "advancements.quantumfalcon.enter_rift.description",
+      "fallback": "Enter the Echo Rift dimension"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "entered_rift": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "quantumfalcon:echo_rift"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

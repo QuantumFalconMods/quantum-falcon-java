@@ -1,0 +1,65 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.reality_splitter.swing": {
+      "loop": false,
+      "animation_length": 0.5,
+      "bones": {
+        "item": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2": [
+              0,
+              0,
+              -100
+            ],
+            "0.5": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.reality_splitter.special": {
+      "loop": false,
+      "animation_length": 1.5,
+      "bones": {
+        "item": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.5": [
+              0,
+              0,
+              -180
+            ],
+            "0.8": [
+              0,
+              0,
+              -180
+            ],
+            "1.0": [
+              0,
+              0,
+              60
+            ],
+            "1.5": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

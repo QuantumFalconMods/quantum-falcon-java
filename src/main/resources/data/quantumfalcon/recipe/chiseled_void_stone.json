@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "S",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "quantumfalcon:void_stone"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:chiseled_void_stone",
+    "count": 1
+  }
+}

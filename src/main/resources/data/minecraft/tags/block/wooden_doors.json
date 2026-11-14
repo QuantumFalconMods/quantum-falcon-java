@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:chaos_door",
+    "quantumfalcon:crystal_door",
+    "quantumfalcon:echo_door",
+    "quantumfalcon:phase_door",
+    "quantumfalcon:quantum_door",
+    "quantumfalcon:resonance_door",
+    "quantumfalcon:temporal_door",
+    "quantumfalcon:void_door"
+  ]
+}

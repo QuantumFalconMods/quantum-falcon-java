@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  " G ",
+  "GCG",
+  " G "
+ ],
+ "key": {
+  "G": {
+   "item": "minecraft:tinted_glass"
+  },
+  "C": {
+   "item": "minecraft:blaze_powder"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:cinderite_void_glass",
+  "count": 4
+ }
+}

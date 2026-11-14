@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "quantumfalcon:resonance_block"
+    }
+  ],
+  "result": {
+    "id": "quantumfalcon:resonance_shard",
+    "count": 9
+  }
+}

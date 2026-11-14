@@ -1,0 +1,41 @@
+name: Bug report (Bedrock)
+description: Something is broken in the Bedrock edition of Quantum Falcon
+labels: ["bedrock", "bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Quantum Falcon version
+      placeholder: "e.g. 1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Minecraft Bedrock version and device
+      placeholder: "1.21.x, Windows / Android / console"
+    validations:
+      required: true
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other add-ons
+      description: A modpack name and version, or a list.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. ...\n2. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Content log output, if any
+      render: text

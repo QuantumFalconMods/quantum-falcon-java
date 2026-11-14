@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:aurora_block",
+    "quantumfalcon:chaos_block",
+    "quantumfalcon:crystal_block",
+    "quantumfalcon:crystalline_block",
+    "quantumfalcon:echo_block",
+    "quantumfalcon:phase_block",
+    "quantumfalcon:probability_block",
+    "quantumfalcon:quantum_core_block",
+    "quantumfalcon:quantum_crystal_block",
+    "quantumfalcon:quantum_pillar",
+    "quantumfalcon:resonance_block",
+    "quantumfalcon:rift_block",
+    "quantumfalcon:singularity_block",
+    "quantumfalcon:temporal_block",
+    "quantumfalcon:void_block",
+    "quantumfalcon:void_crystal_block",
+    "quantumfalcon:void_pillar"
+  ]
+}

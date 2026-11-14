@@ -1,0 +1,84 @@
+{
+ "parent": "block/thin_block",
+ "textures": {
+  "particle": "quantumfalcon:block/falcon_nest",
+  "texture": "quantumfalcon:block/falcon_nest",
+  "particle_glow": "quantumfalcon:block/falcon_nest_glow",
+  "texture_glow": "quantumfalcon:block/falcon_nest_glow"
+ },
+ "elements": [
+  {
+   "from": [
+    1,
+    0,
+    1
+   ],
+   "to": [
+    15,
+    8,
+    15
+   ],
+   "faces": {
+    "down": {
+     "texture": "#texture",
+     "cullface": "down"
+    },
+    "up": {
+     "texture": "#texture"
+    },
+    "north": {
+     "texture": "#texture"
+    },
+    "south": {
+     "texture": "#texture"
+    },
+    "west": {
+     "texture": "#texture"
+    },
+    "east": {
+     "texture": "#texture"
+    }
+   }
+  },
+  {
+   "from": [
+    1,
+    0,
+    1
+   ],
+   "to": [
+    15,
+    8,
+    15
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "down": {
+     "texture": "#texture_glow",
+     "cullface": "down"
+    },
+    "up": {
+     "texture": "#texture_glow"
+    },
+    "north": {
+     "texture": "#texture_glow"
+    },
+    "south": {
+     "texture": "#texture_glow"
+    },
+    "west": {
+     "texture": "#texture_glow"
+    },
+    "east": {
+     "texture": "#texture_glow"
+    }
+   }
+  }
+ ],
+ "render_type": "minecraft:cutout"
+}

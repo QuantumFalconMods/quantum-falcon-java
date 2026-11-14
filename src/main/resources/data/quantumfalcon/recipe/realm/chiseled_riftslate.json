@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "#",
+  "#"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:riftslate_brick_slab"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:chiseled_riftslate",
+  "count": 1
+ }
+}

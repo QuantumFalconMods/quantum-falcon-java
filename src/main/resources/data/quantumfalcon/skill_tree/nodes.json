@@ -1,0 +1,31 @@
+{
+  "_doc": "Stage E skill tree (data-driven). Each node: branch, tier (1-4, matches danger tiers I-IV; cost follows tier: 1/1/2/3), column (0-2 inside its branch), requires (all of) / any (one of), optional hatch gate (Lineage: highest falcon tier hatched). Descriptions use {param} placeholders filled from SkillEffects constants, so a tooltip can't drift from the code that applies it. Every node has a /qftest check in SkillTreeTests (skill_nodes_live fails if one is missing).",
+  "nodes": [
+    {"id": "bond_kinship",    "branch": "BOND", "tier": 1, "col": 1, "name": "Kinship",        "desc": "Bond with your falcons grows {bond_gain_pct}% faster"},
+    {"id": "bond_vigor",      "branch": "BOND", "tier": 2, "col": 0, "requires": ["bond_kinship"], "name": "Hardy Wings", "desc": "Your falcons within {sync_range} blocks get +{falcon_hp} max health"},
+    {"id": "bond_tailwind",   "branch": "BOND", "tier": 2, "col": 2, "requires": ["bond_kinship"], "name": "Tailwind", "desc": "Speed I for you while one of your falcons is within {near} blocks"},
+    {"id": "bond_endurance",  "branch": "BOND", "tier": 3, "col": 1, "any": ["bond_vigor", "bond_tailwind"], "name": "Endurance Flight", "desc": "Your falcons' flight stamina drains {stamina_pct}% slower and active abilities cost half stamina"},
+    {"id": "bond_soul",       "branch": "BOND", "tier": 4, "col": 1, "requires": ["bond_endurance"], "name": "Soul Bond", "desc": "A falcon of yours that would die is saved at {soul_pct}% health (once every {soul_min} minutes)"},
+
+    {"id": "hunt_talons",     "branch": "HUNT", "tier": 1, "col": 1, "name": "Talon Training", "desc": "Your falcons deal {talons_pct}% more damage"},
+    {"id": "hunt_dive",       "branch": "HUNT", "tier": 2, "col": 0, "requires": ["hunt_talons"], "name": "Devastating Dive", "desc": "Dive Strike hits for {dive_skilled} instead of {dive_base}"},
+    {"id": "hunt_pack",       "branch": "HUNT", "tier": 2, "col": 2, "requires": ["hunt_talons"], "name": "Pack Strike", "desc": "Your melee hits deal {pack_pct}% more to a target your falcon hit in the last {pack_sec} s"},
+    {"id": "hunt_razor",      "branch": "HUNT", "tier": 3, "col": 1, "any": ["hunt_dive", "hunt_pack"], "name": "Razor Talons", "desc": "Your falcons' hits poison the target for {razor_sec} s"},
+    {"id": "hunt_execute",    "branch": "HUNT", "tier": 4, "col": 1, "requires": ["hunt_razor"], "name": "Killing Blow", "desc": "Your falcons deal {execute_mult}x damage to targets below {execute_pct}% health"},
+
+    {"id": "rift_focus",      "branch": "RIFT", "tier": 1, "col": 1, "name": "Quantum Focus", "desc": "Falcon ability cooldowns are {focus_pct}% shorter"},
+    {"id": "rift_sight",      "branch": "RIFT", "tier": 2, "col": 0, "requires": ["rift_focus"], "name": "Quantum Sight", "desc": "Your falcons' passive abilities reach {sight_mult}x as far"},
+    {"id": "rift_ward",       "branch": "RIFT", "tier": 2, "col": 2, "requires": ["rift_focus"], "name": "Entangled Ward", "desc": "You take {ward_pct}% less damage while one of your falcons is within {near} blocks"},
+    {"id": "rift_phase",      "branch": "RIFT", "tier": 3, "col": 1, "any": ["rift_sight", "rift_ward"], "name": "Phase Step", "desc": "{phase_pct}% chance to phase through a melee hit while one of your falcons is within {near} blocks"},
+    {"id": "rift_mend",       "branch": "RIFT", "tier": 4, "col": 1, "requires": ["rift_phase"], "name": "Rift Mend", "desc": "Dropping below {mend_pct}% health heals you {mend_hp} health from a falcon within {near} blocks (every {mend_sec} s)"},
+
+    {"id": "lin_warmth",      "branch": "LINEAGE", "tier": 1, "col": 1, "hatch": 1, "name": "Warm Nest", "desc": "Eggs within {warmth_range} blocks of you incubate {warmth_mult}x faster"},
+    {"id": "lin_imprint",     "branch": "LINEAGE", "tier": 2, "col": 1, "hatch": 3, "requires": ["lin_warmth"], "name": "Imprinting", "desc": "Falcons that hatch from your eggs start at bond {imprint_bond}"},
+    {"id": "lin_brood",       "branch": "LINEAGE", "tier": 3, "col": 1, "hatch": 5, "requires": ["lin_imprint"], "name": "Strong Brood", "desc": "Hatchlings from your eggs grow up twice as fast"},
+    {"id": "lin_legacy",      "branch": "LINEAGE", "tier": 4, "col": 1, "hatch": 7, "requires": ["lin_brood"], "name": "Legacy", "desc": "Hatchlings from your eggs are born with +{legacy_hp} max health"},
+
+    {"id": "way_magnet",      "branch": "WAYFINDER", "tier": 1, "col": 1, "name": "Retriever", "desc": "With a falcon of yours within {near} blocks, dropped items within {magnet_range} blocks fly to you"},
+    {"id": "way_featherfall", "branch": "WAYFINDER", "tier": 2, "col": 1, "requires": ["way_magnet"], "name": "Featherfall", "desc": "{fall_pct}% less fall damage while one of your falcons is within {near} blocks"},
+    {"id": "way_scout",       "branch": "WAYFINDER", "tier": 3, "col": 1, "requires": ["way_featherfall"], "name": "Falcon Scout", "desc": "Your falcon marks hostiles within {scout_range} blocks of you (Glowing)"}
+  ]
+}

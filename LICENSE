@@ -1,0 +1,24 @@
+Quantum Falcon — Licence
+
+Copyright (c) 2026 Matthew Hampton. All Rights Reserved.
+
+The source code, assets (textures, models, animations, sounds, music, structures, data and text) and documentation of
+Quantum Falcon are made publicly visible for reference only. No licence is granted to copy, modify, merge, publish,
+redistribute, sublicense, sell, port, or reuse any part of them, in whole or in part, in any form, except as listed
+under "Explicit permissions" below or with prior written permission from Matthew Hampton.
+
+Explicit permissions
+1. Modpacks. You may include the unmodified Quantum Falcon mod jar in modpacks distributed on CurseForge and Modrinth,
+   where the platform links to or downloads the official file (for example a CurseForge manifest or a Modrinth .mrpack
+   that references the official project file). Re-hosting the jar elsewhere is not permitted.
+2. Media. You may make and publish videos, livestreams, screenshots, reviews and similar content showing Quantum Falcon,
+   including monetised content.
+3. Personal use. You may download and play the mod, and run it on your own or your community's servers.
+
+Third-party material
+Third-party components credited in CREDITS.md (for example CC-BY audio, and the GeckoLib and Custom Portal API Reforged
+dependencies, which are not bundled) remain under their own licences. Nothing in this licence changes their terms.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.

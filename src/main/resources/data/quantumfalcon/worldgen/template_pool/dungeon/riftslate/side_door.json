@@ -1,0 +1,14 @@
+{
+  "fallback": "quantumfalcon:dungeon/riftslate/cap",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "quantumfalcon:dungeon/riftslate/side_door",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

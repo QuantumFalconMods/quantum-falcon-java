@@ -1,0 +1,133 @@
+{
+ "parent": "minecraft:block/block",
+ "textures": {
+  "front": "quantumfalcon:block/frozen_hours/eastwatch/props/jess_hood_rack/now/front",
+  "side": "quantumfalcon:block/frozen_hours/eastwatch/props/jess_hood_rack/now/side",
+  "back": "quantumfalcon:block/frozen_hours/eastwatch/props/jess_hood_rack/now/back",
+  "particle": "quantumfalcon:block/frozen_hours/eastwatch/props/jess_hood_rack/now/front"
+ },
+ "elements": [
+  {
+   "name": "plate",
+   "from": [
+    1,
+    1,
+    14
+   ],
+   "to": [
+    15,
+    15,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#front",
+     "uv": [
+      1,
+      1,
+      15,
+      15
+     ]
+    },
+    "south": {
+     "texture": "#back",
+     "cullface": "south",
+     "uv": [
+      1,
+      1,
+      15,
+      15
+     ]
+    },
+    "west": {
+     "texture": "#side",
+     "uv": [
+      13,
+      1,
+      16,
+      15
+     ]
+    },
+    "east": {
+     "texture": "#side",
+     "uv": [
+      13,
+      1,
+      16,
+      15
+     ]
+    },
+    "up": {
+     "texture": "#side",
+     "uv": [
+      13,
+      1,
+      16,
+      4
+     ]
+    },
+    "down": {
+     "texture": "#side",
+     "uv": [
+      13,
+      12,
+      16,
+      15
+     ]
+    }
+   }
+  },
+  {
+   "name": "hook_nub",
+   "from": [
+    7,
+    8,
+    13
+   ],
+   "to": [
+    9,
+    10,
+    14
+   ],
+   "faces": {
+    "north": {
+     "texture": "#front",
+     "uv": [
+      7,
+      8,
+      9,
+      10
+     ]
+    },
+    "west": {
+     "texture": "#side",
+     "uv": [
+      12,
+      5,
+      13,
+      7
+     ]
+    },
+    "east": {
+     "texture": "#side",
+     "uv": [
+      12,
+      5,
+      13,
+      7
+     ]
+    },
+    "down": {
+     "texture": "#side",
+     "uv": [
+      12,
+      6,
+      13,
+      7
+     ]
+    }
+   }
+  }
+ ],
+ "render_type": "minecraft:cutout"
+}

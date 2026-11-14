@@ -1,0 +1,37 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "building",
+ "ingredients": [
+  {
+   "item": "quantumfalcon:cracked_riftslate_bricks"
+  },
+  {
+   "item": "quantumfalcon:cracked_riftslate_bricks"
+  },
+  {
+   "item": "quantumfalcon:cracked_riftslate_bricks"
+  },
+  {
+   "item": "quantumfalcon:cracked_riftslate_bricks"
+  },
+  {
+   "item": "quantumfalcon:cracked_riftslate_bricks"
+  },
+  {
+   "item": "quantumfalcon:cracked_riftslate_bricks"
+  },
+  {
+   "item": "quantumfalcon:cracked_riftslate_bricks"
+  },
+  {
+   "item": "quantumfalcon:cracked_riftslate_bricks"
+  },
+  {
+   "item": "quantumfalcon:temporal_dust"
+  }
+ ],
+ "result": {
+  "id": "quantumfalcon:cracked_riftslate_bricks_then",
+  "count": 8
+ }
+}

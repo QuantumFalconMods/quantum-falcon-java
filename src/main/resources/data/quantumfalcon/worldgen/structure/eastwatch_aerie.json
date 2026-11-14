@@ -1,0 +1,10 @@
+{
+ "type": "quantumfalcon:frozen_hour",
+ "biomes": "#quantumfalcon:has_structure/eastwatch_aerie",
+ "step": "surface_structures",
+ "spawn_overrides": {},
+ "terrain_adaptation": "none",
+ "template": "quantumfalcon:frozen_hours/eastwatch_aerie",
+ "depth": 31,
+ "max_slope": 10
+}

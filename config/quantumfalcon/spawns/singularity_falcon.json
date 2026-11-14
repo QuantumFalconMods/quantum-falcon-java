@@ -1,0 +1,56 @@
+{
+  "_comment": "Singularity Falcon spawn configuration - Ultra-rare Elite tier (End Cities only)",
+  "variant": "SINGULARITY",
+  "tier": "ELITE",
+  "biomes": [
+    {
+      "_comment": "End City structure (Alex's Mobs skelewag pattern: structure-locked)",
+      "conditions": [
+        {
+          "type": "STRUCTURE",
+          "negate": false,
+          "value": "minecraft:end_city"
+        }
+      ]
+    },
+    {
+      "_comment": "End highlands near obsidian pillars",
+      "conditions": [
+        {
+          "type": "BIOME_TAG",
+          "negate": false,
+          "value": "minecraft:is_end"
+        },
+        {
+          "type": "NEAR_BLOCK",
+          "blockId": "minecraft:obsidian",
+          "radius": 64
+        },
+        {
+          "type": "HEIGHT_RANGE",
+          "min": 50,
+          "max": 120
+        }
+      ]
+    }
+  ],
+  "spawning": {
+    "weight": 1,
+    "rolls": 100,
+    "minGroupSize": 1,
+    "maxGroupSize": 1,
+    "minHeight": 40,
+    "maxHeight": 128,
+    "canDespawn": false,
+    "despawnDistance": 256,
+    "restrictToStructure": true,
+    "requiresPlayerProximity": false
+  },
+  "special": {
+    "_comment": "Singularity falcons announce their presence",
+    "spawnAnnouncement": true,
+    "announcementMessage": "A disturbance in spacetime ripples through the End...",
+    "spawnParticles": "minecraft:portal",
+    "spawnSound": "minecraft:entity.warden.sonic_boom"
+  }
+}

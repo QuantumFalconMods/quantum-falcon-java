@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "quantumfalcon:block/temporal_log"
+    },
+    "axis=z": {
+      "model": "quantumfalcon:block/temporal_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "quantumfalcon:block/temporal_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

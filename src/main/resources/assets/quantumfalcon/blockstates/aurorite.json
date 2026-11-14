@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "": [
+   {
+    "model": "quantumfalcon:block/aurorite",
+    "weight": 3
+   },
+   {
+    "model": "quantumfalcon:block/aurorite_v1",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/aurorite_v2",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/aurorite_v3",
+    "weight": 1
+   }
+  ]
+ }
+}

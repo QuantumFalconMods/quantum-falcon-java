@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      { "model": "quantumfalcon:block/quantum_tech_cyan_v1" },
+      { "model": "quantumfalcon:block/quantum_tech_cyan_v2" },
+      { "model": "quantumfalcon:block/quantum_tech_cyan_v3" },
+      { "model": "quantumfalcon:block/quantum_tech_cyan_v4" },
+      { "model": "quantumfalcon:block/quantum_tech_cyan_v5" },
+      { "model": "quantumfalcon:block/quantum_tech_cyan_v6" },
+      { "model": "quantumfalcon:block/quantum_tech_cyan_v7" },
+      { "model": "quantumfalcon:block/quantum_tech_cyan_v8" }
+    ]
+  }
+}

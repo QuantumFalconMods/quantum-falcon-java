@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "quantumfalcon:quantum_band",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:reality_anchor",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:falcon_feather_charm",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:entanglement_core",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:void_lens",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:singularity_belt",
+      "required": false
+    }
+  ]
+}

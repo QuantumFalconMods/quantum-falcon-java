@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "quantumfalcon:block/crystal_log"
+    },
+    "axis=z": {
+      "model": "quantumfalcon:block/crystal_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "quantumfalcon:block/crystal_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

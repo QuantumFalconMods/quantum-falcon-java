@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:chaos_pressure_plate",
+    "quantumfalcon:crystal_pressure_plate",
+    "quantumfalcon:echo_pressure_plate",
+    "quantumfalcon:phase_pressure_plate",
+    "quantumfalcon:quantum_pressure_plate",
+    "quantumfalcon:resonance_pressure_plate",
+    "quantumfalcon:temporal_pressure_plate",
+    "quantumfalcon:void_pressure_plate"
+  ]
+}

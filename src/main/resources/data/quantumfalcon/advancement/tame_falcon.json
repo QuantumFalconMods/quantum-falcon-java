@@ -1,0 +1,25 @@
+{
+  "parent": "quantumfalcon:root",
+  "display": {
+    "icon": {
+      "item": "quantumfalcon:falcon_egg"
+    },
+    "title": {
+      "text": "Your First Companion"
+    },
+    "description": {
+      "text": "Tame a falcon"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "tame_falcon": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "quantumfalcon:quantum_falcon"
+        }
+      }
+    }
+  }
+}

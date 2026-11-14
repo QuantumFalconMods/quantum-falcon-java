@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "quantumfalcon:block/quantum_glass_block"
+    }
+  }
+}

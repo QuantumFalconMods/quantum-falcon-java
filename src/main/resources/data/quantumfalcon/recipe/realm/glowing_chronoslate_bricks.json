@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "###",
+  "#G#",
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:chronoslate_bricks"
+  },
+  "G": {
+   "item": "minecraft:glowstone_dust"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:glowing_chronoslate_bricks",
+  "count": 8
+ }
+}

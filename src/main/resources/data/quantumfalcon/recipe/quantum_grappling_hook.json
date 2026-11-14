@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "CGC",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "quantumfalcon:quantum_crystal"
+    },
+    "G": {
+      "item": "quantumfalcon:grappling_hook"
+    },
+    "S": {
+      "item": "quantumfalcon:quantum_shard"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:quantum_grappling_hook",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "active=false": { "model": "quantumfalcon:block/quantum_forge" },
+    "active=true": { "model": "quantumfalcon:block/quantum_forge_on" }
+  }
+}

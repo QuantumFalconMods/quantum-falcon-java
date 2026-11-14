@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      { "model": "quantumfalcon:block/quantum_tech_purple_v1" },
+      { "model": "quantumfalcon:block/quantum_tech_purple_v2" },
+      { "model": "quantumfalcon:block/quantum_tech_purple_v3" }
+    ]
+  }
+}

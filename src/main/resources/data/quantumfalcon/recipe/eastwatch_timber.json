@@ -1,0 +1,25 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "building",
+ "ingredients": [
+  {
+   "item": "minecraft:dark_oak_planks"
+  },
+  {
+   "item": "minecraft:dark_oak_planks"
+  },
+  {
+   "item": "minecraft:dark_oak_planks"
+  },
+  {
+   "item": "minecraft:dark_oak_planks"
+  },
+  {
+   "item": "quantumfalcon:riftslate"
+  }
+ ],
+ "result": {
+  "id": "quantumfalcon:eastwatch_timber",
+  "count": 4
+ }
+}

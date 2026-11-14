@@ -1,0 +1,28 @@
+# build output
+build/
+out/
+dist/
+bin/
+.gradle/
+# local runs and test worlds
+run/
+run-client/
+logs/
+*.log
+crash-reports/
+hs_err_pid*.log
+# test datapacks and archives
+*.zip
+# secrets and local settings
+.env
+.env.*
+*.keystore
+gradle-local.properties
+# editors and OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+tools/__pycache__/
+__pycache__/

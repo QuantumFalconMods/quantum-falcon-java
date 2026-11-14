@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "quantumfalcon:temporal_dust"
+    }
+  ],
+  "result": {
+    "id": "quantumfalcon:gold_ingot_custom",
+    "count": 2
+  }
+}

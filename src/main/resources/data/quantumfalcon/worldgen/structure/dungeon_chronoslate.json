@@ -1,0 +1,11 @@
+{
+  "type": "quantumfalcon:echo_dungeon",
+  "biomes": "#quantumfalcon:has_structure/dungeon_chronoslate",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "quantumfalcon:dungeon/chronoslate/start",
+  "size": 20,
+  "depth": 12,
+  "max_distance_from_center": 116
+}

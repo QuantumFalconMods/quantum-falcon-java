@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:riftslate_brick_fence",
+    "quantumfalcon:aurorite_brick_fence",
+    "quantumfalcon:prismite_brick_fence",
+    "quantumfalcon:cinderite_brick_fence",
+    "quantumfalcon:chronoslate_brick_fence",
+    "quantumfalcon:abyssite_brick_fence",
+    "quantumfalcon:voidshale_brick_fence",
+    "quantumfalcon:singularite_brick_fence",
+    "quantumfalcon:eastwatch_perch_rail_then",
+    "quantumfalcon:eastwatch_perch_rail_now"
+  ]
+}

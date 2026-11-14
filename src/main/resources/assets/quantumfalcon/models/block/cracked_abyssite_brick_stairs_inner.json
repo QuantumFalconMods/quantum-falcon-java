@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "quantumfalcon:block/realm/abyssite/cracked_bricks",
+    "top": "quantumfalcon:block/realm/abyssite/cracked_bricks",
+    "side": "quantumfalcon:block/realm/abyssite/cracked_bricks"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": ["quantumfalcon:echo_caverns", "quantumfalcon:echo_depths", "quantumfalcon:echo_mountains", "quantumfalcon:resonance_caves"],
+  "spawners": { "type": "quantumfalcon:sha_sha", "weight": 2, "minCount": 1, "maxCount": 1 }
+}

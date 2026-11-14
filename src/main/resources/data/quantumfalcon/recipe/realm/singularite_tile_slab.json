@@ -1,0 +1,16 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:singularite_tiles"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:singularite_tile_slab",
+  "count": 6
+ }
+}

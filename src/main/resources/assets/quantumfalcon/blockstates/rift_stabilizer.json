@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "active=false": { "model": "quantumfalcon:block/rift_stabilizer" },
+    "active=true": { "model": "quantumfalcon:block/rift_stabilizer_active" }
+  }
+}

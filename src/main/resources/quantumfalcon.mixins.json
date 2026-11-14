@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.matt.quantumfalcon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockStateDestroySpeedMixin",
+    "FlowingFluidMixin",
+    "LevelSetBlockMixin",
+    "PortalForcerMixin",
+    "RiftPortalPlacerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

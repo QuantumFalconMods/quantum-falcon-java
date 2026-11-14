@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "GNG",
+    "OOO"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "C": {
+      "item": "quantumfalcon:quantum_core"
+    },
+    "N": {
+      "item": "quantumfalcon:quantum_nest"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "quantumfalcon:quantum_incubator"
+  }
+}

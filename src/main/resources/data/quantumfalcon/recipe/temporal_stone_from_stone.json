@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SSS",
+    "SMS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "M": {
+      "item": "quantumfalcon:temporal_shard"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:temporal_stone",
+    "count": 8
+  }
+}

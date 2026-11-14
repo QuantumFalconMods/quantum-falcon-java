@@ -1,0 +1,10 @@
+{
+ "type": "minecraft:stonecutting",
+ "ingredient": {
+  "item": "quantumfalcon:prismite"
+ },
+ "result": {
+  "id": "quantumfalcon:prismite_pillar",
+  "count": 1
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "parent": "minecraft:block/cube_all",
+ "textures": {
+  "all": "quantumfalcon:block/void_pillar",
+  "particle_glow": "quantumfalcon:block/void_pillar_glow",
+  "down_glow": "quantumfalcon:block/void_pillar_top_glow",
+  "up_glow": "quantumfalcon:block/void_pillar_top_glow",
+  "north_glow": "quantumfalcon:block/void_pillar_glow",
+  "east_glow": "quantumfalcon:block/void_pillar_glow",
+  "south_glow": "quantumfalcon:block/void_pillar_glow",
+  "west_glow": "quantumfalcon:block/void_pillar_glow",
+  "all_glow": "quantumfalcon:block/void_pillar_glow",
+  "end": "quantumfalcon:block/void_pillar_top",
+  "end_glow": "quantumfalcon:block/void_pillar_top_glow",
+  "up": "#end",
+  "down": "#end"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "faces": {
+    "down": {
+     "texture": "#end",
+     "cullface": "down"
+    },
+    "up": {
+     "texture": "#end",
+     "cullface": "up"
+    },
+    "north": {
+     "texture": "#north",
+     "cullface": "north"
+    },
+    "south": {
+     "texture": "#south",
+     "cullface": "south"
+    },
+    "west": {
+     "texture": "#west",
+     "cullface": "west"
+    },
+    "east": {
+     "texture": "#east",
+     "cullface": "east"
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "down": {
+     "texture": "#end_glow",
+     "cullface": "down"
+    },
+    "up": {
+     "texture": "#end_glow",
+     "cullface": "up"
+    },
+    "north": {
+     "texture": "#all_glow",
+     "cullface": "north"
+    },
+    "south": {
+     "texture": "#all_glow",
+     "cullface": "south"
+    },
+    "west": {
+     "texture": "#all_glow",
+     "cullface": "west"
+    },
+    "east": {
+     "texture": "#all_glow",
+     "cullface": "east"
+    }
+   }
+  }
+ ],
+ "render_type": "minecraft:cutout"
+}

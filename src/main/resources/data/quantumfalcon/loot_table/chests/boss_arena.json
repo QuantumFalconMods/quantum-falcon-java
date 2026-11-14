@@ -1,0 +1,122 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 6,
+        "max": 12
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:quantum_shard",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:rift_shard",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:reality_fragment",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:quantum_core",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:echo_shard",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:entanglement_band",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:singularity_compass",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 13
+        }
+      ]
+    }
+  ]
+}

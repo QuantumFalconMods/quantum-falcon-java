@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "quantumfalcon:block/building/void_stone_bricks_0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:chaos_log",
+    "quantumfalcon:crystal_log",
+    "quantumfalcon:echo_log",
+    "quantumfalcon:phase_log",
+    "quantumfalcon:quantum_log",
+    "quantumfalcon:resonance_log",
+    "quantumfalcon:temporal_log",
+    "quantumfalcon:void_log",
+    "quantumfalcon:stripped_chaos_log",
+    "quantumfalcon:stripped_crystal_log",
+    "quantumfalcon:stripped_echo_log",
+    "quantumfalcon:stripped_phase_log",
+    "quantumfalcon:stripped_quantum_log",
+    "quantumfalcon:stripped_resonance_log",
+    "quantumfalcon:stripped_temporal_log",
+    "quantumfalcon:stripped_void_log"
+  ]
+}

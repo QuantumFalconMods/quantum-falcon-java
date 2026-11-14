@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "quantumfalcon:item/materials/variants/shards/quantum_fragment_18"
+  }
+}

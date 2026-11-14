@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "quantumfalcon:dungeon_overworld_riftslate",
+      "weight": 1
+    },
+    {
+      "structure": "quantumfalcon:dungeon_overworld_aurorite",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 16,
+    "salt": 718202
+  }
+}

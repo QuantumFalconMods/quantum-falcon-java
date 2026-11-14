@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "quantumfalcon:block/entangled_ore" }
+  }
+}

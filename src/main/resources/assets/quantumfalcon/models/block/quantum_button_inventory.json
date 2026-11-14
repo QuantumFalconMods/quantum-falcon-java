@@ -1,0 +1,153 @@
+{
+ "parent": "minecraft:block/button_inventory",
+ "textures": {
+  "texture": "quantumfalcon:block/quantum_planks",
+  "particle_glow": "quantumfalcon:block/quantum_planks_glow",
+  "texture_glow": "quantumfalcon:block/quantum_planks_glow"
+ },
+ "elements": [
+  {
+   "from": [
+    5,
+    6,
+    6
+   ],
+   "to": [
+    11,
+    10,
+    10
+   ],
+   "faces": {
+    "down": {
+     "uv": [
+      5,
+      6,
+      11,
+      10
+     ],
+     "texture": "#texture"
+    },
+    "up": {
+     "uv": [
+      5,
+      10,
+      11,
+      6
+     ],
+     "texture": "#texture"
+    },
+    "north": {
+     "uv": [
+      5,
+      12,
+      11,
+      16
+     ],
+     "texture": "#texture"
+    },
+    "south": {
+     "uv": [
+      5,
+      12,
+      11,
+      16
+     ],
+     "texture": "#texture"
+    },
+    "west": {
+     "uv": [
+      6,
+      12,
+      10,
+      16
+     ],
+     "texture": "#texture"
+    },
+    "east": {
+     "uv": [
+      6,
+      12,
+      10,
+      16
+     ],
+     "texture": "#texture"
+    }
+   }
+  },
+  {
+   "from": [
+    5,
+    6,
+    6
+   ],
+   "to": [
+    11,
+    10,
+    10
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "down": {
+     "uv": [
+      5,
+      6,
+      11,
+      10
+     ],
+     "texture": "#texture_glow"
+    },
+    "up": {
+     "uv": [
+      5,
+      10,
+      11,
+      6
+     ],
+     "texture": "#texture_glow"
+    },
+    "north": {
+     "uv": [
+      5,
+      12,
+      11,
+      16
+     ],
+     "texture": "#texture_glow"
+    },
+    "south": {
+     "uv": [
+      5,
+      12,
+      11,
+      16
+     ],
+     "texture": "#texture_glow"
+    },
+    "west": {
+     "uv": [
+      6,
+      12,
+      10,
+      16
+     ],
+     "texture": "#texture_glow"
+    },
+    "east": {
+     "uv": [
+      6,
+      12,
+      10,
+      16
+     ],
+     "texture": "#texture_glow"
+    }
+   }
+  }
+ ],
+ "render_type": "minecraft:cutout"
+}

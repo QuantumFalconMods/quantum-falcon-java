@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CEC",
+    "IHI",
+    " R "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cyan_dye"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "H": {
+      "item": "minecraft:fishing_rod"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:quantum_grapple",
+    "count": 1
+  }
+}

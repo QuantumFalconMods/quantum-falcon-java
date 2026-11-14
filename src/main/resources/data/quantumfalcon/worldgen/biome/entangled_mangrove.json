@@ -1,0 +1,103 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 6338672,
+    "fog_color": 4259840,
+    "water_color": 65288,
+    "water_fog_color": 52358,
+    "grass_color": 3252224,
+    "foliage_color": 4259840,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "music": {
+      "sound": "quantumfalcon:quantum_biome_ambient",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:reverse_portal"
+      },
+      "probability": 0.004
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "quantumfalcon:quantum_phantom",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "quantumfalcon:crystal_guardian",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "quantumfalcon:void_echo",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "creature": [
+      {
+        "type": "quantumfalcon:quantum_falcon",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "ambient": [
+      {
+        "type": "quantumfalcon:quantum_wisp",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "quantumfalcon:ore_quantum",
+      "quantumfalcon:ore_crystal",
+      "quantumfalcon:ore_echo",
+      "quantumfalcon:ore_phase",
+      "quantumfalcon:ore_resonance",
+      "quantumfalcon:ore_temporal"
+    ],
+    [],
+    [],
+    [
+      "quantumfalcon:tree_echo"
+    ],
+    []
+  ]
+}

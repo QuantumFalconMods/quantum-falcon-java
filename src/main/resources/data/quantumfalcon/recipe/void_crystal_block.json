@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "quantumfalcon:void_crystal"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:void_crystal_block",
+    "count": 1
+  }
+}

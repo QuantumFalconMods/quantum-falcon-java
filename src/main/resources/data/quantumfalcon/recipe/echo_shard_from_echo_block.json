@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "quantumfalcon:echo_block"
+    }
+  ],
+  "result": {
+    "id": "quantumfalcon:echo_shard",
+    "count": 9
+  }
+}

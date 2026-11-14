@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " XS",
+    "C S",
+    " XS"
+  ],
+  "key": {
+    "X": {
+      "item": "quantumfalcon:singularity_ingot"
+    },
+    "C": {
+      "item": "quantumfalcon:singularity_core"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:singularity_bow",
+    "count": 1
+  }
+}

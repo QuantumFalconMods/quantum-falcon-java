@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "#",
+  "#"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:polished_voidshale"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:voidshale_pillar",
+  "count": 2
+ }
+}

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "quantumfalcon:block/end_quantum_ore" }
+  }
+}

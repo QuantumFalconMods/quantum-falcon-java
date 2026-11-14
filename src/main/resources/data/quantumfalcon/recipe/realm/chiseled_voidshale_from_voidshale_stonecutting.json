@@ -1,0 +1,10 @@
+{
+ "type": "minecraft:stonecutting",
+ "ingredient": {
+  "item": "quantumfalcon:voidshale"
+ },
+ "result": {
+  "id": "quantumfalcon:chiseled_voidshale",
+  "count": 1
+ }
+}

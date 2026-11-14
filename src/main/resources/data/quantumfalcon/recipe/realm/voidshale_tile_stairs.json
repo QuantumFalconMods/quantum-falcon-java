@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "#  ",
+  "## ",
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:voidshale_tiles"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:voidshale_tile_stairs",
+  "count": 4
+ }
+}

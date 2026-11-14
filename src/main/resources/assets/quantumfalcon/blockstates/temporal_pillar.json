@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "axis=y": [
+      { "model": "quantumfalcon:block/temporal_pillar_v1" },
+      { "model": "quantumfalcon:block/temporal_pillar_v2" },
+      { "model": "quantumfalcon:block/temporal_pillar_v3" }
+    ],
+    "axis=z": [
+      { "model": "quantumfalcon:block/temporal_pillar_v1" },
+      { "model": "quantumfalcon:block/temporal_pillar_v2" },
+      { "model": "quantumfalcon:block/temporal_pillar_v3" }
+    ],
+    "axis=x": [
+      { "model": "quantumfalcon:block/temporal_pillar_v1" },
+      { "model": "quantumfalcon:block/temporal_pillar_v2" },
+      { "model": "quantumfalcon:block/temporal_pillar_v3" }
+    ]
+  }
+}

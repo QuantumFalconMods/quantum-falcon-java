@@ -1,0 +1,32 @@
+{
+  "parent": "quantumfalcon:story/tame_first_falcon",
+  "display": {
+    "icon": {
+      "item": "quantumfalcon:falcon_egg"
+    },
+    "title": {
+      "translate": "advancements.quantumfalcon.breed_falcon.title",
+      "fallback": "Circle of Life"
+    },
+    "description": {
+      "translate": "advancements.quantumfalcon.breed_falcon.description",
+      "fallback": "Breed two Quantum Falcons"
+    }
+  },
+  "criteria": {
+    "bred_falcon": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "quantumfalcon:quantum_falcon"
+        },
+        "partner": {
+          "type": "quantumfalcon:quantum_falcon"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 75
+  }
+}

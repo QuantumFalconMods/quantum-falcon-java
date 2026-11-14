@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GRG",
+    "RCR",
+    "GRG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glow_berries"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "minecraft:chorus_fruit"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:quantum_berry",
+    "count": 2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:quantum_plains",
+    "quantumfalcon:quantum_forest",
+    "quantumfalcon:quantum_jungle",
+    "quantumfalcon:quantum_mountains",
+    "quantumfalcon:quantum_river",
+    "quantumfalcon:falcon_roost",
+    "quantumfalcon:phase_forest",
+    "quantumfalcon:luminous_grove",
+    "quantumfalcon:desert_quantum",
+    "quantumfalcon:savanna_quantum",
+    "quantumfalcon:mushroom_quantum",
+    "quantumfalcon:coral_quantum"
+  ]
+}

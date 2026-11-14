@@ -1,0 +1,16 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:polished_aurorite"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:polished_aurorite_slab",
+  "count": 6
+ }
+}

@@ -1,0 +1,66 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:quantum_falcon",
+    {
+      "id": "quantumfalcon:void_falcon",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:crystal_falcon",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:plasma_falcon",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:solar_falcon",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:lunar_falcon",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:temporal_falcon",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:spectral_falcon",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:volcanic_falcon",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:arctic_falcon",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:prismatic_falcon",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:omni_falcon",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:obsidian_falcon",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:biolume_falcon",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:aether_falcon",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:singularity_falcon",
+      "required": false
+    }
+  ]
+}

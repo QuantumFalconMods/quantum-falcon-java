@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:falcon_whistle",
+    "quantumfalcon:falcon_journal",
+    "quantumfalcon:quantum_compass",
+    "quantumfalcon:grappling_hook",
+    {
+      "id": "quantumfalcon:quantum_grappling_hook",
+      "required": false
+    },
+    "quantumfalcon:rift_igniter"
+  ]
+}

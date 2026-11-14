@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:cracked_quantum_stone_bricks",
+    "quantumfalcon:mossy_quantum_stone",
+    "quantumfalcon:polished_quantum_stone",
+    "quantumfalcon:quantum_stone",
+    "quantumfalcon:quantum_stone_bricks"
+  ]
+}

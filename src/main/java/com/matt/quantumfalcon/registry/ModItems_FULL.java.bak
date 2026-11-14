@@ -1,0 +1,114 @@
+package com.matt.quantumfalcon.registry;
+
+import net.minecraft.world.item.equipment.ArmorType;
+import com.matt.quantumfalcon.QuantumFalcon;
+import com.matt.quantumfalcon.material.ModArmorMaterials;
+import com.matt.quantumfalcon.item.tools.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ArmorItem;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredRegister;
+/**
+ * ModItems registry - All four themes with materials, tools, and armor
+ * - Materials: Gem, Ingot, Nugget (12 items)
+ * - Tools: Sword, Pickaxe, Axe, Shovel, Hoe (20 items)
+ * - Armor: Helmet, Chestplate, Leggings, Boots (16 items)
+ * Total: 48 items
+ */
+public class ModItems {
+
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(QuantumFalcon.MOD_ID);
+
+    // ==================== AQUA MATERIALS ====================
+    public static final DeferredItem<Item> AQUA_GEM = ITEMS.register("aqua_gem", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> AQUA_INGOT = ITEMS.register("aqua_ingot", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> AQUA_NUGGET = ITEMS.register("aqua_nugget", () -> new Item(new Item.Properties()));
+
+    // ==================== AQUA TOOLS ====================
+    public static final DeferredItem<AquaSwordItem> AQUA_SWORD = ITEMS.register("aqua_sword", AquaSwordItem::new);
+    public static final DeferredItem<AquaPickaxeItem> AQUA_PICKAXE = ITEMS.register("aqua_pickaxe", AquaPickaxeItem::new);
+    public static final DeferredItem<AquaAxeItem> AQUA_AXE = ITEMS.register("aqua_axe", AquaAxeItem::new);
+    public static final DeferredItem<AquaShovelItem> AQUA_SHOVEL = ITEMS.register("aqua_shovel", AquaShovelItem::new);
+    public static final DeferredItem<AquaHoeItem> AQUA_HOE = ITEMS.register("aqua_hoe", AquaHoeItem::new);
+
+    // ==================== AQUA ARMOR (Singularity) ====================
+    public static final DeferredItem<ArmorItem> AQUA_HELMET = ITEMS.register("aqua_helmet", 
+        () -> new ArmorItem(ModArmorMaterials.AQUA_ARMOR_MATERIAL, ArmorType.HELMET, new Item.Properties()));
+    public static final DeferredItem<ArmorItem> AQUA_CHESTPLATE = ITEMS.register("aqua_chestplate", 
+        () -> new ArmorItem(ModArmorMaterials.AQUA_ARMOR_MATERIAL, ArmorType.CHESTPLATE, new Item.Properties()));
+    public static final DeferredItem<ArmorItem> AQUA_LEGGINGS = ITEMS.register("aqua_leggings", 
+        () -> new ArmorItem(ModArmorMaterials.AQUA_ARMOR_MATERIAL, ArmorType.LEGGINGS, new Item.Properties()));
+    public static final DeferredItem<ArmorItem> AQUA_BOOTS = ITEMS.register("aqua_boots", 
+        () -> new ArmorItem(ModArmorMaterials.AQUA_ARMOR_MATERIAL, ArmorType.BOOTS, new Item.Properties()));
+
+    // ==================== PURPLE MATERIALS ====================
+    public static final DeferredItem<Item> PURPLE_GEM = ITEMS.register("purple_gem", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PURPLE_INGOT = ITEMS.register("purple_ingot", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PURPLE_NUGGET = ITEMS.register("purple_nugget", () -> new Item(new Item.Properties()));
+
+    // ==================== PURPLE TOOLS ====================
+    public static final DeferredItem<PurpleSwordItem> PURPLE_SWORD = ITEMS.register("purple_sword", PurpleSwordItem::new);
+    public static final DeferredItem<PurplePickaxeItem> PURPLE_PICKAXE = ITEMS.register("purple_pickaxe", PurplePickaxeItem::new);
+    public static final DeferredItem<PurpleAxeItem> PURPLE_AXE = ITEMS.register("purple_axe", PurpleAxeItem::new);
+    public static final DeferredItem<PurpleShovelItem> PURPLE_SHOVEL = ITEMS.register("purple_shovel", PurpleShovelItem::new);
+    public static final DeferredItem<PurpleHoeItem> PURPLE_HOE = ITEMS.register("purple_hoe", PurpleHoeItem::new);
+
+    // ==================== PURPLE ARMOR (Void Forged) ====================
+    public static final DeferredItem<ArmorItem> PURPLE_HELMET = ITEMS.register("purple_helmet", 
+        () -> new ArmorItem(ModArmorMaterials.PURPLE_ARMOR_MATERIAL, ArmorType.HELMET, new Item.Properties()));
+    public static final DeferredItem<ArmorItem> PURPLE_CHESTPLATE = ITEMS.register("purple_chestplate", 
+        () -> new ArmorItem(ModArmorMaterials.PURPLE_ARMOR_MATERIAL, ArmorType.CHESTPLATE, new Item.Properties()));
+    public static final DeferredItem<ArmorItem> PURPLE_LEGGINGS = ITEMS.register("purple_leggings", 
+        () -> new ArmorItem(ModArmorMaterials.PURPLE_ARMOR_MATERIAL, ArmorType.LEGGINGS, new Item.Properties()));
+    public static final DeferredItem<ArmorItem> PURPLE_BOOTS = ITEMS.register("purple_boots", 
+        () -> new ArmorItem(ModArmorMaterials.PURPLE_ARMOR_MATERIAL, ArmorType.BOOTS, new Item.Properties()));
+
+    // ==================== MAGENTA MATERIALS ====================
+    public static final DeferredItem<Item> MAGENTA_GEM = ITEMS.register("magenta_gem", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MAGENTA_INGOT = ITEMS.register("magenta_ingot", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MAGENTA_NUGGET = ITEMS.register("magenta_nugget", () -> new Item(new Item.Properties()));
+
+    // ==================== MAGENTA TOOLS ====================
+    public static final DeferredItem<MagentaSwordItem> MAGENTA_SWORD = ITEMS.register("magenta_sword", MagentaSwordItem::new);
+    public static final DeferredItem<MagentaPickaxeItem> MAGENTA_PICKAXE = ITEMS.register("magenta_pickaxe", MagentaPickaxeItem::new);
+    public static final DeferredItem<MagentaAxeItem> MAGENTA_AXE = ITEMS.register("magenta_axe", MagentaAxeItem::new);
+    public static final DeferredItem<MagentaShovelItem> MAGENTA_SHOVEL = ITEMS.register("magenta_shovel", MagentaShovelItem::new);
+    public static final DeferredItem<MagentaHoeItem> MAGENTA_HOE = ITEMS.register("magenta_hoe", MagentaHoeItem::new);
+
+    // ==================== MAGENTA ARMOR (Quantum Crystal) ====================
+    public static final DeferredItem<ArmorItem> MAGENTA_HELMET = ITEMS.register("magenta_helmet", 
+        () -> new ArmorItem(ModArmorMaterials.MAGENTA_ARMOR_MATERIAL, ArmorType.HELMET, new Item.Properties()));
+    public static final DeferredItem<ArmorItem> MAGENTA_CHESTPLATE = ITEMS.register("magenta_chestplate", 
+        () -> new ArmorItem(ModArmorMaterials.MAGENTA_ARMOR_MATERIAL, ArmorType.CHESTPLATE, new Item.Properties()));
+    public static final DeferredItem<ArmorItem> MAGENTA_LEGGINGS = ITEMS.register("magenta_leggings", 
+        () -> new ArmorItem(ModArmorMaterials.MAGENTA_ARMOR_MATERIAL, ArmorType.LEGGINGS, new Item.Properties()));
+    public static final DeferredItem<ArmorItem> MAGENTA_BOOTS = ITEMS.register("magenta_boots", 
+        () -> new ArmorItem(ModArmorMaterials.MAGENTA_ARMOR_MATERIAL, ArmorType.BOOTS, new Item.Properties()));
+
+    // ==================== GOLD MATERIALS ====================
+    public static final DeferredItem<Item> GOLD_GEM = ITEMS.register("gold_gem", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GOLD_INGOT = ITEMS.register("gold_ingot", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GOLD_NUGGET = ITEMS.register("gold_nugget", () -> new Item(new Item.Properties()));
+
+    // ==================== GOLD TOOLS ====================
+    public static final DeferredItem<GoldSwordItem> GOLD_SWORD = ITEMS.register("gold_sword", GoldSwordItem::new);
+    public static final DeferredItem<GoldPickaxeItem> GOLD_PICKAXE = ITEMS.register("gold_pickaxe", GoldPickaxeItem::new);
+    public static final DeferredItem<GoldAxeItem> GOLD_AXE = ITEMS.register("gold_axe", GoldAxeItem::new);
+    public static final DeferredItem<GoldShovelItem> GOLD_SHOVEL = ITEMS.register("gold_shovel", GoldShovelItem::new);
+    public static final DeferredItem<GoldHoeItem> GOLD_HOE = ITEMS.register("gold_hoe", GoldHoeItem::new);
+
+    // ==================== GOLD ARMOR (Temporal Guardian) ====================
+    public static final DeferredItem<ArmorItem> GOLD_HELMET = ITEMS.register("gold_helmet", 
+        () -> new ArmorItem(ModArmorMaterials.GOLD_ARMOR_MATERIAL, ArmorType.HELMET, new Item.Properties()));
+    public static final DeferredItem<ArmorItem> GOLD_CHESTPLATE = ITEMS.register("gold_chestplate", 
+        () -> new ArmorItem(ModArmorMaterials.GOLD_ARMOR_MATERIAL, ArmorType.CHESTPLATE, new Item.Properties()));
+    public static final DeferredItem<ArmorItem> GOLD_LEGGINGS = ITEMS.register("gold_leggings", 
+        () -> new ArmorItem(ModArmorMaterials.GOLD_ARMOR_MATERIAL, ArmorType.LEGGINGS, new Item.Properties()));
+    public static final DeferredItem<ArmorItem> GOLD_BOOTS = ITEMS.register("gold_boots", 
+        () -> new ArmorItem(ModArmorMaterials.GOLD_ARMOR_MATERIAL, ArmorType.BOOTS, new Item.Properties()));
+
+    public static void register(IEventBus modEventBus) {
+        ITEMS.register(modEventBus);
+    }
+}

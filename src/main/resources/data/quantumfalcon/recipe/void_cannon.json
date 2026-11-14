@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " VV",
+    "VCV",
+    "SV "
+  ],
+  "key": {
+    "V": {
+      "item": "quantumfalcon:void_ingot"
+    },
+    "C": {
+      "item": "quantumfalcon:void_core"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:void_cannon",
+    "count": 1
+  }
+}

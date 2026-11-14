@@ -1,0 +1,66 @@
+{
+  "_comment": "Void Falcon spawn configuration - Dark/shadow biomes",
+  "variant": "VOID",
+  "biomes": [
+    {
+      "_comment": "Deep Dark (primary Void falcon habitat)",
+      "conditions": [
+        {
+          "type": "REGISTRY_NAME",
+          "negate": false,
+          "value": "minecraft:deep_dark"
+        }
+      ]
+    },
+    {
+      "_comment": "Sculk-heavy caves",
+      "conditions": [
+        {
+          "type": "BIOME_TAG",
+          "negate": false,
+          "value": "minecraft:is_overworld"
+        },
+        {
+          "type": "HEIGHT_RANGE",
+          "min": -64,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "_comment": "End void areas (modded biomes)",
+      "conditions": [
+        {
+          "type": "REGISTRY_NAME",
+          "negate": false,
+          "value": "nullscape:void_barrens"
+        }
+      ]
+    },
+    {
+      "_comment": "End outer islands",
+      "conditions": [
+        {
+          "type": "BIOME_TAG",
+          "negate": false,
+          "value": "minecraft:is_end"
+        },
+        {
+          "type": "BIOME_TAG",
+          "negate": true,
+          "value": "minecraft:is_hill"
+        }
+      ]
+    }
+  ],
+  "spawning": {
+    "weight": 8,
+    "rolls": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1,
+    "minHeight": -64,
+    "maxHeight": 10,
+    "canDespawn": false,
+    "despawnDistance": 128
+  }
+}

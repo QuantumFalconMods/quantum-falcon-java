@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "FL ",
+    "LIL",
+    " L "
+  ],
+  "key": {
+    "F": {
+      "item": "quantumfalcon:falcon_feather"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:falconer_gauntlet",
+    "count": 1
+  }
+}

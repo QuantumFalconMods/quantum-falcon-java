@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "quantumfalcon:voidshale_neon_trim"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:voidshale_neon_trim_slab",
+    "count": 6
+  }
+}

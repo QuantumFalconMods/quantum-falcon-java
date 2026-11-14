@@ -1,0 +1,56 @@
+{
+  "_comment": "Quantum Falcon spawn configuration - Based on Alex's Mobs bald_eagle pattern",
+  "variant": "QUANTUM",
+  "biomes": [
+    {
+      "_comment": "Mountain peaks and high-altitude biomes",
+      "conditions": [
+        {
+          "type": "BIOME_TAG",
+          "negate": false,
+          "value": "minecraft:is_mountain"
+        },
+        {
+          "type": "HEIGHT_RANGE",
+          "min": 128,
+          "max": 256
+        }
+      ]
+    },
+    {
+      "_comment": "Specific modded biomes with tech/magic themes",
+      "conditions": [
+        {
+          "type": "REGISTRY_NAME",
+          "negate": false,
+          "value": "terralith:skylands_spring"
+        }
+      ]
+    },
+    {
+      "_comment": "End highlands (for rare elite spawns)",
+      "conditions": [
+        {
+          "type": "BIOME_TAG",
+          "negate": false,
+          "value": "minecraft:is_end"
+        },
+        {
+          "type": "BIOME_TAG",
+          "negate": false,
+          "value": "minecraft:is_hill"
+        }
+      ]
+    }
+  ],
+  "spawning": {
+    "weight": 15,
+    "rolls": 0,
+    "minGroupSize": 1,
+    "maxGroupSize": 2,
+    "minHeight": 80,
+    "maxHeight": 256,
+    "canDespawn": false,
+    "despawnDistance": 128
+  }
+}

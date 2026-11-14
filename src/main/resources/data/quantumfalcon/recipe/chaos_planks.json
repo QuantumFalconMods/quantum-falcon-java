@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quantumfalcon:chaos_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "quantumfalcon:chaos_planks"
+  }
+}

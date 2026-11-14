@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  " G ",
+  "GCG",
+  " G "
+ ],
+ "key": {
+  "G": {
+   "item": "minecraft:tinted_glass"
+  },
+  "C": {
+   "item": "quantumfalcon:aurora_crystal"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:aurorite_void_glass",
+  "count": 4
+ }
+}

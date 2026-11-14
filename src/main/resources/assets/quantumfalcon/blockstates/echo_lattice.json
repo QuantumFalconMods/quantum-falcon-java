@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+      { "model": "quantumfalcon:block/echo_lattice_v1" },
+      { "model": "quantumfalcon:block/echo_lattice_v2" }
+    ]
+  }
+}

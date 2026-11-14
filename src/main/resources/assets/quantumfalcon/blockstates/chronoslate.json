@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "": [
+   {
+    "model": "quantumfalcon:block/chronoslate",
+    "weight": 3
+   },
+   {
+    "model": "quantumfalcon:block/chronoslate_v1",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/chronoslate_v2",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/chronoslate_v3",
+    "weight": 1
+   }
+  ]
+ }
+}

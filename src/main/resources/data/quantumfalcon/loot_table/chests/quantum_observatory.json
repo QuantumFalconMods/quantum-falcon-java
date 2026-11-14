@@ -1,0 +1,147 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "quantumfalcon:reality_fragment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "quantumfalcon:quantum_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "quantumfalcon:temporal_crystal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quantumfalcon:aurora_crystal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "quantumfalcon:quantum_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "quantumfalcon:quantum_stabilizer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "quantumfalcon:transcendence_shard"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "quantumfalcon:singularity_compass"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "quantumfalcon:overseers_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "quantumfalcon:quantum_stabilizer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quantumfalcon:singularity_core"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.35
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:falcon_egg",
+          "functions": [
+            {
+              "function": "quantumfalcon:wild_egg",
+              "min_tier": 5,
+              "max_tier": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:entanglement_thread"
+        }
+      ]
+    }
+  ]
+}

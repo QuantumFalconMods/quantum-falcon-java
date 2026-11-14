@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "quantumfalcon:power_health",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:power_speed",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:power_attack",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:power_defense",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:power_ability",
+      "required": false
+    },
+    {
+      "id": "quantumfalcon:power_luck",
+      "required": false
+    }
+  ]
+}

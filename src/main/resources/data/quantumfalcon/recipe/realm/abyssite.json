@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "###",
+  "#C#",
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "minecraft:cobbled_deepslate"
+  },
+  "C": {
+   "item": "quantumfalcon:echo_shard"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:abyssite",
+  "count": 8
+ }
+}

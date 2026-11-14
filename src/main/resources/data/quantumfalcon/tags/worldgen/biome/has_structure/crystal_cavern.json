@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:plains",
+    "minecraft:forest",
+    "minecraft:savanna",
+    "minecraft:badlands",
+    "minecraft:eroded_badlands",
+    {
+      "id": "#c:is_overworld",
+      "required": false
+    },
+    "quantumfalcon:crystal_caves",
+    "quantumfalcon:crystalline_peaks",
+    "quantumfalcon:prismatic_meadow"
+  ]
+}

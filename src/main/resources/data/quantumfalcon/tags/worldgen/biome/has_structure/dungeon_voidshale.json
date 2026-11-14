@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:void_crater",
+    "quantumfalcon:void_forest",
+    "quantumfalcon:void_peaks",
+    "quantumfalcon:void_plains",
+    "quantumfalcon:void_rift",
+    "quantumfalcon:void_touched_plains",
+    "quantumfalcon:gravitational_anomaly",
+    "quantumfalcon:event_horizon",
+    "quantumfalcon:cosmic_string"
+  ]
+}

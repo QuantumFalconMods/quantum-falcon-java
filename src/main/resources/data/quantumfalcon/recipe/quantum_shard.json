@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PDP",
+    "DED",
+    "PDP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:quantum_shard",
+    "count": 4
+  }
+}

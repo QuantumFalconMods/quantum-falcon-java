@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " S ",
+    "SCS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "quantumfalcon:chaos_shard"
+    },
+    "C": {
+      "item": "quantumfalcon:chaos_core"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:chaos_conduit",
+    "count": 1
+  }
+}

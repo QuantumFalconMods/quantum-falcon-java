@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:abyssal_depths",
+    "quantumfalcon:echo_depths",
+    "quantumfalcon:echo_caverns",
+    "quantumfalcon:echo_mountains",
+    "quantumfalcon:dark_matter_sea",
+    "quantumfalcon:shadow_realm",
+    "quantumfalcon:negative_space",
+    "quantumfalcon:entangled_mangrove",
+    "quantumfalcon:phase_shifted_forest"
+  ]
+}

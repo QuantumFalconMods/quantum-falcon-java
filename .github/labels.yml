@@ -1,0 +1,13 @@
+# Repository labels (apply with a label-sync action or the GitHub CLI)
+- name: java
+  color: "e76f00"
+  description: Java Edition (NeoForge)
+- name: bedrock
+  color: "4caf50"
+  description: Bedrock Edition (add-on port, after 1.0)
+- name: bug
+  color: "d73a4a"
+  description: Something isn't working
+- name: feature
+  color: "a2eeef"
+  description: New feature or request

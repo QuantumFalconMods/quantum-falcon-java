@@ -1,0 +1,147 @@
+{
+ "parent": "minecraft:block/door_bottom_right_open",
+ "textures": {
+  "top": "quantumfalcon:block/resonance_door_top",
+  "bottom": "quantumfalcon:block/resonance_door_bottom",
+  "particle_glow": "quantumfalcon:block/resonance_door_bottom_glow",
+  "top_glow": "quantumfalcon:block/resonance_door_top_glow",
+  "bottom_glow": "quantumfalcon:block/resonance_door_bottom_glow"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    3,
+    16,
+    16
+   ],
+   "faces": {
+    "down": {
+     "uv": [
+      16,
+      16,
+      0,
+      13
+     ],
+     "texture": "#bottom",
+     "cullface": "down",
+     "rotation": 90
+    },
+    "north": {
+     "uv": [
+      3,
+      0,
+      0,
+      16
+     ],
+     "texture": "#bottom",
+     "cullface": "north"
+    },
+    "south": {
+     "uv": [
+      3,
+      0,
+      0,
+      16
+     ],
+     "texture": "#bottom",
+     "cullface": "south"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#bottom",
+     "cullface": "west"
+    },
+    "east": {
+     "uv": [
+      16,
+      0,
+      0,
+      16
+     ],
+     "texture": "#bottom"
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    3,
+    16,
+    16
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "down": {
+     "uv": [
+      16,
+      16,
+      0,
+      13
+     ],
+     "texture": "#bottom_glow",
+     "cullface": "down",
+     "rotation": 90
+    },
+    "north": {
+     "uv": [
+      3,
+      0,
+      0,
+      16
+     ],
+     "texture": "#bottom_glow",
+     "cullface": "north"
+    },
+    "south": {
+     "uv": [
+      3,
+      0,
+      0,
+      16
+     ],
+     "texture": "#bottom_glow",
+     "cullface": "south"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#bottom_glow",
+     "cullface": "west"
+    },
+    "east": {
+     "uv": [
+      16,
+      0,
+      0,
+      16
+     ],
+     "texture": "#bottom_glow"
+    }
+   }
+  }
+ ],
+ "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "quantumfalcon:story/defeat_warden",
+  "display": {
+    "icon": {
+      "item": "quantumfalcon:twin_essence"
+    },
+    "title": {
+      "translate": "advancements.quantumfalcon.defeat_twins.title",
+      "fallback": "Balance Restored"
+    },
+    "description": {
+      "translate": "advancements.quantumfalcon.defeat_twins.description",
+      "fallback": "Defeat the Entangled Twins"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "killed_twins": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "quantumfalcon:entangled_twins"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 750
+  }
+}

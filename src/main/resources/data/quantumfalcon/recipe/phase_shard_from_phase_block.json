@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "quantumfalcon:phase_block"
+    }
+  ],
+  "result": {
+    "id": "quantumfalcon:phase_shard",
+    "count": 9
+  }
+}

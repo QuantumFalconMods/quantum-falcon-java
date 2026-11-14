@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "": [
+      { "model": "quantumfalcon:block/quantum_tiles_v1" },
+      { "model": "quantumfalcon:block/quantum_tiles_v2" },
+      { "model": "quantumfalcon:block/quantum_tiles_v3" },
+      { "model": "quantumfalcon:block/quantum_tiles_v4" },
+      { "model": "quantumfalcon:block/quantum_tiles_v5" },
+      { "model": "quantumfalcon:block/quantum_tiles_v6" },
+      { "model": "quantumfalcon:block/quantum_tiles_v7" },
+      { "model": "quantumfalcon:block/quantum_tiles_v8" },
+      { "model": "quantumfalcon:block/quantum_tiles_v9" },
+      { "model": "quantumfalcon:block/quantum_tiles_v10" },
+      { "model": "quantumfalcon:block/quantum_tiles_v11" },
+      { "model": "quantumfalcon:block/quantum_tiles_v12" },
+      { "model": "quantumfalcon:block/quantum_tiles_v13" },
+      { "model": "quantumfalcon:block/quantum_tiles_v14" },
+      { "model": "quantumfalcon:block/quantum_tiles_v15" },
+      { "model": "quantumfalcon:block/quantum_tiles_v16" },
+      { "model": "quantumfalcon:block/quantum_tiles_v17" },
+      { "model": "quantumfalcon:block/quantum_tiles_v18" },
+      { "model": "quantumfalcon:block/quantum_tiles_v19" },
+      { "model": "quantumfalcon:block/quantum_tiles_v20" }
+    ]
+  }
+}

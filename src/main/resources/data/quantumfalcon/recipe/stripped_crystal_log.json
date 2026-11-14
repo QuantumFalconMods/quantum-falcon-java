@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quantumfalcon:crystal_log"
+  },
+  "result": {
+    "id": "quantumfalcon:stripped_crystal_log"
+  },
+  "count": 1
+}

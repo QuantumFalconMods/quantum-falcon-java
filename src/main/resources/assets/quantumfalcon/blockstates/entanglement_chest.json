@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "quantumfalcon:block/entanglement_chest_facing"
+  },
+  "facing=south": {
+   "model": "quantumfalcon:block/entanglement_chest_facing",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "quantumfalcon:block/entanglement_chest_facing",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "quantumfalcon:block/entanglement_chest_facing",
+   "y": 90
+  }
+ }
+}

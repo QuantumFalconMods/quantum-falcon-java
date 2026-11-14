@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SSS",
+    "SMS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "M": {
+      "item": "quantumfalcon:singularity_crystal"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:singularity_stone",
+    "count": 8
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      { "model": "quantumfalcon:block/singularity_core_block_v1" },
+      { "model": "quantumfalcon:block/singularity_core_block_v2" },
+      { "model": "quantumfalcon:block/singularity_core_block_v3" }
+    ]
+  }
+}

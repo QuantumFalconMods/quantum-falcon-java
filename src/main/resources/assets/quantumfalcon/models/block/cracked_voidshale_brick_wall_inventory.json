@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "quantumfalcon:block/realm/voidshale/cracked_bricks"
+  }
+}

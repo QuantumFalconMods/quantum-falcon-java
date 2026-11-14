@@ -1,0 +1,14 @@
+{
+  "fallback": "quantumfalcon:dungeon/voidshale/cap",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "quantumfalcon:dungeon/voidshale/guard_room",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "curios"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SES",
+    "ECE",
+    "SES"
+  ],
+  "key": {
+    "S": {
+      "item": "quantumfalcon:quantum_shard"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "C": {
+      "item": "quantumfalcon:quantum_core"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "quantumfalcon:entanglement_core"
+  }
+}

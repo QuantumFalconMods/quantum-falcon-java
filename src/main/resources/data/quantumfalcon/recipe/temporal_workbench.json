@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "TCT",
+    "PWP"
+  ],
+  "key": {
+    "T": {
+      "item": "quantumfalcon:temporal_shard"
+    },
+    "C": {
+      "item": "minecraft:clock"
+    },
+    "P": {
+      "item": "minecraft:oak_planks"
+    },
+    "W": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:temporal_workbench",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "###",
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:riftslate_tiles"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:riftslate_tile_wall",
+  "count": 6
+ }
+}

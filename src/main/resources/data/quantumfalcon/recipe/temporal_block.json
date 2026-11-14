@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "quantumfalcon:temporal_shard"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:temporal_block",
+    "count": 1
+  }
+}

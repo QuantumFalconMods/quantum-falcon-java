@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  T",
+    " C ",
+    "R  "
+  ],
+  "key": {
+    "T": {
+      "item": "quantumfalcon:temporal_ingot"
+    },
+    "C": {
+      "item": "quantumfalcon:temporal_crystal"
+    },
+    "R": {
+      "item": "quantumfalcon:rift_crystal"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:reality_splitter",
+    "count": 1
+  }
+}

@@ -1,0 +1,49 @@
+{
+ "parent": "minecraft:block/block",
+ "render_type": "minecraft:cutout",
+ "textures": {
+  "side": "quantumfalcon:block/frozen_hours/eastwatch/then/riftslate_pillar",
+  "end": "quantumfalcon:block/frozen_hours/eastwatch/then/riftslate_pillar_top",
+  "particle": "quantumfalcon:block/frozen_hours/eastwatch/then/riftslate_pillar"
+ },
+ "elements": [
+  {
+   "faces": {
+    "north": {
+     "texture": "#side",
+     "cullface": "north"
+    },
+    "south": {
+     "texture": "#side",
+     "cullface": "south"
+    },
+    "east": {
+     "texture": "#side",
+     "cullface": "east"
+    },
+    "west": {
+     "texture": "#side",
+     "cullface": "west"
+    },
+    "up": {
+     "texture": "#end",
+     "cullface": "up"
+    },
+    "down": {
+     "texture": "#end",
+     "cullface": "down"
+    }
+   },
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ]
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "#  ",
+  "## ",
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:polished_prismite"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:polished_prismite_stairs",
+  "count": 4
+ }
+}

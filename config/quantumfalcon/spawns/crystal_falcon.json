@@ -1,0 +1,81 @@
+{
+  "_comment": "Crystal Falcon spawn configuration - Ice/cold biomes with crystalline features",
+  "variant": "CRYSTAL",
+  "biomes": [
+    {
+      "_comment": "Ice spikes (primary crystal habitat)",
+      "conditions": [
+        {
+          "type": "REGISTRY_NAME",
+          "negate": false,
+          "value": "minecraft:ice_spikes"
+        }
+      ]
+    },
+    {
+      "_comment": "Frozen peaks",
+      "conditions": [
+        {
+          "type": "BIOME_TAG",
+          "negate": false,
+          "value": "minecraft:is_mountain"
+        },
+        {
+          "type": "TEMPERATURE",
+          "operator": "<",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "_comment": "Snowy slopes with height restriction",
+      "conditions": [
+        {
+          "type": "REGISTRY_NAME",
+          "negate": false,
+          "value": "minecraft:snowy_slopes"
+        },
+        {
+          "type": "HEIGHT_RANGE",
+          "min": 100,
+          "max": 256
+        }
+      ]
+    },
+    {
+      "_comment": "Modded crystal biomes (Terralith, Regions Unexplored)",
+      "conditions": [
+        {
+          "type": "REGISTRY_NAME",
+          "negate": false,
+          "value": "terralith:glacial_chasm"
+        }
+      ]
+    },
+    {
+      "_comment": "Amethyst geode compatibility",
+      "conditions": [
+        {
+          "type": "BIOME_TAG",
+          "negate": false,
+          "value": "minecraft:has_structure/mineshaft"
+        },
+        {
+          "type": "NEAR_BLOCK",
+          "blockId": "minecraft:budding_amethyst",
+          "radius": 32
+        }
+      ]
+    }
+  ],
+  "spawning": {
+    "weight": 10,
+    "rolls": 0,
+    "minGroupSize": 1,
+    "maxGroupSize": 2,
+    "minHeight": 64,
+    "maxHeight": 256,
+    "canDespawn": false,
+    "despawnDistance": 128
+  }
+}

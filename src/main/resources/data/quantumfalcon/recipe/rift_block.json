@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "quantumfalcon:rift_shard"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:rift_block",
+    "count": 1
+  }
+}

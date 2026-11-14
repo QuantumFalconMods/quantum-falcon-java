@@ -1,0 +1,169 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.quantum_core",
+        "texture_width": 32,
+        "texture_height": 24,
+        "visible_bounds_width": 6,
+        "visible_bounds_height": 8,
+        "visible_bounds_offset": [
+          0,
+          4.0,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "pedestal",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "parent": "root",
+          "cubes": [
+            {
+              "origin": [
+                -3,
+                0,
+                -3
+              ],
+              "size": [
+                6,
+                3,
+                6
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "frame",
+          "pivot": [
+            0,
+            6,
+            0
+          ],
+          "parent": "root",
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                3,
+                -0.5
+              ],
+              "size": [
+                8,
+                8,
+                1
+              ],
+              "uv": [
+                0,
+                9
+              ]
+            },
+            {
+              "origin": [
+                -0.5,
+                3,
+                -4
+              ],
+              "size": [
+                1,
+                8,
+                8
+              ],
+              "uv": [
+                18,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sphere",
+          "pivot": [
+            0,
+            7,
+            0
+          ],
+          "parent": "frame",
+          "cubes": [
+            {
+              "origin": [
+                -2,
+                5,
+                -2
+              ],
+              "size": [
+                4,
+                4,
+                4
+              ],
+              "uv": [
+                0,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "name": "shard_orbit",
+          "pivot": [
+            0,
+            7,
+            0
+          ],
+          "parent": "sphere",
+          "cubes": [
+            {
+              "origin": [
+                3,
+                6,
+                -0.5
+              ],
+              "size": [
+                1,
+                1,
+                1
+              ],
+              "uv": [
+                12,
+                18
+              ]
+            },
+            {
+              "origin": [
+                -4,
+                6,
+                -0.5
+              ],
+              "size": [
+                1,
+                1,
+                1
+              ],
+              "uv": [
+                12,
+                18
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

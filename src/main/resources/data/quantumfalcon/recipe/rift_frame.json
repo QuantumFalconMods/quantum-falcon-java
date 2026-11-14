@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ORO",
+    "RCR",
+    "ORO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "R": {
+      "item": "quantumfalcon:rift_shard"
+    },
+    "C": {
+      "item": "quantumfalcon:quantum_core"
+    }
+  },
+  "result": {
+    "count": 8,
+    "id": "quantumfalcon:rift_frame"
+  }
+}

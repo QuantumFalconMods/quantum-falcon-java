@@ -1,0 +1,20 @@
+{
+  "type": "quantumfalcon:utility_structure",
+  "utility_type": "QUANTUM_OBSERVATORY",
+  "biomes": "#quantumfalcon:has_structure/quantum_observatory",
+  "step": "surface_structures",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "quantumfalcon:quantum_phantom",
+          "weight": 2,
+          "minCount": 1,
+          "maxCount": 3
+        }
+      ]
+    }
+  },
+  "terrain_adaptation": "beard_thin"
+}

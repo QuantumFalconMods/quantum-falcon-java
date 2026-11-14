@@ -1,0 +1,41 @@
+name: Bug report (Java)
+description: Something is broken in the Java edition of Quantum Falcon
+labels: ["java", "bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Quantum Falcon version
+      placeholder: "e.g. 1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Minecraft / NeoForge version
+      placeholder: "1.21.1 / NeoForge 21.1.x"
+    validations:
+      required: true
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods or modpack
+      description: A modpack name and version, or a list.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. ...\n2. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: latest.log / crash report (link a gist or paste)
+      render: text

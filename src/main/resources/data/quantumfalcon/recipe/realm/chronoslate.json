@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "###",
+  "#C#",
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "minecraft:cobbled_deepslate"
+  },
+  "C": {
+   "item": "quantumfalcon:temporal_dust"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:chronoslate",
+  "count": 8
+ }
+}

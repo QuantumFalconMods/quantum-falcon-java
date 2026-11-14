@@ -1,0 +1,35 @@
+{
+  "parent": "quantumfalcon:story/defeat_sovereign",
+  "display": {
+    "icon": {
+      "item": "quantumfalcon:heart_of_quantum"
+    },
+    "title": {
+      "translate": "advancements.quantumfalcon.obtain_heart.title",
+      "fallback": "Heart of Quantum"
+    },
+    "description": {
+      "translate": "advancements.quantumfalcon.obtain_heart.description",
+      "fallback": "Craft the Heart of Quantum - the ultimate artifact"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "criteria": {
+    "has_heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quantumfalcon:heart_of_quantum"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  }
+}

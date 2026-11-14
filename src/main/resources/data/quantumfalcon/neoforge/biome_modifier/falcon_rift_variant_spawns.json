@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "quantumfalcon:void_forest", "quantumfalcon:void_plains", "quantumfalcon:void_peaks", "quantumfalcon:void_touched_plains",
+    "quantumfalcon:void_crater", "quantumfalcon:abyssal_depths", "quantumfalcon:dark_matter_sea", "quantumfalcon:dimensional_apex",
+    "quantumfalcon:paradox_zone", "quantumfalcon:entanglement_web"
+  ],
+  "spawners": { "type": "quantumfalcon:quantum_falcon", "weight": 4, "minCount": 1, "maxCount": 2 }
+}

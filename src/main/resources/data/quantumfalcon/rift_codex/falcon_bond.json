@@ -1,0 +1,333 @@
+{
+ "title": "Falcon & Bond",
+ "intro": "Only a falcon can see the stitches that hold the night. Earn one's trust, and the two of you can take the hour back.",
+ "order": 1,
+ "quests": [
+  {
+   "id": "fb_01",
+   "title": "Where the Night Leaks",
+   "text": "Gather the shards that fall where the held night leaks through. A falcon will come to them.",
+   "task": {
+    "type": "COLLECT_ITEM",
+    "target": "quantumfalcon:quantum_shard",
+    "count": 5
+   },
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:falcon_treat",
+      "count": 4
+     }
+    ],
+    "xp": 20
+   }
+  },
+  {
+   "id": "fb_02",
+   "title": "First Bond",
+   "text": "Win a wild Quantum Falcon's trust with fish. It can see what's holding back the dawn.",
+   "task": {
+    "type": "TAME_FALCON",
+    "target": "any",
+    "count": 1
+   },
+   "requires": [
+    "fb_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_fish",
+      "count": 4
+     }
+    ],
+    "xp": 40
+   }
+  },
+  {
+   "id": "fb_03",
+   "title": "A Whistle on the Wind",
+   "text": "Craft a Falcon Whistle to call your falcon home.",
+   "task": {
+    "type": "CRAFT_ITEM",
+    "target": "quantumfalcon:falcon_whistle",
+    "count": 1
+   },
+   "requires": [
+    "fb_02"
+   ],
+   "reward": {
+    "xp": 30
+   }
+  },
+  {
+   "id": "fb_04",
+   "title": "Feathers and Trust",
+   "text": "Keep a few falcon feathers; they remember the bond.",
+   "task": {
+    "type": "COLLECT_ITEM",
+    "target": "quantumfalcon:falcon_feather",
+    "count": 3
+   },
+   "requires": [
+    "fb_02"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:falcon_treat",
+      "count": 4
+     }
+    ],
+    "xp": 30
+   }
+  },
+  {
+   "id": "fb_05",
+   "title": "Bond Level 10",
+   "text": "Fly, hunt and rest together until the bond reaches 10.",
+   "task": {
+    "type": "REACH_BOND_LEVEL",
+    "target": "10",
+    "count": 1
+   },
+   "requires": [
+    "fb_02"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:falcon_treat",
+      "count": 8
+     }
+    ],
+    "xp": 60
+   }
+  },
+  {
+   "id": "fb_06",
+   "title": "Hunting Partners",
+   "text": "Let your falcons fight beside you (Falconry 5).",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "falconry",
+    "count": 5,
+    "absolute": true
+   },
+   "requires": [
+    "fb_02"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_fish",
+      "count": 6
+     }
+    ],
+    "xp": 60
+   }
+  },
+  {
+   "id": "fb_07",
+   "title": "Two Wings",
+   "text": "Tame another falcon.",
+   "task": {
+    "type": "TAME_FALCON",
+    "target": "any",
+    "count": 1
+   },
+   "requires": [
+    "fb_02"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:falcon_treat",
+      "count": 6
+     }
+    ],
+    "xp": 50
+   }
+  },
+  {
+   "id": "fb_08",
+   "title": "A Different Feather",
+   "text": "Tame falcons of 3 different variants.",
+   "task": {
+    "type": "TAME_FALCON",
+    "target": "unique_variants",
+    "count": 3,
+    "absolute": true
+   },
+   "requires": [
+    "fb_07"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:prismatic_fish",
+      "count": 2
+     }
+    ],
+    "xp": 80
+   }
+  },
+  {
+   "id": "fb_09",
+   "title": "Into the Nest",
+   "text": "Discover an Ancient Nest.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "ancient_nest",
+    "count": 1
+   },
+   "requires": [
+    "fb_05"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_berry",
+      "count": 4
+     }
+    ],
+    "xp": 80
+   }
+  },
+  {
+   "id": "fb_10",
+   "title": "Falconer's Eye",
+   "text": "Reach Falconry 15.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "falconry",
+    "count": 15,
+    "absolute": true
+   },
+   "requires": [
+    "fb_06"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:falcon_treat",
+      "count": 8
+     }
+    ],
+    "xp": 120
+   }
+  },
+  {
+   "id": "fb_11",
+   "title": "Bond Level 50",
+   "text": "An unbreakable bond: reach level 50.",
+   "task": {
+    "type": "REACH_BOND_LEVEL",
+    "target": "50",
+    "count": 1
+   },
+   "requires": [
+    "fb_05"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:golden_falcon_feather",
+      "count": 1
+     }
+    ],
+    "xp": 150
+   }
+  },
+  {
+   "id": "fb_12",
+   "title": "Wild Hunt",
+   "text": "Defeat 25 hostile creatures of the Rift or the world.",
+   "task": {
+    "type": "KILL_ENTITY",
+    "target": "entity.*",
+    "count": 25
+   },
+   "requires": [
+    "fb_06"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_fish",
+      "count": 8
+     }
+    ],
+    "xp": 100
+   }
+  },
+  {
+   "id": "fb_13",
+   "title": "Five Variants",
+   "text": "Tame falcons of 5 different variants.",
+   "task": {
+    "type": "TAME_FALCON",
+    "target": "unique_variants",
+    "count": 5,
+    "absolute": true
+   },
+   "requires": [
+    "fb_08"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_reroll_token",
+      "count": 1
+     }
+    ],
+    "xp": 150
+   }
+  },
+  {
+   "id": "fb_14",
+   "title": "Master Falconer",
+   "text": "Reach Falconry 30.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "falconry",
+    "count": 30,
+    "absolute": true
+   },
+   "requires": [
+    "fb_10"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:golden_falcon_feather",
+      "count": 1
+     }
+    ],
+    "xp": 250
+   }
+  },
+  {
+   "id": "fb_15",
+   "title": "Bond Level 100",
+   "text": "Soulbound: reach bond level 100.",
+   "task": {
+    "type": "REACH_BOND_LEVEL",
+    "target": "100",
+    "count": 1
+   },
+   "requires": [
+    "fb_11"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_reroll_token",
+      "count": 1
+     }
+    ],
+    "xp": 300
+   }
+  }
+ ]
+}

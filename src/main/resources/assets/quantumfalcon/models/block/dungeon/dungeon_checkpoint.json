@@ -1,0 +1,103 @@
+{
+ "parent": "minecraft:block/cube_bottom_top",
+ "textures": {
+  "top": "quantumfalcon:block/dungeon/checkpoint_top",
+  "side": "quantumfalcon:block/dungeon/checkpoint_side",
+  "bottom": "quantumfalcon:block/dungeon/checkpoint_side",
+  "particle_glow": "quantumfalcon:block/dungeon/checkpoint_side_glow",
+  "down_glow": "quantumfalcon:block/dungeon/checkpoint_side_glow",
+  "up_glow": "quantumfalcon:block/dungeon/checkpoint_top_glow",
+  "north_glow": "quantumfalcon:block/dungeon/checkpoint_side_glow",
+  "east_glow": "quantumfalcon:block/dungeon/checkpoint_side_glow",
+  "south_glow": "quantumfalcon:block/dungeon/checkpoint_side_glow",
+  "west_glow": "quantumfalcon:block/dungeon/checkpoint_side_glow",
+  "top_glow": "quantumfalcon:block/dungeon/checkpoint_top_glow",
+  "side_glow": "quantumfalcon:block/dungeon/checkpoint_side_glow",
+  "bottom_glow": "quantumfalcon:block/dungeon/checkpoint_side_glow"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "faces": {
+    "down": {
+     "texture": "#down",
+     "cullface": "down"
+    },
+    "up": {
+     "texture": "#up",
+     "cullface": "up"
+    },
+    "north": {
+     "texture": "#north",
+     "cullface": "north"
+    },
+    "south": {
+     "texture": "#south",
+     "cullface": "south"
+    },
+    "west": {
+     "texture": "#west",
+     "cullface": "west"
+    },
+    "east": {
+     "texture": "#east",
+     "cullface": "east"
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "down": {
+     "texture": "#bottom_glow",
+     "cullface": "down"
+    },
+    "up": {
+     "texture": "#top_glow",
+     "cullface": "up"
+    },
+    "north": {
+     "texture": "#side_glow",
+     "cullface": "north"
+    },
+    "south": {
+     "texture": "#side_glow",
+     "cullface": "south"
+    },
+    "west": {
+     "texture": "#side_glow",
+     "cullface": "west"
+    },
+    "east": {
+     "texture": "#side_glow",
+     "cullface": "east"
+    }
+   }
+  }
+ ],
+ "render_type": "minecraft:cutout"
+}

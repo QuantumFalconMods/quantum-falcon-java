@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "quantumfalcon:aurorite_tiles"
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:survives_explosion"
+    }
+   ]
+  }
+ ],
+ "random_sequence": "quantumfalcon:blocks/aurorite_tiles"
+}

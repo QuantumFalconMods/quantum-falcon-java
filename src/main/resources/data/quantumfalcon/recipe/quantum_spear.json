@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " CC",
+    " RC",
+    "S  "
+  ],
+  "key": {
+    "C": {
+      "item": "quantumfalcon:chaos_crystal"
+    },
+    "R": {
+      "item": "quantumfalcon:rift_spear"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:quantum_spear",
+    "count": 1
+  }
+}

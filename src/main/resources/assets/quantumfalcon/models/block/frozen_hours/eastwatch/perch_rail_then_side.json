@@ -1,0 +1,83 @@
+{
+ "parent": "minecraft:block/block",
+ "textures": {
+  "rail": "quantumfalcon:block/frozen_hours/eastwatch/props/perch_rail/then/rail_side",
+  "top": "quantumfalcon:block/frozen_hours/eastwatch/props/perch_rail/then/rail_top",
+  "end": "quantumfalcon:block/frozen_hours/eastwatch/props/perch_rail/then/rail_end",
+  "post": "quantumfalcon:block/frozen_hours/eastwatch/props/perch_rail/then/post_side",
+  "particle": "quantumfalcon:block/frozen_hours/eastwatch/props/perch_rail/then/rail_side",
+  "rail_glow": "quantumfalcon:block/frozen_hours/eastwatch/props/perch_rail/then/rail_side_glow",
+  "top_glow": "quantumfalcon:block/frozen_hours/eastwatch/props/perch_rail/then/rail_top_glow",
+  "end_glow": "quantumfalcon:block/frozen_hours/eastwatch/props/perch_rail/then/rail_end_glow",
+  "post_glow": "quantumfalcon:block/frozen_hours/eastwatch/props/perch_rail/then/post_side_glow"
+ },
+ "elements": [
+  {
+   "from": [
+    6,
+    12,
+    0
+   ],
+   "to": [
+    10,
+    16,
+    6
+   ],
+   "faces": {
+    "up": {
+     "texture": "#top"
+    },
+    "down": {
+     "texture": "#top"
+    },
+    "west": {
+     "texture": "#rail"
+    },
+    "east": {
+     "texture": "#rail"
+    },
+    "north": {
+     "texture": "#end",
+     "cullface": "north"
+    }
+   }
+  },
+  {
+   "from": [
+    6,
+    12,
+    0
+   ],
+   "to": [
+    10,
+    16,
+    6
+   ],
+   "faces": {
+    "up": {
+     "texture": "#top_glow"
+    },
+    "down": {
+     "texture": "#top_glow"
+    },
+    "west": {
+     "texture": "#rail_glow"
+    },
+    "east": {
+     "texture": "#rail_glow"
+    },
+    "north": {
+     "texture": "#end_glow",
+     "cullface": "north"
+    }
+   },
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   }
+  }
+ ],
+ "render_type": "minecraft:cutout"
+}

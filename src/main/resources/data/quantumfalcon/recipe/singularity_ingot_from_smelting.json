@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "quantumfalcon:singularity_ore"
+  },
+  "result": {
+    "id": "quantumfalcon:singularity_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

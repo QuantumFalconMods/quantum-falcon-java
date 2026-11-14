@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "quantumfalcon:block/realm/prismite/cracked_bricks"
+  }
+}

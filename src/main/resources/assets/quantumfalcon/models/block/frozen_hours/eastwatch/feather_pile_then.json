@@ -1,0 +1,183 @@
+{
+ "parent": "minecraft:block/block",
+ "ambientocclusion": false,
+ "textures": {
+  "top": "quantumfalcon:block/frozen_hours/eastwatch/props/feather_pile/then/top",
+  "plane": "quantumfalcon:block/frozen_hours/eastwatch/props/feather_pile/then/plane",
+  "plane1": "quantumfalcon:block/frozen_hours/eastwatch/props/feather_pile/then/plane_1",
+  "particle": "quantumfalcon:block/frozen_hours/eastwatch/props/feather_pile/then/top",
+  "top_glow": "quantumfalcon:block/frozen_hours/eastwatch/props/feather_pile/then/top_glow",
+  "plane_glow": "quantumfalcon:block/frozen_hours/eastwatch/props/feather_pile/then/plane_glow",
+  "plane1_glow": "quantumfalcon:block/frozen_hours/eastwatch/props/feather_pile/then/plane_1_glow"
+ },
+ "elements": [
+  {
+   "name": "heap",
+   "from": [
+    3,
+    0,
+    3
+   ],
+   "to": [
+    13,
+    1,
+    13
+   ],
+   "faces": {
+    "up": {
+     "texture": "#top"
+    },
+    "down": {
+     "texture": "#top",
+     "cullface": "down"
+    },
+    "north": {
+     "texture": "#top"
+    },
+    "south": {
+     "texture": "#top"
+    },
+    "west": {
+     "texture": "#top"
+    },
+    "east": {
+     "texture": "#top"
+    }
+   }
+  },
+  {
+   "name": "plane_a",
+   "from": [
+    2,
+    0,
+    8
+   ],
+   "to": [
+    14,
+    8,
+    8
+   ],
+   "faces": {
+    "north": {
+     "texture": "#plane"
+    },
+    "south": {
+     "texture": "#plane"
+    }
+   }
+  },
+  {
+   "name": "plane_b",
+   "from": [
+    8,
+    0,
+    2
+   ],
+   "to": [
+    8,
+    8,
+    14
+   ],
+   "faces": {
+    "west": {
+     "texture": "#plane1"
+    },
+    "east": {
+     "texture": "#plane1"
+    }
+   }
+  },
+  {
+   "from": [
+    3,
+    0,
+    3
+   ],
+   "to": [
+    13,
+    1,
+    13
+   ],
+   "faces": {
+    "up": {
+     "texture": "#top_glow"
+    },
+    "down": {
+     "texture": "#top_glow",
+     "cullface": "down"
+    },
+    "north": {
+     "texture": "#top_glow"
+    },
+    "south": {
+     "texture": "#top_glow"
+    },
+    "west": {
+     "texture": "#top_glow"
+    },
+    "east": {
+     "texture": "#top_glow"
+    }
+   },
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   }
+  },
+  {
+   "from": [
+    2,
+    0,
+    8
+   ],
+   "to": [
+    14,
+    8,
+    8
+   ],
+   "faces": {
+    "north": {
+     "texture": "#plane_glow"
+    },
+    "south": {
+     "texture": "#plane_glow"
+    }
+   },
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   }
+  },
+  {
+   "from": [
+    8,
+    0,
+    2
+   ],
+   "to": [
+    8,
+    8,
+    14
+   ],
+   "faces": {
+    "west": {
+     "texture": "#plane1_glow"
+    },
+    "east": {
+     "texture": "#plane1_glow"
+    }
+   },
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   }
+  }
+ ],
+ "render_type": "minecraft:cutout"
+}

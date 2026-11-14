@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:chaos_planks",
+    "quantumfalcon:crystal_planks",
+    "quantumfalcon:echo_planks",
+    "quantumfalcon:phase_planks",
+    "quantumfalcon:quantum_planks",
+    "quantumfalcon:resonance_planks",
+    "quantumfalcon:temporal_planks",
+    "quantumfalcon:void_planks"
+  ]
+}

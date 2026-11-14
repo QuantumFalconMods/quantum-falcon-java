@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:meadow",
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    "minecraft:flower_forest",
+    "minecraft:taiga",
+    "minecraft:snowy_taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_gravelly_hills",
+    {
+      "id": "#c:is_plains",
+      "required": false
+    },
+    {
+      "id": "#c:is_taiga",
+      "required": false
+    },
+    "quantumfalcon:temporal_anomaly",
+    "quantumfalcon:temporal_shores",
+    "quantumfalcon:collapsed_timeline"
+  ]
+}

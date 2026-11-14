@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "IAI",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "quantumfalcon:crystal_ingot"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:crystal_crystal",
+    "count": 1
+  }
+}

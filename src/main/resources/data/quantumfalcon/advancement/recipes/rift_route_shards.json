@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_quantum_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumfalcon:quantum_shard"
+          }
+        ]
+      }
+    },
+    "has_rift_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumfalcon:rift_shard"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_quantum_shard",
+      "has_rift_shard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumfalcon:quantum_core",
+      "quantumfalcon:rift_frame",
+      "quantumfalcon:rift_igniter",
+      "quantumfalcon:quantum_compass"
+    ]
+  }
+}

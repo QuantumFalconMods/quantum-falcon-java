@@ -1,0 +1,46 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "quantumfalcon:item/falcon_egg_t1",
+  "layer1": "quantumfalcon:item/falcon_egg_t1_cracks",
+  "layer2": "quantumfalcon:item/falcon_egg_t1_pip"
+ },
+ "overrides": [
+  {
+   "predicate": {
+    "quantumfalcon:tier": 0.2
+   },
+   "model": "quantumfalcon:item/falcon_egg_t2"
+  },
+  {
+   "predicate": {
+    "quantumfalcon:tier": 0.3
+   },
+   "model": "quantumfalcon:item/falcon_egg_t3"
+  },
+  {
+   "predicate": {
+    "quantumfalcon:tier": 0.4
+   },
+   "model": "quantumfalcon:item/falcon_egg_t4"
+  },
+  {
+   "predicate": {
+    "quantumfalcon:tier": 0.5
+   },
+   "model": "quantumfalcon:item/falcon_egg_t5"
+  },
+  {
+   "predicate": {
+    "quantumfalcon:tier": 0.6
+   },
+   "model": "quantumfalcon:item/falcon_egg_t6"
+  },
+  {
+   "predicate": {
+    "quantumfalcon:tier": 0.7
+   },
+   "model": "quantumfalcon:item/falcon_egg_t7"
+  }
+ ]
+}

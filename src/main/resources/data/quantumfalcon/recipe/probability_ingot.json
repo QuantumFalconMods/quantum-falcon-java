@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quantumfalcon:probability_crystal"
+    },
+    {
+      "item": "quantumfalcon:probability_crystal"
+    },
+    {
+      "item": "quantumfalcon:probability_crystal"
+    },
+    {
+      "item": "quantumfalcon:probability_crystal"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "id": "quantumfalcon:probability_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "P P",
+    "C C"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "C": {
+      "item": "minecraft:cyan_dye"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:aqua_boots",
+    "count": 1
+  }
+}

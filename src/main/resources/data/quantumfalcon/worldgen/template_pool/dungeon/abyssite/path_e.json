@@ -1,0 +1,14 @@
+{
+  "fallback": "quantumfalcon:dungeon/abyssite/cap",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "quantumfalcon:dungeon/abyssite/path_e_switchback",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

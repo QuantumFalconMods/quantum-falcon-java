@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " E ",
+    "EGE",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "quantumfalcon:echo_shard"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:echo_lamp",
+    "count": 1
+  }
+}

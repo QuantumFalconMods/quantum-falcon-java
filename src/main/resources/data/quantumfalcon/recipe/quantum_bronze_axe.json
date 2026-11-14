@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_axe"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "quantumfalcon:quantum_shard"
+    }
+  ],
+  "result": {
+    "id": "quantumfalcon:quantum_bronze_axe",
+    "count": 1
+  }
+}

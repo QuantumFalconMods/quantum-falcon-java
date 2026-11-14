@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RCR",
+    "COC",
+    "RCR"
+  ],
+  "key": {
+    "R": {
+      "item": "quantumfalcon:rift_shard"
+    },
+    "C": {
+      "item": "quantumfalcon:quantum_shard"
+    },
+    "O": {
+      "item": "quantumfalcon:quantum_crystal"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "quantumfalcon:rift_stabilizer"
+  }
+}

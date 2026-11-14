@@ -1,0 +1,20 @@
+{
+  "type": "quantumfalcon:utility_structure",
+  "utility_type": "BREEDING_SANCTUM",
+  "biomes": "#quantumfalcon:has_structure/breeding_sanctum",
+  "step": "surface_structures",
+  "spawn_overrides": {
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "quantumfalcon:quantum_falcon",
+          "weight": 4,
+          "minCount": 3,
+          "maxCount": 6
+        }
+      ]
+    }
+  },
+  "terrain_adaptation": "beard_thin"
+}

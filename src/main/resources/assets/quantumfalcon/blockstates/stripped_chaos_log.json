@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "quantumfalcon:block/stripped_chaos_log"
+    },
+    "axis=z": {
+      "model": "quantumfalcon:block/stripped_chaos_log_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "quantumfalcon:block/stripped_chaos_log_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

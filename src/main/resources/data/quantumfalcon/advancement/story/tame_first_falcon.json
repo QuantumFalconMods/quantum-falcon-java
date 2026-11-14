@@ -1,0 +1,30 @@
+{
+  "parent": "quantumfalcon:root",
+  "display": {
+    "icon": {
+      "item": "quantumfalcon:falcon_whistle"
+    },
+    "title": {
+      "translate": "advancements.quantumfalcon.tame_first_falcon.title",
+      "fallback": "Faithful Companion"
+    },
+    "description": {
+      "translate": "advancements.quantumfalcon.tame_first_falcon.description",
+      "fallback": "Tame your first Quantum Falcon"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "tamed_falcon": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "quantumfalcon:quantum_falcon"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

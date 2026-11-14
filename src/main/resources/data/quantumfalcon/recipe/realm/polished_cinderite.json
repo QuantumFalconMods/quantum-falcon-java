@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "##",
+  "##"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:cinderite"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:polished_cinderite",
+  "count": 4
+ }
+}

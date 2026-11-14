@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " S ",
+    " I "
+  ],
+  "key": {
+    "S": {
+      "item": "quantumfalcon:gold_ingot_custom"
+    },
+    "I": {
+      "item": "quantumfalcon:gold_ingot_custom"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:gold_sword_custom"
+  }
+}

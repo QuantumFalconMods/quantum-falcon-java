@@ -1,0 +1,10 @@
+{
+ "type": "minecraft:stonecutting",
+ "ingredient": {
+  "item": "quantumfalcon:riftslate"
+ },
+ "result": {
+  "id": "quantumfalcon:chiseled_riftslate",
+  "count": 1
+ }
+}

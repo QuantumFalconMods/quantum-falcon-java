@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "hour=then,charged=false": {
+   "model": "quantumfalcon:block/frozen_hours/eastwatch/hour_socket_then_pedestal"
+  },
+  "hour=then,charged=true": {
+   "model": "quantumfalcon:block/frozen_hours/eastwatch/hour_socket_then_charged_pedestal"
+  },
+  "hour=now,charged=false": {
+   "model": "quantumfalcon:block/frozen_hours/eastwatch/hour_socket_now_pedestal"
+  },
+  "hour=now,charged=true": {
+   "model": "quantumfalcon:block/frozen_hours/eastwatch/hour_socket_now_charged_pedestal"
+  }
+ }
+}

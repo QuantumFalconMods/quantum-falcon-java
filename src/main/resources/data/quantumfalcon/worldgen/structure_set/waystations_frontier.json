@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "quantumfalcon:waystation_stitchring",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "quantumfalcon:arena_avoiding",
+    "spacing": 34,
+    "separation": 14,
+    "salt": 51804001,
+    "avoid": [
+      "quantumfalcon:quantum_guardian_arena",
+      "quantumfalcon:void_horror_arena",
+      "quantumfalcon:entangled_twins_arena",
+      "quantumfalcon:singularity_sovereign_arena"
+    ],
+    "avoid_chunks": 8
+  }
+}

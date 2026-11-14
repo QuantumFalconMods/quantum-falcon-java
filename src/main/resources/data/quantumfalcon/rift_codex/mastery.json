@@ -1,0 +1,361 @@
+{
+ "title": "Mastery & Collector",
+ "intro": "The Compact measured a Falconer by patience. So does this page.",
+ "order": 8,
+ "quests": [
+  {
+   "id": "ma_01",
+   "title": "Deep Miner",
+   "text": "Reach Mining 25.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "mining",
+    "count": 25,
+    "absolute": true
+   },
+   "requires": [
+    "ri_02"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_crystal",
+      "count": 8
+     }
+    ],
+    "xp": 300
+   }
+  },
+  {
+   "id": "ma_02",
+   "title": "Timberline",
+   "text": "Reach Woodcutting 25.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "woodcutting",
+    "count": 25,
+    "absolute": true
+   },
+   "requires": [
+    "fb_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_berry",
+      "count": 8
+     }
+    ],
+    "xp": 300
+   }
+  },
+  {
+   "id": "ma_03",
+   "title": "Blade Master",
+   "text": "Reach Combat 35.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "combat",
+    "count": 35,
+    "absolute": true
+   },
+   "requires": [
+    "ef_15"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:stability_shard",
+      "count": 8
+     }
+    ],
+    "xp": 500
+   }
+  },
+  {
+   "id": "ma_04",
+   "title": "Deadeye",
+   "text": "Reach Archery 25.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "archery",
+    "count": 25,
+    "absolute": true
+   },
+   "requires": [
+    "fb_06"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_reroll_token",
+      "count": 1
+     }
+    ],
+    "xp": 300
+   }
+  },
+  {
+   "id": "ma_05",
+   "title": "Falcon Lord",
+   "text": "Reach Falconry 50.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "falconry",
+    "count": 50,
+    "absolute": true
+   },
+   "requires": [
+    "fb_14"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:golden_falcon_feather",
+      "count": 1
+     }
+    ],
+    "xp": 1000
+   }
+  },
+  {
+   "id": "ma_06",
+   "title": "Grand Breeder",
+   "text": "Reach Breeding 50.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "breeding",
+    "count": 50,
+    "absolute": true
+   },
+   "requires": [
+    "bg_13"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:singularity_fragment",
+      "count": 1
+     }
+    ],
+    "xp": 1000
+   }
+  },
+  {
+   "id": "ma_07",
+   "title": "World Walker",
+   "text": "Reach Exploration 40.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "exploration",
+    "count": 40,
+    "absolute": true
+   },
+   "requires": [
+    "ef_16"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_compass",
+      "count": 1
+     }
+    ],
+    "xp": 800
+   }
+  },
+  {
+   "id": "ma_08",
+   "title": "Rift Sage",
+   "text": "Reach Arcana 50.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "arcana",
+    "count": 50,
+    "absolute": true
+   },
+   "requires": [
+    "da_16"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_stabilizer",
+      "count": 1
+     }
+    ],
+    "xp": 1000
+   }
+  },
+  {
+   "id": "ma_09",
+   "title": "Every Variant",
+   "text": "Tame falcons of 10 different variants.",
+   "task": {
+    "type": "TAME_FALCON",
+    "target": "unique_variants",
+    "count": 10,
+    "absolute": true
+   },
+   "requires": [
+    "fb_13"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_reroll_token",
+      "count": 1
+     }
+    ],
+    "xp": 600
+   }
+  },
+  {
+   "id": "ma_10",
+   "title": "Atlas of the Rift",
+   "text": "Visit 25 quantum biomes.",
+   "task": {
+    "type": "VISIT_BIOME",
+    "target": "quantum_biomes",
+    "count": 25,
+    "absolute": true
+   },
+   "requires": [
+    "ri_12"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_compass",
+      "count": 1
+     }
+    ],
+    "xp": 800
+   }
+  },
+  {
+   "id": "ma_11",
+   "title": "Hoard of Shards",
+   "text": "Carry 64 Quantum Shards.",
+   "task": {
+    "type": "COLLECT_ITEM",
+    "target": "quantumfalcon:quantum_shard",
+    "count": 64
+   },
+   "requires": [
+    "ri_02"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:rift_crystal",
+      "count": 1
+     }
+    ],
+    "xp": 200
+   }
+  },
+  {
+   "id": "ma_12",
+   "title": "Crystal Hoard",
+   "text": "Carry 32 Quantum Crystals.",
+   "task": {
+    "type": "COLLECT_ITEM",
+    "target": "quantumfalcon:quantum_crystal",
+    "count": 32
+   },
+   "requires": [
+    "bg_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:echo_crystal",
+      "count": 1
+     }
+    ],
+    "xp": 300
+   }
+  },
+  {
+   "id": "ma_13",
+   "title": "Signature Collector",
+   "text": "Earn 10 signature items.",
+   "task": {
+    "type": "SIG_LOOT",
+    "target": "any",
+    "count": 10
+   },
+   "requires": [
+    "ef_13"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_reroll_token",
+      "count": 3
+     }
+    ],
+    "xp": 600
+   }
+  },
+  {
+   "id": "ma_14",
+   "title": "Exterminator",
+   "text": "Defeat 500 hostile creatures.",
+   "task": {
+    "type": "KILL_ENTITY",
+    "target": "entity.*",
+    "count": 500
+   },
+   "requires": [
+    "fb_12"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:transcendence_shard",
+      "count": 1
+     }
+    ],
+    "xp": 800
+   }
+  },
+  {
+   "id": "ma_15",
+   "title": "Codex Complete",
+   "text": "Finish every other mastery quest.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "falconry",
+    "count": 50,
+    "absolute": true
+   },
+   "requires": [
+    "ma_01",
+    "ma_02",
+    "ma_03",
+    "ma_04",
+    "ma_05",
+    "ma_06",
+    "ma_07",
+    "ma_08",
+    "ma_09",
+    "ma_10",
+    "ma_11",
+    "ma_12",
+    "ma_13",
+    "ma_14"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:transcendence_shard",
+      "count": 1
+     }
+    ],
+    "xp": 2000
+   }
+  }
+ ]
+}

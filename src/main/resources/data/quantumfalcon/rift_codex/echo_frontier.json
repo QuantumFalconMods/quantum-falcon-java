@@ -1,0 +1,355 @@
+{
+ "title": "Echo Rift Frontier",
+ "intro": "The Rift is a vault built to hold one hour. It is still holding it, badly. It's always midnight here.",
+ "order": 4,
+ "quests": [
+  {
+   "id": "ef_01",
+   "title": "Frontier Air",
+   "text": "Cross into the Echo Rift frontier.",
+   "task": {
+    "type": "ENTER_DIMENSION",
+    "target": "quantumfalcon:echo_rift*",
+    "count": 1
+   },
+   "requires": [
+    "ri_06"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:stability_shard",
+      "count": 2
+     }
+    ],
+    "xp": 60
+   }
+  },
+  {
+   "id": "ef_02",
+   "title": "Plains of Maybe",
+   "text": "Walk the Quantum Plains.",
+   "task": {
+    "type": "VISIT_BIOME",
+    "target": "quantumfalcon:quantum_plains",
+    "count": 1
+   },
+   "requires": [
+    "ef_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_berry",
+      "count": 4
+     }
+    ],
+    "xp": 60
+   }
+  },
+  {
+   "id": "ef_03",
+   "title": "Roost of Falcons",
+   "text": "Find the Falcon Roost.",
+   "task": {
+    "type": "VISIT_BIOME",
+    "target": "quantumfalcon:falcon_roost",
+    "count": 1
+   },
+   "requires": [
+    "ef_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:falcon_treat",
+      "count": 6
+     }
+    ],
+    "xp": 80
+   }
+  },
+  {
+   "id": "ef_04",
+   "title": "Sands of Chance",
+   "text": "Cross the Probability Desert.",
+   "task": {
+    "type": "VISIT_BIOME",
+    "target": "quantumfalcon:probability_desert",
+    "count": 1
+   },
+   "requires": [
+    "ef_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_crystal",
+      "count": 3
+     }
+    ],
+    "xp": 80
+   }
+  },
+  {
+   "id": "ef_05",
+   "title": "Crystal Heights",
+   "text": "Climb the Crystalline Peaks.",
+   "task": {
+    "type": "VISIT_BIOME",
+    "target": "quantumfalcon:crystalline_peaks",
+    "count": 1
+   },
+   "requires": [
+    "ef_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_crystal",
+      "count": 3
+     }
+    ],
+    "xp": 80
+   }
+  },
+  {
+   "id": "ef_06",
+   "title": "Wisp Hunter",
+   "text": "Defeat 5 Quantum Wisps.",
+   "task": {
+    "type": "KILL_ENTITY",
+    "target": "entity.quantumfalcon.quantum_wisp",
+    "count": 5
+   },
+   "requires": [
+    "ef_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:echo_shard",
+      "count": 3
+     }
+    ],
+    "xp": 80
+   }
+  },
+  {
+   "id": "ef_07",
+   "title": "Phantom Pains",
+   "text": "Defeat 3 Quantum Phantoms.",
+   "task": {
+    "type": "KILL_ENTITY",
+    "target": "entity.quantumfalcon.quantum_phantom",
+    "count": 3
+   },
+   "requires": [
+    "ef_06"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:void_shard",
+      "count": 2
+     }
+    ],
+    "xp": 100
+   }
+  },
+  {
+   "id": "ef_08",
+   "title": "Stalked",
+   "text": "Defeat a Quantum Stalker.",
+   "task": {
+    "type": "KILL_ENTITY",
+    "target": "entity.quantumfalcon.quantum_stalker",
+    "count": 1
+   },
+   "requires": [
+    "ef_06"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:echo_crystal",
+      "count": 1
+     }
+    ],
+    "xp": 120
+   }
+  },
+  {
+   "id": "ef_09",
+   "title": "Echoes of Riftslate",
+   "text": "Enter a Riftslate dungeon.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:dungeon_riftslate",
+    "count": 1
+   },
+   "requires": [
+    "ef_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:lockpick",
+      "count": 1
+     }
+    ],
+    "xp": 120
+   }
+  },
+  {
+   "id": "ef_10",
+   "title": "Aurorite Halls",
+   "text": "Enter an Aurorite dungeon.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:dungeon_aurorite",
+    "count": 1
+   },
+   "requires": [
+    "ef_09"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:echo_shard",
+      "count": 1
+     }
+    ],
+    "xp": 150
+   }
+  },
+  {
+   "id": "ef_11",
+   "title": "The Gate",
+   "text": "Find the Echo Rift Gate.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:echo_rift_gate",
+    "count": 1
+   },
+   "requires": [
+    "ef_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:echo_crystal",
+      "count": 1
+     }
+    ],
+    "xp": 150
+   }
+  },
+  {
+   "id": "ef_12",
+   "title": "Echo Chamber",
+   "text": "Find an Echo Chamber.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:echo_chamber",
+    "count": 1
+   },
+   "requires": [
+    "ef_11"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:echo_shard",
+      "count": 4
+     }
+    ],
+    "xp": 150
+   }
+  },
+  {
+   "id": "ef_13",
+   "title": "Signature",
+   "text": "Earn your first signature item from a boss or miniboss.",
+   "task": {
+    "type": "SIG_LOOT",
+    "target": "any",
+    "count": 1
+   },
+   "requires": [
+    "ef_09"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_reroll_token",
+      "count": 1
+     }
+    ],
+    "xp": 150
+   }
+  },
+  {
+   "id": "ef_14",
+   "title": "Rare Find",
+   "text": "Earn a Rare (or better) signature item.",
+   "task": {
+    "type": "SIG_LOOT",
+    "target": "rare",
+    "count": 1
+   },
+   "requires": [
+    "ef_13"
+   ],
+   "reward": {
+    "xp": 200
+   }
+  },
+  {
+   "id": "ef_15",
+   "title": "Frontier Fighter",
+   "text": "Reach Combat 15.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "combat",
+    "count": 15,
+    "absolute": true
+   },
+   "requires": [
+    "ef_06"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:stability_shard",
+      "count": 4
+     }
+    ],
+    "xp": 200
+   }
+  },
+  {
+   "id": "ef_16",
+   "title": "Rift Wanderer",
+   "text": "Reach Exploration 20.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "exploration",
+    "count": 20,
+    "absolute": true
+   },
+   "requires": [
+    "ef_09"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_compass",
+      "count": 1
+     }
+    ],
+    "xp": 250
+   }
+  }
+ ]
+}

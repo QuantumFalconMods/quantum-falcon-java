@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SBS",
+    "SBS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "quantumfalcon:crystal_planks"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:crystal_fence_gate",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "###"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:riftslate"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:riftslate_slab",
+  "count": 6
+ }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "quantumfalcon:gold_ingot_custom"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:gold_leggings_custom"
+  }
+}

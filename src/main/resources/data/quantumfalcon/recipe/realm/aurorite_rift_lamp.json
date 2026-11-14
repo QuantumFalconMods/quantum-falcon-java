@@ -1,0 +1,24 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "#G#",
+  "GCG",
+  "#G#"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:polished_aurorite"
+  },
+  "G": {
+   "item": "minecraft:glowstone_dust"
+  },
+  "C": {
+   "item": "quantumfalcon:aurora_crystal"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:aurorite_rift_lamp",
+  "count": 4
+ }
+}

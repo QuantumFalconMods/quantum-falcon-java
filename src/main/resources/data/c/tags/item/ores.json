@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:chaos_ore",
+    "quantumfalcon:crystal_ore",
+    "quantumfalcon:deepslate_chaos_ore",
+    "quantumfalcon:deepslate_crystal_ore",
+    "quantumfalcon:deepslate_echo_ore",
+    "quantumfalcon:deepslate_phase_ore",
+    "quantumfalcon:deepslate_probability_ore",
+    "quantumfalcon:deepslate_resonance_ore",
+    "quantumfalcon:deepslate_singularity_ore",
+    "quantumfalcon:deepslate_temporal_ore",
+    "quantumfalcon:deepslate_void_ore",
+    "quantumfalcon:echo_ore",
+    "quantumfalcon:phase_ore",
+    "quantumfalcon:probability_ore",
+    "quantumfalcon:resonance_ore",
+    "quantumfalcon:singularity_ore",
+    "quantumfalcon:temporal_ore",
+    "quantumfalcon:void_ore",
+    "quantumfalcon:quantum_ore",
+    "quantumfalcon:rift_ore",
+    "quantumfalcon:aurora_ore",
+    "quantumfalcon:deepslate_quantum_ore",
+    "quantumfalcon:end_quantum_ore"
+  ]
+}

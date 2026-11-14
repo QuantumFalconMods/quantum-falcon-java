@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:twin_essence",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": { "min": 5, "max": 10 },
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:quantum_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 2, "max": 6 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:reality_fragment"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:entanglement_band",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 7
+        }
+      ]
+    }
+  ]
+}

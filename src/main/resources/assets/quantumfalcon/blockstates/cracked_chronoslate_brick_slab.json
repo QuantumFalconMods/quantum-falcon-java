@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "quantumfalcon:block/cracked_chronoslate_brick_slab"
+    },
+    "type=top": {
+      "model": "quantumfalcon:block/cracked_chronoslate_brick_slab_top"
+    },
+    "type=double": {
+      "model": "quantumfalcon:block/cracked_chronoslate_bricks"
+    }
+  }
+}

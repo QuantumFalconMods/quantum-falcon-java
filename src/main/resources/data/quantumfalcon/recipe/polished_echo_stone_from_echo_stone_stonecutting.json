@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quantumfalcon:echo_stone"
+  },
+  "result": {
+    "id": "quantumfalcon:polished_echo_stone"
+  },
+  "count": 1
+}

@@ -1,0 +1,102 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:quantum_shard",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:quantum_berry",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:falcon_feather",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:temporal_dust",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:falcon_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "quantumfalcon:wild_egg",
+              "min_tier": 2,
+              "max_tier": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:falcon_whistle",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.6
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:falcon_egg",
+          "functions": [
+            {
+              "function": "quantumfalcon:wild_egg",
+              "min_tier": 1,
+              "max_tier": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.45
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:ancient_eggshell"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:storm_feather"
+        }
+      ]
+    }
+  ]
+}

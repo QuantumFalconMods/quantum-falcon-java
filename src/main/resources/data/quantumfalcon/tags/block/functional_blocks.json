@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:quantum_nest",
+    "quantumfalcon:quantum_incubator",
+    "quantumfalcon:quantum_forge",
+    {
+      "id": "quantumfalcon:entanglement_chest",
+      "required": false
+    },
+    "quantumfalcon:pedestal",
+    {
+      "id": "quantumfalcon:rift_stabilizer",
+      "required": false
+    },
+    "quantumfalcon:falcon_perch"
+  ]
+}

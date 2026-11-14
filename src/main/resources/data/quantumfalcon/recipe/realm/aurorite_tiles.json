@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "##",
+  "##"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:aurorite_bricks"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:aurorite_tiles",
+  "count": 4
+ }
+}

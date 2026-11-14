@@ -1,0 +1,60 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.quantum_blade.swing": {
+      "loop": false,
+      "animation_length": 0.4,
+      "bones": {
+        "item": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2": [
+              0,
+              0,
+              -90
+            ],
+            "0.4": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.quantum_blade.blink": {
+      "loop": false,
+      "animation_length": 0.6,
+      "bones": {
+        "item": {
+          "scale": {
+            "0.0": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "0.2": [
+              1.3,
+              1.3,
+              1.3
+            ],
+            "0.4": [
+              0.8,
+              0.8,
+              0.8
+            ],
+            "0.6": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

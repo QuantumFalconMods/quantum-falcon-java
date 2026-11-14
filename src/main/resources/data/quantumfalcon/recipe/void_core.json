@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "OSO",
+    "SQS",
+    "OSO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "S": {
+      "item": "quantumfalcon:void_shard"
+    },
+    "Q": {
+      "item": "quantumfalcon:quantum_core"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:void_core",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "quantumfalcon:block/realm/aurorite/cracked_bricks",
+    "top": "quantumfalcon:block/realm/aurorite/cracked_bricks",
+    "side": "quantumfalcon:block/realm/aurorite/cracked_bricks"
+  }
+}

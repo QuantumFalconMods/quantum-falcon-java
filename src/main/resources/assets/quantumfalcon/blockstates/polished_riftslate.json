@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "": [
+   {
+    "model": "quantumfalcon:block/polished_riftslate",
+    "weight": 3
+   },
+   {
+    "model": "quantumfalcon:block/polished_riftslate_v1",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/polished_riftslate_v2",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/polished_riftslate_v3",
+    "weight": 1
+   }
+  ]
+ }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "CEC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "C": {
+      "item": "minecraft:echo_shard"
+    },
+    "E": {
+      "item": "minecraft:elytra"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:magenta_chestplate",
+    "count": 1
+  }
+}

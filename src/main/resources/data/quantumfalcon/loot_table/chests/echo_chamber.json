@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:void_shard",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:rift_crystal",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:reality_fragment",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:quantum_shard",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:falcon_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "quantumfalcon:wild_egg",
+              "min_tier": 2,
+              "max_tier": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:rift_igniter",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quantumfalcon:rift_ember"
+        }
+      ]
+    }
+  ]
+}

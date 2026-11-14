@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "quantumfalcon:echo_planks"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:echo_pressure_plate",
+    "count": 1
+  }
+}

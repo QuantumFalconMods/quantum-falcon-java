@@ -1,0 +1,104 @@
+{
+ "parent": "minecraft:block/orientable",
+ "textures": {
+  "front": "quantumfalcon:block/dungeon/treasury_vault_front_closed",
+  "side": "quantumfalcon:block/dungeon/treasury_vault_side_closed",
+  "top": "quantumfalcon:block/dungeon/treasury_vault_top_closed",
+  "particle_glow": "quantumfalcon:block/dungeon/treasury_vault_front_closed_glow",
+  "down_glow": "quantumfalcon:block/dungeon/treasury_vault_top_closed_glow",
+  "up_glow": "quantumfalcon:block/dungeon/treasury_vault_top_closed_glow",
+  "north_glow": "quantumfalcon:block/dungeon/treasury_vault_front_closed_glow",
+  "east_glow": "quantumfalcon:block/dungeon/treasury_vault_side_closed_glow",
+  "south_glow": "quantumfalcon:block/dungeon/treasury_vault_side_closed_glow",
+  "west_glow": "quantumfalcon:block/dungeon/treasury_vault_side_closed_glow",
+  "bottom_glow": "quantumfalcon:block/dungeon/treasury_vault_top_closed_glow",
+  "front_glow": "quantumfalcon:block/dungeon/treasury_vault_front_closed_glow",
+  "side_glow": "quantumfalcon:block/dungeon/treasury_vault_side_closed_glow",
+  "top_glow": "quantumfalcon:block/dungeon/treasury_vault_top_closed_glow"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "faces": {
+    "down": {
+     "texture": "#down",
+     "cullface": "down"
+    },
+    "up": {
+     "texture": "#up",
+     "cullface": "up"
+    },
+    "north": {
+     "texture": "#north",
+     "cullface": "north"
+    },
+    "south": {
+     "texture": "#south",
+     "cullface": "south"
+    },
+    "west": {
+     "texture": "#west",
+     "cullface": "west"
+    },
+    "east": {
+     "texture": "#east",
+     "cullface": "east"
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "down": {
+     "texture": "#top_glow",
+     "cullface": "down"
+    },
+    "up": {
+     "texture": "#top_glow",
+     "cullface": "up"
+    },
+    "north": {
+     "texture": "#front_glow",
+     "cullface": "north"
+    },
+    "south": {
+     "texture": "#side_glow",
+     "cullface": "south"
+    },
+    "west": {
+     "texture": "#side_glow",
+     "cullface": "west"
+    },
+    "east": {
+     "texture": "#side_glow",
+     "cullface": "east"
+    }
+   }
+  }
+ ],
+ "render_type": "minecraft:cutout"
+}

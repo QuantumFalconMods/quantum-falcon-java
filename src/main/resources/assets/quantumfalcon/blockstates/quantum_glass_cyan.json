@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "": [
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v1" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v2" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v3" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v4" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v5" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v6" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v7" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v8" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v9" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v10" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v11" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v12" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v13" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v14" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v15" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v16" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v17" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v18" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v19" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v20" },
+      { "model": "quantumfalcon:block/quantum_glass_cyan_v21" }
+    ]
+  }
+}

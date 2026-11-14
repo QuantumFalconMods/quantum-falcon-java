@@ -1,0 +1,6 @@
+{
+ "type": "neoforge:add_features",
+ "biomes": "#minecraft:is_end",
+ "features": "quantumfalcon:wild_nest_end",
+ "step": "vegetal_decoration"
+}

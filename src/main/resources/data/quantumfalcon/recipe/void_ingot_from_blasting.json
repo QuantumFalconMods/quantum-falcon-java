@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "quantumfalcon:void_crystal"
+  },
+  "result": {
+    "id": "quantumfalcon:void_ingot",
+    "count": 1
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

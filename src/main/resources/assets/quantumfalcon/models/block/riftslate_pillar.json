@@ -1,0 +1,95 @@
+{
+ "parent": "minecraft:block/block",
+ "render_type": "minecraft:cutout",
+ "textures": {
+  "side": "quantumfalcon:block/realm/riftslate/pillar",
+  "end": "quantumfalcon:block/realm/riftslate/pillar_top",
+  "particle": "quantumfalcon:block/realm/riftslate/pillar",
+  "ov_side": "quantumfalcon:block/realm/riftslate/pillar_glow",
+  "ov_end": "quantumfalcon:block/realm/riftslate/pillar_top_glow"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#side",
+     "cullface": "north"
+    },
+    "south": {
+     "texture": "#side",
+     "cullface": "south"
+    },
+    "east": {
+     "texture": "#side",
+     "cullface": "east"
+    },
+    "west": {
+     "texture": "#side",
+     "cullface": "west"
+    },
+    "up": {
+     "texture": "#end",
+     "cullface": "up"
+    },
+    "down": {
+     "texture": "#end",
+     "cullface": "down"
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15,
+    "ambient_occlusion": false
+   },
+   "faces": {
+    "north": {
+     "texture": "#ov_side",
+     "cullface": "north"
+    },
+    "south": {
+     "texture": "#ov_side",
+     "cullface": "south"
+    },
+    "east": {
+     "texture": "#ov_side",
+     "cullface": "east"
+    },
+    "west": {
+     "texture": "#ov_side",
+     "cullface": "west"
+    },
+    "up": {
+     "texture": "#ov_end",
+     "cullface": "up"
+    },
+    "down": {
+     "texture": "#ov_end",
+     "cullface": "down"
+    }
+   }
+  }
+ ]
+}

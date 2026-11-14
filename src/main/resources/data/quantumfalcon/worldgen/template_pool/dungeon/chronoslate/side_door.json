@@ -1,0 +1,14 @@
+{
+  "fallback": "quantumfalcon:dungeon/chronoslate/cap",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "quantumfalcon:dungeon/chronoslate/side_door",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

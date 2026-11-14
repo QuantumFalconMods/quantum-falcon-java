@@ -1,0 +1,10 @@
+{
+ "type": "minecraft:stonecutting",
+ "ingredient": {
+  "item": "quantumfalcon:cinderite"
+ },
+ "result": {
+  "id": "quantumfalcon:cinderite_tiles",
+  "count": 1
+ }
+}

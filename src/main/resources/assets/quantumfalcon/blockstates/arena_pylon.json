@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "charged=true": {
+      "model": "quantumfalcon:block/arena_pylon_charged"
+    },
+    "charged=false": {
+      "model": "quantumfalcon:block/arena_pylon_spent"
+    }
+  }
+}

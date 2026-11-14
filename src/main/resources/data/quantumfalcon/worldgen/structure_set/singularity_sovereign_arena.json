@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "quantumfalcon:singularity_sovereign_arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 46806914,
+    "spacing": 32,
+    "separation": 12,
+    "exclusion_zone": {
+      "other_set": "quantumfalcon:echo_dungeons",
+      "chunk_count": 4
+    }
+  }
+}

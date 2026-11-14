@@ -1,0 +1,37 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "building",
+ "ingredients": [
+  {
+   "item": "quantumfalcon:eastwatch_timber"
+  },
+  {
+   "item": "quantumfalcon:eastwatch_timber"
+  },
+  {
+   "item": "quantumfalcon:eastwatch_timber"
+  },
+  {
+   "item": "quantumfalcon:eastwatch_timber"
+  },
+  {
+   "item": "quantumfalcon:eastwatch_timber"
+  },
+  {
+   "item": "quantumfalcon:eastwatch_timber"
+  },
+  {
+   "item": "quantumfalcon:eastwatch_timber"
+  },
+  {
+   "item": "quantumfalcon:eastwatch_timber"
+  },
+  {
+   "item": "quantumfalcon:temporal_dust"
+  }
+ ],
+ "result": {
+  "id": "quantumfalcon:eastwatch_timber_then",
+  "count": 8
+ }
+}

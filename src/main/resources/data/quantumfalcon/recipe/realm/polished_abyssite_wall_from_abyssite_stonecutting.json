@@ -1,0 +1,10 @@
+{
+ "type": "minecraft:stonecutting",
+ "ingredient": {
+  "item": "quantumfalcon:abyssite"
+ },
+ "result": {
+  "id": "quantumfalcon:polished_abyssite_wall",
+  "count": 1
+ }
+}

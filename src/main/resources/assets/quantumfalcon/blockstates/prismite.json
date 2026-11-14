@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "": [
+   {
+    "model": "quantumfalcon:block/prismite",
+    "weight": 3
+   },
+   {
+    "model": "quantumfalcon:block/prismite_v1",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/prismite_v2",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/prismite_v3",
+    "weight": 1
+   }
+  ]
+ }
+}

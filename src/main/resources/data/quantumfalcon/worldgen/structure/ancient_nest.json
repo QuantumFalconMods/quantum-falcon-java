@@ -1,0 +1,20 @@
+{
+  "type": "quantumfalcon:utility_structure",
+  "utility_type": "ANCIENT_NEST",
+  "biomes": "#quantumfalcon:has_structure/ancient_nest",
+  "step": "surface_structures",
+  "spawn_overrides": {
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "quantumfalcon:quantum_falcon",
+          "weight": 3,
+          "minCount": 2,
+          "maxCount": 4
+        }
+      ]
+    }
+  },
+  "terrain_adaptation": "beard_thin"
+}

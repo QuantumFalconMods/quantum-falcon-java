@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "": [
+   {
+    "model": "quantumfalcon:block/polished_voidshale",
+    "weight": 3
+   },
+   {
+    "model": "quantumfalcon:block/polished_voidshale_v1",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/polished_voidshale_v2",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/polished_voidshale_v3",
+    "weight": 1
+   }
+  ]
+ }
+}

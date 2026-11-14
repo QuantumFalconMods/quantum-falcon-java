@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "S#S",
+    "S#S"
+  ],
+  "key": {
+    "#": {
+      "item": "quantumfalcon:prismite_bricks"
+    },
+    "S": {
+      "item": "quantumfalcon:prismite_brick_slab"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:prismite_brick_fence_gate",
+    "count": 1
+  }
+}

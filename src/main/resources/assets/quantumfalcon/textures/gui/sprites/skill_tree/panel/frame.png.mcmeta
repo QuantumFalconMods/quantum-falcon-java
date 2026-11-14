@@ -1,0 +1,32 @@
+{
+  "animation": {
+    "frametime": 2,
+    "interpolate": false,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      {
+        "index": 12,
+        "time": 1
+      },
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "gui": {
+    "scaling": {
+      "type": "nine_slice",
+      "width": 64,
+      "height": 64,
+      "border": 12
+    }
+  }
+}

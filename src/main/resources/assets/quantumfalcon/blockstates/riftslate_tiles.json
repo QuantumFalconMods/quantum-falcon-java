@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "": [
+   {
+    "model": "quantumfalcon:block/riftslate_tiles",
+    "weight": 3
+   },
+   {
+    "model": "quantumfalcon:block/riftslate_tiles_v1",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/riftslate_tiles_v2",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/riftslate_tiles_v3",
+    "weight": 1
+   }
+  ]
+ }
+}

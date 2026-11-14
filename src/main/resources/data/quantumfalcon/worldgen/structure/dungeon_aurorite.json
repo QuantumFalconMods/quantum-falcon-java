@@ -1,0 +1,11 @@
+{
+  "type": "quantumfalcon:echo_dungeon",
+  "biomes": "#quantumfalcon:has_structure/dungeon_aurorite",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "quantumfalcon:dungeon/aurorite/start",
+  "size": 20,
+  "depth": 12,
+  "max_distance_from_center": 116
+}

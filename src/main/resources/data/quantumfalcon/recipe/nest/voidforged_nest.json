@@ -1,0 +1,27 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "V V",
+  "INI",
+  "OOO"
+ ],
+ "key": {
+  "V": {
+   "item": "quantumfalcon:void_shard"
+  },
+  "I": {
+   "item": "minecraft:netherite_scrap"
+  },
+  "N": {
+   "item": "quantumfalcon:crystal_nest"
+  },
+  "O": {
+   "item": "quantumfalcon:polished_voidshale"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:voidforged_nest",
+  "count": 1
+ }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "quantumfalcon:cracked_singularite_bricks"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:cracked_singularite_brick_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,37 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "building",
+ "ingredients": [
+  {
+   "item": "quantumfalcon:riftslate_tiles"
+  },
+  {
+   "item": "quantumfalcon:riftslate_tiles"
+  },
+  {
+   "item": "quantumfalcon:riftslate_tiles"
+  },
+  {
+   "item": "quantumfalcon:riftslate_tiles"
+  },
+  {
+   "item": "quantumfalcon:riftslate_tiles"
+  },
+  {
+   "item": "quantumfalcon:riftslate_tiles"
+  },
+  {
+   "item": "quantumfalcon:riftslate_tiles"
+  },
+  {
+   "item": "quantumfalcon:riftslate_tiles"
+  },
+  {
+   "item": "quantumfalcon:temporal_dust"
+  }
+ ],
+ "result": {
+  "id": "quantumfalcon:riftslate_tiles_then",
+  "count": 8
+ }
+}

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "quantumfalcon:entity/equipment/quantum_crystal_outer"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "quantumfalcon:entity/equipment/quantum_crystal_inner"
+      }
+    ]
+  }
+}

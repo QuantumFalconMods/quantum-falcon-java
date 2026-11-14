@@ -1,0 +1,350 @@
+{
+ "title": "Overworld Rifts & Instability",
+ "intro": "Rift-shards fall where an old wound still brushes the sky. Follow them, and you'll find the door.",
+ "order": 3,
+ "quests": [
+  {
+   "id": "ri_01",
+   "title": "Shards of Elsewhere",
+   "text": "Collect Rift Shards from overworld rifts.",
+   "task": {
+    "type": "COLLECT_ITEM",
+    "target": "quantumfalcon:rift_shard",
+    "count": 4
+   },
+   "requires": [
+    "fb_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_shard",
+      "count": 4
+     }
+    ],
+    "xp": 30
+   }
+  },
+  {
+   "id": "ri_02",
+   "title": "Craft your first Quantum Core",
+   "text": "Craft a Quantum Core.",
+   "task": {
+    "type": "CRAFT_ITEM",
+    "target": "quantumfalcon:quantum_core",
+    "count": 1
+   },
+   "requires": [
+    "ri_01"
+   ],
+   "reward": {
+    "xp": 40
+   }
+  },
+  {
+   "id": "ri_03",
+   "title": "Steady Hands",
+   "text": "Craft a Quantum Stabilizer before you dare the Rift.",
+   "task": {
+    "type": "CRAFT_ITEM",
+    "target": "quantumfalcon:quantum_stabilizer",
+    "count": 1
+   },
+   "requires": [
+    "ri_02"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:stability_shard",
+      "count": 2
+     }
+    ],
+    "xp": 60
+   }
+  },
+  {
+   "id": "ri_04",
+   "title": "Compass of Echoes",
+   "text": "Craft a Quantum Compass. It points where your falcon keeps looking.",
+   "task": {
+    "type": "CRAFT_ITEM",
+    "target": "quantumfalcon:quantum_compass",
+    "count": 1
+   },
+   "requires": [
+    "ri_02"
+   ],
+   "reward": {
+    "xp": 50,
+    "map": {
+     "structures": "quantumfalcon:frozen_hours",
+     "name": "item.quantumfalcon.map.eastwatch"
+    }
+   }
+  },
+  {
+   "id": "ri_05",
+   "title": "Frame the Tear",
+   "text": "Craft 22 Rift Frame blocks for a portal ring.",
+   "task": {
+    "type": "CRAFT_ITEM",
+    "target": "quantumfalcon:rift_frame",
+    "count": 22
+   },
+   "requires": [
+    "ri_03"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:rift_shard",
+      "count": 4
+     }
+    ],
+    "xp": 80
+   }
+  },
+  {
+   "id": "ri_06",
+   "title": "Through the Veil",
+   "text": "Enter the Echo Rift.",
+   "task": {
+    "type": "ENTER_DIMENSION",
+    "target": "quantumfalcon:echo_rift*",
+    "count": 1
+   },
+   "requires": [
+    "ri_05"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:stability_shard",
+      "count": 3
+     }
+    ],
+    "xp": 120
+   }
+  },
+  {
+   "id": "ri_07",
+   "title": "Quantum Lands",
+   "text": "Visit 3 quantum biomes.",
+   "task": {
+    "type": "VISIT_BIOME",
+    "target": "quantum_biomes",
+    "count": 3,
+    "absolute": true
+   },
+   "requires": [
+    "ri_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_berry",
+      "count": 4
+     }
+    ],
+    "xp": 60
+   }
+  },
+  {
+   "id": "ri_08",
+   "title": "Wells of Light",
+   "text": "Find a Quantum Well.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "quantum_well",
+    "count": 1
+   },
+   "requires": [
+    "ri_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_crystal",
+      "count": 2
+     }
+    ],
+    "xp": 80
+   }
+  },
+  {
+   "id": "ri_09",
+   "title": "Shrine of the Rift",
+   "text": "Discover a Rift Shrine.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:rift_shrine",
+    "count": 1
+   },
+   "requires": [
+    "ri_06"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:echo_shard",
+      "count": 3
+     }
+    ],
+    "xp": 100
+   }
+  },
+  {
+   "id": "ri_10",
+   "title": "Arcane Tolerance",
+   "text": "Brave rising instability (Arcana 5).",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "arcana",
+    "count": 5,
+    "absolute": true
+   },
+   "requires": [
+    "ri_06"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:stability_shard",
+      "count": 3
+     }
+    ],
+    "xp": 100
+   }
+  },
+  {
+   "id": "ri_11",
+   "title": "Observatory",
+   "text": "Find the Quantum Observatory.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:quantum_observatory",
+    "count": 1
+   },
+   "requires": [
+    "ri_07"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:temporal_dust",
+      "count": 4
+     }
+    ],
+    "xp": 120
+   }
+  },
+  {
+   "id": "ri_12",
+   "title": "Seven Lands",
+   "text": "Visit 7 quantum biomes.",
+   "task": {
+    "type": "VISIT_BIOME",
+    "target": "quantum_biomes",
+    "count": 7,
+    "absolute": true
+   },
+   "requires": [
+    "ri_07"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:echo_shard",
+      "count": 1
+     }
+    ],
+    "xp": 150
+   }
+  },
+  {
+   "id": "ri_13",
+   "title": "Wayfinder",
+   "text": "Reach Exploration 15.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "exploration",
+    "count": 15,
+    "absolute": true
+   },
+   "requires": [
+    "ri_08"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_compass",
+      "count": 1
+     }
+    ],
+    "xp": 150
+   }
+  },
+  {
+   "id": "ri_14",
+   "title": "Rift-Hardened",
+   "text": "Reach Arcana 15.",
+   "task": {
+    "type": "USE_SKILL",
+    "target": "arcana",
+    "count": 15,
+    "absolute": true
+   },
+   "requires": [
+    "ri_10"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_stabilizer",
+      "count": 1
+     }
+    ],
+    "xp": 200
+   }
+  },
+  {
+   "id": "ri_15",
+   "title": "The Crystal Hollow",
+   "text": "Find a Crystal Cavern, where quantum ore grows out of the walls in the open.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:crystal_cavern",
+    "count": 1
+   },
+   "requires": [
+    "ri_01"
+   ],
+   "reward": {
+    "items": [
+     {
+      "id": "quantumfalcon:quantum_crystal",
+      "count": 2
+     }
+    ],
+    "xp": 60
+   }
+  },
+  {
+   "id": "ri_16",
+   "title": "The Buried Archive",
+   "text": "Dig down to a Data Archive. Whoever filed it away sealed every door behind them, so bring a pickaxe: there is no stair.",
+   "task": {
+    "type": "DISCOVER_LOCATION",
+    "target": "structure:data_archive",
+    "count": 1
+   },
+   "requires": [
+    "ri_01"
+   ],
+   "reward": {
+    "xp": 60
+   }
+  }
+ ]
+}

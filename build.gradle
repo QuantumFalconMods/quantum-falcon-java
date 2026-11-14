@@ -1,0 +1,311 @@
+plugins {
+    id 'java-library'
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.neoforged.moddev' version '2.0.78'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = project.neo_version
+
+    // Parchment mappings (optional - use if you want better parameter names)
+    // parchment {
+    //     mappingsVersion = "2024.07.28"
+    //     minecraftVersion = "1.21"
+    // }
+
+    runs {
+        client {
+            client()
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+            // Headless smoke test: ./gradlew runClient -PqfSmoke=/abs/script.txt (see client/dev/ClientSmokeTest)
+            if (project.hasProperty('qfSmoke')) {
+                gameDirectory = project.file('run-client')
+                // cap the heap so a shared test machine's OOM killer leaves the client alone
+                jvmArgument '-Xmx3G'
+                systemProperty 'quantumfalcon.smoke', project.property('qfSmoke')
+                programArguments.addAll '--quickPlaySingleplayer', (project.findProperty('qfWorld') ?: 'qfsmoke'), '--username', 'QFDev'
+                // -PqfRes=1920x1080 for review shots at a real resolution (set guiScale in run-client/options.txt)
+                if (project.hasProperty('qfRes')) { def wh = project.property('qfRes').toString().split('x'); programArguments.addAll '--width', wh[0], '--height', wh[1] }
+            }
+        }
+
+        server {
+            server()
+            programArgument '--nogui'
+            // the dev machine runs other test servers too: -PqfXmx=3G keeps both under the OOM killer's radar
+            if (project.hasProperty('qfXmx')) jvmArgument "-Xmx${project.property('qfXmx')}"
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        gameTestServer {
+            type = "gameTestServer"
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        data {
+            data()
+            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+        }
+
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+// ============================================================================
+// SOURCE SET EXCLUSIONS
+// Only exclude truly broken/legacy code - all main systems are NOW ENABLED
+// ============================================================================
+sourceSets {
+    main {
+        java {
+            exclude '**/geckolib_backup/**'
+            
+            // ========================================
+            // DISABLED FOLDERS - Old/incompatible code with _DISABLED suffix
+            // These folders contain decompiled or outdated code
+            // ========================================
+            exclude '**/*_DISABLED/**'
+            exclude '**/achievement_DISABLED/**'
+            exclude '**/block_DISABLED/**'
+            exclude '**/client_DISABLED/**'
+            exclude '**/dimension_DISABLED/**'
+            exclude '**/enchantment_DISABLED/**'
+            exclude '**/entity_DISABLED/**'
+            exclude '**/event_DISABLED/**'
+            exclude '**/genetics_DISABLED/**'
+            exclude '**/integration_DISABLED/**'
+            exclude '**/item_DISABLED/**'
+            exclude '**/loot_DISABLED/**'
+            exclude '**/network_DISABLED/**'
+            exclude '**/quest_DISABLED/**'
+            exclude '**/screen_DISABLED/**'
+            exclude '**/security_DISABLED/**'
+            exclude '**/skill_DISABLED/**'
+            exclude '**/sound_DISABLED/**'
+            exclude '**/story_DISABLED/**'
+            exclude '**/structure_DISABLED/**'
+            exclude '**/systems_DISABLED/**'
+            exclude '**/tools_DISABLED/**'
+            exclude '**/util_DISABLED/**'
+            exclude '**/villager_DISABLED/**'
+            exclude '**/weather_DISABLED/**'
+            exclude '**/world_DISABLED/**'
+            exclude '**/worldgen_DISABLED/**'
+            
+            // Legacy duplicates only
+            exclude '**/item/gear/tool/*ToolSet.java'
+            exclude '**/item/gear/WeaponTier.java'
+            exclude '**/item/gear/ModToolTiers.java'
+            
+            // BiomeAutomation tool - outdated
+            exclude '**/tools/BiomeAutomation.java'
+            exclude '**/world/biome/**'  // Redundant with _DISABLED folder
+            
+            // ========================================
+            // ENABLED SYSTEMS (fixed for 1.21.1):
+            // - material/ModArmorMaterials.java - ENABLED
+            // - material/ModToolTiers.java - ENABLED
+            // - biome/** - ENABLED
+            // - hytale/** - ENABLED
+            // - blockentity/** - ENABLED
+            // ========================================
+            
+            // ========================================
+            // ENABLED SYSTEMS (previously excluded)
+            // ========================================
+            // Leveling system - ENABLED for 1.21.1
+            // Entity system - ENABLED for 1.21.1
+            // Client renderers - ENABLED for 1.21.1
+        }
+    }
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        name = 'Minecraft Libraries'
+        url = 'https://libraries.minecraft.net'
+    }
+    mavenCentral()
+    maven {
+        // Custom Portal API Reforged comes from its published Modrinth release, not a local build
+        name = 'Modrinth'
+        url = 'https://api.modrinth.com/maven'
+        content {
+            includeGroup("maven.modrinth")
+        }
+    }
+    maven {
+        name = 'GeckoLib'
+        url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+            includeGroup("software.bernie.geckolib")
+        }
+    }
+    // Curios API
+    maven {
+        name = 'TheIllusiveC4'
+        url = 'https://maven.theillusivec4.top/releases'
+    }
+    // Create Mod
+    maven {
+        name = 'Jared'
+        url = 'https://maven.blamejared.com/'
+    }
+    // Waystones/Balm
+    maven {
+        name = 'BlayMaven'
+        url = 'https://maven.blay09.net'
+    }
+    // Curse Maven (for Artifacts if needed)
+    maven {
+        name = 'Curse Maven'
+        url = 'https://cursemaven.com'
+        content {
+            includeGroup("curse.maven")
+        }
+    }
+}
+
+dependencies {
+    // GeckoLib for entity animations (1.21.1 compatible) - REQUIRED
+    implementation "software.bernie.geckolib:geckolib-neoforge-1.21.1:${geckolib_version}"
+
+    // CustomPortalAPI Reforged - portal frame + igniter + dimension teleport
+    // Custom Portal API Reforged 1.2.2 for NeoForge 1.21.1, the published Modrinth file
+    // (version id lowfyLfO, cpapireforged-neo-1.21.1-1.2.2.jar, same as CurseForge project 902717)
+    implementation "maven.modrinth:custom-portal-api-reforged:lowfyLfO"
+    
+    // =========================================================================
+    // SOFT DEPENDENCIES (compileOnly = won't crash if mods are missing)
+    // =========================================================================
+    
+    // Curios API (Trinket Slots)
+    // Optional: Curios API (soft dependency - mod works without it)
+    // NOTE: Curios API dependency commented out - integration uses reflection at runtime
+    // Uncomment when Curios API is available in your modpack:
+    // compileOnly("top.theillusivec4.curios:curios-neoforge-1.21.1:9.2.2+1.21.1:api")
+    
+    // Create (Kinetic Machines)
+    // Optional: Create API (soft dependency - mod works without it)
+    // compileOnly "com.simibubi.create:create-1.21.1:0.5.1.j:slim"
+    
+    // Waystones (Teleportation)
+    // Optional: Waystones API (soft dependency - mod works without it)
+    // compileOnly "net.blay09.mods:waystones-neoforge:21.1.4"
+    // compileOnly "net.blay09.mods:balm-neoforge:21.0.20"
+    
+    // Optional: JEI API (soft dependency - mod works without it)
+    // compileOnly "mezz.jei:jei-1.21.1-neoforge-api:19.25.1.332"
+    
+    // Optional: Jade API (soft dependency - mod works without it)
+    // compileOnly "curse.maven:jade-324717:5234567" // Update file ID if needed
+}
+
+var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+    var replaceProperties = [
+            minecraft_version      : minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            neo_version            : neo_version,
+            neo_version_range      : neo_version_range,
+            loader_version_range   : loader_version_range,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+            mod_authors            : mod_authors,
+            mod_description        : 'A quantum physics-themed falcon companion mod with breeding, abilities, and adventure!'
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from "src/main/templates"
+    into "build/generated/sources/modMetadata"
+}
+
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+publishing {
+    publications {
+        register('mavenJava', MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/repo"
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}
+
+// Copy built mod jar to Prism Launcher instance for full-pack testing.
+// Usage: ./gradlew copyToPrism  (runs build first)
+// Set prism_mods_path in gradle.properties to your instance's .minecraft/mods folder.
+tasks.register('copyToPrism') {
+    dependsOn build
+    doLast {
+        def dest = findProperty('prism_mods_path')?.toString()?.trim()
+        if (!dest) {
+            println ""
+            println "copyToPrism: Skipped. Set 'prism_mods_path' in gradle.properties"
+            println "  to your Prism instance .minecraft/mods folder, e.g.:"
+            println "  prism_mods_path=%APPDATA%\\\\PrismLauncher\\\\instances\\\\MyPack\\\\.minecraft\\\\mods"
+            println ""
+            return
+        }
+        copy {
+            from layout.buildDirectory.dir('libs')
+            into file(dest)
+            include '*.jar'
+            rename { String fn -> fn.replaceAll(/-[\d.]+(?=\.jar$)/, '') + '.jar' }
+        }
+        println "Mod jar copied to Prism mods: ${dest}"
+    }
+}
+
+// quality track: ./gradlew compileJava -PqfLint lists every deprecation / unchecked warning
+tasks.withType(JavaCompile).configureEach {
+    if (project.hasProperty('qfLint')) options.compilerArgs += ['-Xlint:deprecation', '-Xlint:unchecked', '-Xmaxwarns', '2000']
+}
+
+// the release jar ships without the test harness (/qftest, /qfdungeon) and the client smoke driver.
+// Build a jar that keeps them for production-server testing with: ./gradlew build -PqfTestJar
+tasks.named('jar', Jar) {
+    if (!project.hasProperty('qfTestJar')) {
+        exclude 'com/matt/quantumfalcon/test/**'
+        exclude 'com/matt/quantumfalcon/client/dev/**'
+    }
+}

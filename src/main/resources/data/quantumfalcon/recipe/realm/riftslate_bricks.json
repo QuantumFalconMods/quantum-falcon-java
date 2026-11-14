@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "##",
+  "##"
+ ],
+ "key": {
+  "#": {
+   "item": "quantumfalcon:polished_riftslate"
+  }
+ },
+ "result": {
+  "id": "quantumfalcon:riftslate_bricks",
+  "count": 4
+ }
+}

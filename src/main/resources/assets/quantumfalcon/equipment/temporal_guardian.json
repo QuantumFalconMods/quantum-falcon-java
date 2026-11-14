@@ -1,0 +1,6 @@
+{
+    "layers": {
+        "humanoid": [{"texture": "quantumfalcon:temporal_guardian_layer_1"}],
+        "humanoid_leggings": [{"texture": "quantumfalcon:temporal_guardian_layer_1"}]
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "curios"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RGR",
+    "GOG",
+    "RGR"
+  ],
+  "key": {
+    "R": {
+      "item": "quantumfalcon:rift_shard"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "O": {
+      "item": "quantumfalcon:overseers_eye"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "quantumfalcon:void_lens"
+  }
+}

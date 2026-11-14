@@ -1,0 +1,137 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.quantum_phantom",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2,
+        "visible_bounds_offset": [
+          0,
+          0.75,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "body",
+          "parent": "root",
+          "pivot": [
+            0,
+            12,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                0,
+                -4
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "body",
+          "pivot": [
+            0,
+            8,
+            -2
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -3,
+                -3,
+                -6
+              ],
+              "size": [
+                6,
+                6,
+                4
+              ],
+              "uv": [
+                16,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "left_wing",
+          "parent": "body",
+          "pivot": [
+            -6,
+            8,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -12,
+                -1,
+                -2
+              ],
+              "size": [
+                6,
+                2,
+                8
+              ],
+              "uv": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "name": "right_wing",
+          "parent": "body",
+          "pivot": [
+            6,
+            8,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                6,
+                -1,
+                -2
+              ],
+              "size": [
+                6,
+                2,
+                8
+              ],
+              "uv": [
+                0,
+                16
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

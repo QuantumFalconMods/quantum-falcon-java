@@ -1,0 +1,13 @@
+{
+  "type": "quantumfalcon:echo_dungeon",
+  "biomes": "#quantumfalcon:has_structure/dungeon_end_voidshale",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "quantumfalcon:dungeon/voidshale/start",
+  "size": 20,
+  "depth": 12,
+  "max_distance_from_center": 116,
+  "min_surface": 40,
+  "floor_margin": 40
+}

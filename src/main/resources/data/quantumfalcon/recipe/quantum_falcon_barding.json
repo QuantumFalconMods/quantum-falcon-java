@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "QGQ",
+    "QBQ",
+    "Q Q"
+  ],
+  "key": {
+    "Q": {
+      "item": "quantumfalcon:quantum_ingot"
+    },
+    "G": {
+      "item": "quantumfalcon:golden_falcon_feather"
+    },
+    "B": {
+      "item": "quantumfalcon:netherite_falcon_barding"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:quantum_falcon_barding"
+  }
+}

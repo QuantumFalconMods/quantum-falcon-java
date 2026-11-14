@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "quantumfalcon:void_dust"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:void_block",
+    "count": 1
+  }
+}

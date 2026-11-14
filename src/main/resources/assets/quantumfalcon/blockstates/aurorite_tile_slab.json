@@ -1,0 +1,13 @@
+{
+ "variants": {
+  "type=bottom": {
+   "model": "quantumfalcon:block/aurorite_tile_slab"
+  },
+  "type=top": {
+   "model": "quantumfalcon:block/aurorite_tile_slab_top"
+  },
+  "type=double": {
+   "model": "quantumfalcon:block/aurorite_tiles"
+  }
+ }
+}

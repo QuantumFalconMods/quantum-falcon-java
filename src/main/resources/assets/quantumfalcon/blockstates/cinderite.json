@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "": [
+   {
+    "model": "quantumfalcon:block/cinderite",
+    "weight": 3
+   },
+   {
+    "model": "quantumfalcon:block/cinderite_v1",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/cinderite_v2",
+    "weight": 2
+   },
+   {
+    "model": "quantumfalcon:block/cinderite_v3",
+    "weight": 1
+   }
+  ]
+ }
+}

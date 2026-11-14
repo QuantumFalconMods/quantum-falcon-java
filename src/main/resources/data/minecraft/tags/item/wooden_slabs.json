@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "quantumfalcon:chaos_slab",
+    "quantumfalcon:crystal_slab",
+    "quantumfalcon:echo_slab",
+    "quantumfalcon:phase_slab",
+    "quantumfalcon:quantum_slab",
+    "quantumfalcon:resonance_slab",
+    "quantumfalcon:temporal_slab",
+    "quantumfalcon:void_slab"
+  ]
+}

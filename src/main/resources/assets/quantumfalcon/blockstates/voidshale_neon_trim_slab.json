@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "quantumfalcon:block/voidshale_neon_trim_slab"
+    },
+    "type=top": {
+      "model": "quantumfalcon:block/voidshale_neon_trim_slab_top"
+    },
+    "type=double": {
+      "model": "quantumfalcon:block/voidshale_neon_trim"
+    }
+  }
+}

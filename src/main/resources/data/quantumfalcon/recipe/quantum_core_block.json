@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "quantumfalcon:quantum_core"
+    }
+  },
+  "result": {
+    "id": "quantumfalcon:quantum_core_block",
+    "count": 1
+  }
+}

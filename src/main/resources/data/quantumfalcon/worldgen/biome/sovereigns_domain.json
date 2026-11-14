@@ -1,0 +1,87 @@
+{
+  "temperature": 0.1,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 1315860,
+    "water_color": 657930,
+    "water_fog_color": 328965,
+    "grass_color": 0,
+    "foliage_color": 0,
+    "mood_sound": {
+      "sound": "quantumfalcon:boss_roar_sovereign",
+      "tick_delay": 1000,
+      "block_search_extent": 24,
+      "offset": 2.0
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:end_rod"
+      },
+      "probability": 0.08
+    },
+    "music": {
+      "sound": "quantumfalcon:music_boss_sovereign",
+      "min_delay": 0,
+      "max_delay": 0,
+      "replace_current_music": true
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "quantumfalcon:data_construct",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "quantumfalcon:void_echo",
+        "weight": 25,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "quantumfalcon:quantum_phantom",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "quantumfalcon:ore_void",
+      "quantumfalcon:ore_chaos",
+      "quantumfalcon:ore_probability",
+      "quantumfalcon:ore_singularity"
+    ],
+    [],
+    [],
+    [
+      "quantumfalcon:tree_chaos_sparse"
+    ],
+    []
+  ]
+}

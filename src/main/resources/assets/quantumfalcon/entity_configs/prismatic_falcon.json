@@ -1,0 +1,30 @@
+{
+  "variant": "PRISMATIC",
+  "spawn_weight": 4,
+  "spawn_biomes": [
+    "minecraft:meadow"
+  ],
+  "base_stats": {
+    "health": 20.0,
+    "speed": 0.3,
+    "attack_damage": 6.0,
+    "armor": 2.0
+  },
+  "breeding": {
+    "breeding_item": "quantumfalcon:quantum_feed",
+    "breeding_cooldown": 6000,
+    "egg_hatch_time": 12000,
+    "compatible_variants": [
+      "all"
+    ]
+  },
+  "behavior": {
+    "tameable": true,
+    "attacks_hostile_mobs": true,
+    "follow_owner": true,
+    "can_fly": true
+  },
+  "texture_layers": [
+    "quantumfalcon:textures/entity/quantum_falcon/entangled_prism.png"
+  ]
+}
